@@ -15,6 +15,7 @@ let databaseConfiguration: DatabaseConfiguration = {
 
 MongooseDatabaseProvider.configure(databaseConfiguration);
 let conn = MongooseDatabaseProvider.getConnection();
+let conn2 = MongooseDatabaseProvider.getConnection();
 
 let server = new Server(3000);
 server.get('/', (req: Request, res: Response) => {

@@ -9,6 +9,7 @@ export class MongooseDatabaseProvider implements DatabaseProvider {
     MongooseDatabaseProvider.databaseConfiguration = databaseConfiguration;
   }
 
+  // TODO: make this function return a promise instead
   static getConnection() {
     if (MongooseDatabaseProvider.connection) {
       return MongooseDatabaseProvider.connection;
@@ -22,13 +23,15 @@ export class MongooseDatabaseProvider implements DatabaseProvider {
       MongooseDatabaseProvider.connection = mongoose.connection;
 
       MongooseDatabaseProvider.connection.once("open", () => {
-        console.log("Database started");
+        console.log("Connected to database");
       });
 
       MongooseDatabaseProvider.connection.on("error", () => {
         console.log("MongoDB connection error. Please make sure MongoDB is running.");
         process.exit();
       });
+
+      return MongooseDatabaseProvider.connection;
     }
   }
 }
