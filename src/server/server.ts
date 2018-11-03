@@ -1,4 +1,5 @@
 import express from 'express';
+import IController from '../controllers/controller.interface';
 
 export interface IServer {
   get(url: string, handler: express.Router): void;
@@ -34,6 +35,7 @@ export default class Server implements IServer {
   }
 
   private addRoute(method: string, url: string, handler: express.RequestHandler) {
+    console.log('addRoute', url);
     (this.app as any)[method](url, handler);
   }
 
@@ -41,5 +43,10 @@ export default class Server implements IServer {
     this.app.listen(this.port, () => {
       console.log(`server started on port ${this.port}`);
     })
+  }
+
+  addController(controller: IController) {
+    console.log(controller)
+    controller.init(this);
   }
 }

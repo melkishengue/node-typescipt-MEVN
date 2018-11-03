@@ -1,4 +1,4 @@
-export interface DatabaseConfiguration {
+export interface IDatabaseConfiguration {
   host: string | undefined,
   port: string | undefined,
   username: string | undefined,
@@ -6,7 +6,7 @@ export interface DatabaseConfiguration {
   database: string | undefined
 }
 
-export interface DatabaseProvider {
+export interface IDatabaseProvider {
   // configure(databaseConfiguration: DatabaseConfiguration): void;
   // this function should return an object of type connection. But which one ?
   // getConnection(): any;
