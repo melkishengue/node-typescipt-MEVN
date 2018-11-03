@@ -35,7 +35,6 @@ export default class Server implements IServer {
   }
 
   private addRoute(method: string, url: string, handler: express.RequestHandler) {
-    console.log('addRoute', url);
     (this.app as any)[method](url, handler);
   }
 
@@ -46,7 +45,6 @@ export default class Server implements IServer {
   }
 
   addController(controller: IController) {
-    console.log(controller)
     controller.init(this);
   }
 }

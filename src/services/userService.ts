@@ -7,7 +7,6 @@ export class UserService {
       User.find().then((users) => {
         resolve(users);
       }).catch((error: any) => {
-        console.log(error);
         reject(error);
       })
     })
@@ -16,7 +15,6 @@ export class UserService {
   create(pUser: any) {
     return new Promise<any>((resolve: any, reject: any) => {
       let user = new User(pUser);
-
       user.save(pUser).then((dbUser) => {
         resolve(dbUser);
       }).catch((error: any) => {
@@ -27,7 +25,6 @@ export class UserService {
 
   clean() {
     return new Promise<any>((resolve: any, reject: any) => {
-
       User.remove({}).then(() => {
         console.log()
       }).catch((error: any) => {

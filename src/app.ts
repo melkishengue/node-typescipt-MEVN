@@ -1,5 +1,4 @@
 import Server from './server/server';
-import { Request, Response, Router } from "express";
 import IController from './controllers/controller.interface';
 import { IDatabaseConfiguration } from './database/databaseProvider.interface';
 import MongooseDatabaseProvider from './database/mongooseDatabaseProvider';

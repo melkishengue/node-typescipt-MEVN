@@ -11,6 +11,6 @@ export default class UserController implements IController {
   async list(req: Request, res: Response) {
     // TODO: use the user service to get the list of users and send back
     let users = await userService.list();
-    res.send(users)
+    res.send(users);
   }
 }
