@@ -2,8 +2,13 @@ import Server from './server/server';
 import IController from './controllers/controller.interface';
 import { IDatabaseConfiguration } from './database/databaseProvider.interface';
 import MongooseDatabaseProvider from './database/mongooseDatabaseProvider';
+import { Request, Response } from "express";
+import logger from './logger';
 
-console.log('Environment is set to ', process.env.NODE_ENV);
+// make logger global for all modules
+global.logger = logger;
+
+logger.debug('Environment is set to ', process.env.NODE_ENV);
 
 let config_file = process.env.NODE_ENV === 'DEV' ? './.env_dev' : './.env'
 require('dotenv').config({ path: config_file });
@@ -21,7 +26,12 @@ MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
   let controllers = (await import('./controllers/')).default;
   const MongooseDatabaseSeeder = (await import('./database/mongooseDatabaseSeeder')).default;
 
-  let server = new Server(3000);
+  let server = new Server(process.env.PORT || 3000);
+
+  server.addMiddleware((req: Request, res: Response, next: Function) => {
+    logger.debug(`${req.method} ${req.url}`);
+    next();
+  })
 
   controllers.forEach((controller: IController) => {
     server.addController(controller);

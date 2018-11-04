@@ -40,11 +40,15 @@ export default class Server implements IServer {
 
   start(): void {
     this.app.listen(this.port, () => {
-      console.log(`server started on port ${this.port}`);
+      logger.debug(`server started on port ${this.port}`);
     })
   }
 
   addController(controller: IController) {
     controller.init(this);
+  }
+
+  addMiddleware(fn: any) {
+    this.app.use(fn);
   }
 }

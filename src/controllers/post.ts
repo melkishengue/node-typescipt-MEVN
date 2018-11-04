@@ -12,7 +12,9 @@ export default class PostController implements IController {
   async read(req: Request, res: Response) {
     let id = req.params.id;
     let post = await postService.read(id);
-    
+
+    logger.debug(`${req.method} ${req.url}`);
+
     if (post) res.send(post);
     else res.status(404).send('Post not found');
   }

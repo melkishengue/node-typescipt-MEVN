@@ -23,17 +23,17 @@ export default class MongooseDatabaseProvider implements IDatabaseProvider {
     } else {
       let conf = MongooseDatabaseProvider.databaseConfiguration;
       let url: string = `mongodb://${conf.username}:${conf.password}@${conf.host}:${conf.port}/${conf.database}`;
-      console.log('Connecting to mongodb. Url:', url);
+      logger.debug('Connecting to mongodb. Url:', url);
       mongoose.connect(url, {useNewUrlParser: true});
 
       MongooseDatabaseProvider.connection = mongoose.connection;
 
       MongooseDatabaseProvider.connection.once("open", () => {
-        console.log("Connected to database");
+        logger.debug("Connected to database");
       });
 
       MongooseDatabaseProvider.connection.on("error", () => {
-        console.log("MongoDB connection error. Please make sure MongoDB is running.");
+        logger.debug("MongoDB connection error. Please make sure MongoDB is running.");
         process.exit();
       });
 
