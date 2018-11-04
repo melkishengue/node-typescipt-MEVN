@@ -4,6 +4,7 @@ import { IDatabaseConfiguration } from './database/databaseProvider.interface';
 import MongooseDatabaseProvider from './database/mongooseDatabaseProvider';
 import { Request, Response } from "express";
 import logger from './logger';
+import bodyParser from 'body-parser';
 
 // make logger global for all modules
 global.logger = logger;
@@ -27,6 +28,8 @@ MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
   const MongooseDatabaseSeeder = (await import('./database/mongooseDatabaseSeeder')).default;
 
   let server = new Server(process.env.PORT || 3000);
+
+  server.addMiddleware(bodyParser.json());
 
   server.addMiddleware((req: Request, res: Response, next: Function) => {
     logger.debug(`${req.method} ${req.url}`);
