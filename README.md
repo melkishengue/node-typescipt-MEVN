@@ -1,4 +1,4 @@
 ## TODO:
 
-- add relationship between collectons
+- add relationship between collections user and post
 - deploy the app to kubernetes
