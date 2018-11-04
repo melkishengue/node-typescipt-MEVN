@@ -1,22 +1,23 @@
-import User from '../models/user';
+import Post from '../models/post';
 import { Promise } from 'es6-promise';
 
-export class UserService {
+export class PostService {
   list() {
     return new Promise<any>((resolve: any, reject: any) => {
-      User.find().then((users) => {
-        resolve(users);
+      Post.find().then((posts) => {
+        resolve(posts);
       }).catch((error: any) => {
         reject(error);
       })
     })
   }
 
-  create(pUser: any) {
+  create(pPost: any) {
     return new Promise<any>((resolve: any, reject: any) => {
-      let user = new User(pUser);
-      user.save(pUser).then((dbUser) => {
-        resolve(dbUser);
+      let post = new Post(pPost);
+      // TODO: use post and not pPost here. Need casting
+      post.save(pPost).then((dbPost) => {
+        resolve(dbPost);
       }).catch((error: any) => {
         reject(error);
       })
@@ -25,8 +26,8 @@ export class UserService {
 
   read(id: string) {
     return new Promise<any>((resolve: any, reject: any) => {
-      User.findOne({_id: id}).then((dbUser) => {
-        resolve(dbUser);
+      Post.findOne({_id: id}).then((dbPost) => {
+        resolve(dbPost);
       }).catch((error: any) => {
         reject(error);
       })
@@ -34,4 +35,4 @@ export class UserService {
   }
 }
 
-export const userService = new UserService();
+export const postService = new PostService();

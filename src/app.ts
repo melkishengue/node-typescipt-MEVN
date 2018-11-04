@@ -3,7 +3,10 @@ import IController from './controllers/controller.interface';
 import { IDatabaseConfiguration } from './database/databaseProvider.interface';
 import MongooseDatabaseProvider from './database/mongooseDatabaseProvider';
 
-require('dotenv').config();
+console.log('Environment is set to ', process.env.NODE_ENV);
+
+let config_file = process.env.NODE_ENV === 'DEV' ? './.env_dev' : './.env'
+require('dotenv').config({ path: config_file });
 
 let databaseConfiguration: IDatabaseConfiguration = {
   host: process.env.DB_HOST,

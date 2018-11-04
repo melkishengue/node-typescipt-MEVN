@@ -18,6 +18,7 @@ services:
     user: mongodb
     volumes:
       - /tmp/expressts:/data/db
+      - .:/usr/src/app
     ports:
       - "27017:27017"
     command: mongod --smallfiles
