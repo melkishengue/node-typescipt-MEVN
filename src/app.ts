@@ -31,7 +31,7 @@ MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
   server.addMiddleware((req: Request, res: Response, next: Function) => {
     logger.debug(`${req.method} ${req.url}`);
     next();
-  })
+  });
 
   controllers.forEach((controller: IController) => {
     server.addController(controller);
