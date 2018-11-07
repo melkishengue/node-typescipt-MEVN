@@ -11,7 +11,7 @@ global.logger = logger;
 
 logger.debug('Environment is set to ', process.env.NODE_ENV);
 
-let config_file = process.env.NODE_ENV === 'DEV' ? './.env_dev' : './.env'
+let config_file = process.env.NODE_ENV === 'PROD' ? './.env' : './.env_dev';
 require('dotenv').config({ path: config_file });
 
 let databaseConfiguration: IDatabaseConfiguration = {
@@ -27,7 +27,7 @@ MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
   let controllers = (await import('./controllers/')).default;
   const MongooseDatabaseSeeder = (await import('./database/mongooseDatabaseSeeder')).default;
 
-  let server = new Server(process.env.PORT || 3000);
+  let server = new Server(+process.env.SERVER_PORT || 3000);
 
   server.addMiddleware(bodyParser.json());
 

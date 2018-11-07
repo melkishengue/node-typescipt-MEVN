@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon build/app.js",
+    "start": "NODE_ENV=PROD node build/app.js",
     "build": "tsc",
-    "dev": "concurrently --kill-others \"tsc -w\" \"NODE_ENV=DEV PORT=3000 nodemon build/app.js\""
+    "dev": "concurrently --kill-others \"tsc -w\" \"NODE_ENV=DEV nodemon build/app.js\""
   },
   "keywords": [],
   "author": "",

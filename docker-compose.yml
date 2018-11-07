@@ -7,18 +7,18 @@ services:
     ports:
       - "3000:3000"
     links:
-      - mongo
+      - ${DB_HOST}
     depends_on:
-      - mongo
+      - ${DB_HOST}
     environment:
-      WAIT_HOSTS: mongo:27017
+      WAIT_HOSTS: mongo:${DB_PORT}
   mongo:
-    container_name: mongo
+    container_name: ${DB_HOST}
     image: mongo
     user: mongodb
     volumes:
       - /tmp/expressts:/data/db
       - .:/usr/src/app
     ports:
-      - "27017:27017"
+      - "${DB_PORT}:${DB_PORT}"
     command: mongod --smallfiles
