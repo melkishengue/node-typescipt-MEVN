@@ -1,5 +1,5 @@
 ## TODO:
 
-- add relationship between collections user and post
 - add auth for mongoDB
+- add swagger for API documentation
 - deploy the app to kubernetes

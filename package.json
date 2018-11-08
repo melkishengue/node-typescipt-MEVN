@@ -21,10 +21,12 @@
     "@types/sequelize": "^4.27.30",
     "axios": "^0.18.0",
     "bluebird": "^3.5.2",
+    "concurrently": "^4.0.1",
     "debug": "^4.1.0",
     "dotenv": "^6.1.0",
     "express": "^4.16.4",
-    "nodemon": "*",
-    "mongoose": "^5.3.8"
+    "log4js": "^3.0.6",
+    "mongoose": "^5.3.8",
+    "nodemon": "*"
   }
 }
