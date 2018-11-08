@@ -5,6 +5,7 @@ import MongooseDatabaseProvider from '../database/mongooseDatabaseProvider';
 // import logger from '../logger';
 
 export  default class MongooseDatabaseSeeder {
+  private base_url: string = 'https://jsonplaceholder.typicode.com';
   async clean() {
     return new Promise((resolve: any, reject: any) => {
       MongooseDatabaseProvider.getConnection().dropDatabase();
@@ -14,27 +15,73 @@ export  default class MongooseDatabaseSeeder {
 
   async seed() {
     return new Promise(async (resolve: any, reject: any) => {
+      logger.debug('Database seed starting. Fetching data from', this.base_url);
 
-      let base_url = 'https://jsonplaceholder.typicode.com';
-      logger.debug('Database seed starting. Fetching data from', base_url);
-
-      Promise.all([axios.get(`${base_url}/users`), axios.get(`${base_url}/posts`)]).then((values) => {
+      Promise.all([axios.get(`${this.base_url}/users`), axios.get(`${this.base_url}/posts`)]).then((values) => {
 
         let users = values[0];
-        users.data.forEach(async (user: any) => {
-          let dbUser = await userService.create(user);
-          logger.debug('+ User created. ID: ', dbUser._id);
-        });
-
-        // TODO: add relation between users and posts
         let posts = values[1];
-        posts.data.forEach(async (post: any) => {
-          let dbPost = await postService.create(post);
-          logger.debug('+ Post created. ID: ', dbPost._id);
+
+        this.seedUsers(users).then((dbUsers) => {
+          this.seedPosts(users).then((dbPosts) => {
+            resolve('Data seed done');
+          }).catch((error) => {
+            reject(error);
+          });
         });
 
-        resolve('Data seed done');
       });
     });
+  }
+
+  // TODO. find the right types and get rid of all these any
+  private seedUsers(users: array<any>): Promise<any> {
+    return new Promise((resolve, reject) => {
+      let promises: array<any> = [];
+      users.data.forEach(async (user: any) => {
+        promises.push(userService.create(user));
+        // logger.debug('+ User created. ID: ', dbUser._id);
+      });
+
+      Promise.all(promises).then((dbUsers) => {
+        dbUsers.forEach((dbUser) => {
+          logger.debug(`+ New user created. ID: ${dbUser._id}`);
+        });
+        resolve(dbUsers);
+      }).catch((error) => {
+        reject(error);
+      });
+
+    })
+  }
+
+  private seedPosts(users: Array<any>): Promise<any> {
+    return new Promise(async (resolve, reject) => {
+      let promises: Array<any> = [];
+
+      users.data.forEach((user: any) => {
+        promises.push(
+          axios.get(`${this.base_url}/posts?userId=${user.id}`)
+        );
+      });
+
+      Promise.all(promises).then((values) => {
+        let toResolve: Array<any> = [];
+
+        values.forEach(async (raw: any) => {
+          let userPosts = raw.data;
+          let author = await userService.query({
+            id: userPosts[0].userId
+          });
+          userPosts.forEach(async (userPost: any) => {
+            userPost.author = author[0]._id;
+            let dbPost = await postService.create(userPost);
+            toResolve.push(dbPost);
+            logger.debug(`+ New post created. ID: ${dbPost._id}`);
+          });
+        });
+        resolve(toResolve);
+      });
+    })
   }
 }

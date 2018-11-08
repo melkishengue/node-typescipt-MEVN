@@ -1,16 +1,8 @@
 import Post from '../models/post';
 import { Promise } from 'es6-promise';
+import MongooseBaseService from './mongooseBaseService';
 
-export class PostService {
-  list() {
-    return new Promise<any>((resolve: any, reject: any) => {
-      Post.find().then((posts) => {
-        resolve(posts);
-      }).catch((error: any) => {
-        reject(error);
-      })
-    })
-  }
+export class PostService extends MongooseBaseService {
 
   create(pPost: any) {
     return new Promise<any>((resolve: any, reject: any) => {
@@ -24,10 +16,14 @@ export class PostService {
     })
   }
 
-  read(id: string) {
+  async listAllAuthor(id: string) {
+    return await this.query({author: id});
+  }
+
+  query(queryObj: any) {
     return new Promise<any>((resolve: any, reject: any) => {
-      Post.findOne({_id: id}).then((dbPost) => {
-        resolve(dbPost);
+      Post.find(queryObj).populate('author').then((dbPosts) => {
+        resolve(dbPosts);
       }).catch((error: any) => {
         reject(error);
       })

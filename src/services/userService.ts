@@ -1,16 +1,8 @@
 import User from '../models/user';
 import { Promise } from 'es6-promise';
+import MongooseBaseService from './mongooseBaseService';
 
-export class UserService {
-  list() {
-    return new Promise<any>((resolve: any, reject: any) => {
-      User.find().then((users) => {
-        resolve(users);
-      }).catch((error: any) => {
-        reject(error);
-      })
-    })
-  }
+export class UserService extends MongooseBaseService {
 
   create(pUser: any) {
     return new Promise<any>((resolve: any, reject: any) => {
@@ -23,10 +15,11 @@ export class UserService {
     })
   }
 
-  read(id: string) {
+  // TODO: this function should be inherited
+  query(queryObj: any) {
     return new Promise<any>((resolve: any, reject: any) => {
-      User.findOne({_id: id}).then((dbUser) => {
-        resolve(dbUser);
+      User.find(queryObj).then((dbUsers) => {
+        resolve(dbUsers);
       }).catch((error: any) => {
         reject(error);
       })
