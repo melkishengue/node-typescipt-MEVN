@@ -24,8 +24,8 @@ export default class MongooseDatabaseProvider implements IDatabaseProvider {
       let conf = MongooseDatabaseProvider.databaseConfiguration;
       let url: string = `mongodb://${conf.username}:${conf.password}@${conf.host}:${conf.port}/${conf.database}`;
       logger.debug(`Connecting to mongoDB on host ${conf.host}`);
+      
       mongoose.connect(url, {useNewUrlParser: true});
-
       MongooseDatabaseProvider.connection = mongoose.connection;
 
       MongooseDatabaseProvider.connection.once("open", () => {

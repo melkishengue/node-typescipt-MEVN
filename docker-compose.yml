@@ -1,11 +1,24 @@
-version: "2"
+version: "3"
 services:
-  app:
-    container_name: app
+  node-app-0:
+    container_name: node-app-0
     restart: always
     build: .
-    ports:
-      - "3000:3000"
+    # ports:
+    #   - "3000:3000"
+    links:
+      - ${DB_HOST}
+    depends_on:
+      - ${DB_HOST}
+    environment:
+      WAIT_HOSTS: mongo:${DB_PORT}
+      ROLE: MASTER
+  node-app-1:
+    container_name: node-app-1
+    restart: always
+    build: .
+    # ports:
+    #   - "3000:3000"
     links:
       - ${DB_HOST}
     depends_on:
@@ -22,3 +35,48 @@ services:
     ports:
       - "${DB_PORT}:${DB_PORT}"
     command: mongod --smallfiles
+  loadbalancer:
+      build: ./nginx
+      tty: true
+      links:
+          - node-app-0
+          - node-app-1
+      ports:
+          - '8080:8080'
+#   cadvisor:
+#     image: google/cadvisor
+#     container_name: cadvisor
+#     volumes:
+#       - /:/rootfs:ro
+#       - /var/run:/var/run:rw
+#       - /sys:/sys:ro
+#       - /var/lib/docker/:/var/lib/docker:ro
+#     expose:
+#       - 8081
+#     ports:
+#       - "8005:8081"
+#     networks:
+#       - monitoring
+#   prometheus:
+#       image: prom/prometheus:v2.0.0
+#       container_name: prometheus
+#       volumes:
+#         - ./docker/prometheus/:/etc/prometheus/
+#         - prometheus-data:/prometheus
+#       command:
+#         - '--config.file=/etc/prometheus/prometheus.yml'
+#         - '--storage.tsdb.path=/prometheus'
+#         - '--web.console.libraries=/etc/prometheus/console_libraries'
+#         - '--web.console.templates=/etc/prometheus/consoles'
+#         - '--storage.tsdb.retention=200h'
+#       expose:
+#         - 9090
+#       ports:
+#         - "9090:9090"
+#       networks:
+#         - monitoring
+# networks:
+#   monitoring:
+#     driver: bridge
+# volumes:
+#   prometheus-data: {}

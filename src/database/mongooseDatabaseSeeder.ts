@@ -80,6 +80,7 @@ export  default class MongooseDatabaseSeeder {
             logger.debug(`+ New post created. ID: ${dbPost._id}`);
           });
         });
+        
         resolve(toResolve);
       });
     })
