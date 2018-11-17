@@ -34,7 +34,8 @@ export default class MongooseDatabaseProvider implements IDatabaseProvider {
 
       MongooseDatabaseProvider.connection.on("error", () => {
         logger.debug("MongoDB connection error. Please make sure MongoDB is running.");
-        process.exit();
+        // let node exit gracefully
+        process.exitCode = 1;
       });
 
       return MongooseDatabaseProvider.connection;

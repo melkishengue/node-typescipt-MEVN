@@ -14,14 +14,14 @@
   "devDependencies": {
     "@types/es6-promise": "^3.3.0",
     "@types/mongoose": "^5.2.21",
-    "@types/node": "^10.12.1"
+    "@types/node": "^10.12.1",
+    "concurrently": "^4.0.1",
+    "@types/express": "^4.16.0",
+    "@types/sequelize": "^4.27.30"
   },
   "dependencies": {
-    "@types/express": "^4.16.0",
-    "@types/sequelize": "^4.27.30",
     "axios": "^0.18.0",
     "bluebird": "^3.5.2",
-    "concurrently": "^4.0.1",
     "debug": "^4.1.0",
     "dotenv": "^6.1.0",
     "express": "^4.16.4",

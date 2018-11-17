@@ -7,9 +7,6 @@ import * as express from "express";
 import logger from './logger';
 import bodyParser from 'body-parser';
 import { join } from 'path';
-import { hostname } from 'os';
-
-let host = hostname();
 
 // make logger global for all modules
 global.logger = logger;
@@ -37,7 +34,7 @@ MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
   server.addMiddleware(bodyParser.json());
 
   server.addMiddleware((req: Request, res: Response, next: Function) => {
-    logger.debug(`${host}: ${req.method} ${req.url}`);
+    logger.debug(`${process.env.HOST}: ${req.method} ${req.url}`);
     next();
   });
 
