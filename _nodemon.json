@@ -1,5 +1,0 @@
-{
-  "verbose": true,
-  "ignore": ["./src/*", "fixtures/*"],
-  "delay": "3500"
-}
