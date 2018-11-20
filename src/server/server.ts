@@ -36,7 +36,7 @@ export default class Server implements IServer {
 
   private addRoute(method: string, url: string, handler: express.RequestHandler) {
     (this.app as any)[method](url, handler);
-    logger.debug('New routed added at ${method} ${url}');
+    logger.debug(`New routed added at ${method} ${url}`);
   }
 
   start(): void {

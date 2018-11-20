@@ -7,14 +7,15 @@ import * as express from "express";
 import logger from './logger';
 import bodyParser from 'body-parser';
 import { join } from 'path';
+import auth from 'basic-auth';
+import { check, loadEnvFile } from './utils';
 
 // make logger global for all modules
 global.logger = logger;
 
 logger.debug('Environment is set to ', process.env.NODE_ENV);
 
-let config_file = process.env.NODE_ENV === 'PROD' ? './.env' : './.env_dev';
-require('dotenv').config({ path: config_file });
+loadEnvFile();
 
 let databaseConfiguration: IDatabaseConfiguration = {
   host: process.env.DB_HOST,
@@ -30,6 +31,19 @@ MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
   const MongooseDatabaseSeeder = (await import('./database/mongooseDatabaseSeeder')).default;
 
   let server = new Server(+process.env.SERVER_PORT || 3000);
+
+  // basic auth middleware
+  server.addMiddleware((req: Request, res: Response, next: Function) => {
+    var credentials = auth(req);
+
+    if (!credentials || !check(credentials.name, credentials.pass)) {
+      res.statusCode = 401;
+      res.setHeader('WWW-Authenticate', 'Basic realm="example"');
+      res.end('Access denied');
+    } else {
+      next();
+    }
+  });
 
   server.addMiddleware(bodyParser.json());
 
