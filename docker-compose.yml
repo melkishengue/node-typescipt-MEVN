@@ -12,6 +12,7 @@ services:
       - ${DB_HOST}
     environment:
       WAIT_HOSTS: mongo:${DB_PORT}
+      WAIT_HOSTS_TIMEOUT: 150
       ROLE: MASTER
       HOST: node-app-0
   node-app-1:
@@ -26,6 +27,7 @@ services:
       - ${DB_HOST}
     environment:
       WAIT_HOSTS: mongo:${DB_PORT}
+      WAIT_HOSTS_TIMEOUT: 150
       HOST: node-app-1
   mongo:
     container_name: ${DB_HOST}

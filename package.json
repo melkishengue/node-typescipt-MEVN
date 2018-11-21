@@ -6,7 +6,10 @@
   "scripts": {
     "start": "NODE_ENV=PROD node build/app.js",
     "build": "tsc",
-    "dev": "concurrently --kill-others \"tsc -w\" \"NODE_ENV=DEV ROLE=MASTER nodemon build/app.js\""
+    "dev": "concurrently --kill-others \"tsc -w\" \"NODE_ENV=DEV ROLE=MASTER nodemon build/app.js\"",
+    "docker-clean": "docker rm $(docker ps -aq)",
+    "docker-start": "docker-compose up --build",
+    "docker-stop": "docker-compose down"
   },
   "keywords": [],
   "author": "",
