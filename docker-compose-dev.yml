@@ -1,0 +1,10 @@
+version: "2"
+services:
+  node-app-0:
+    volumes:
+      - node-ts-app-sync-volume:/usr/src/app:rw # will be mounted on /var/www
+
+# that the important thing
+volumes:
+  node-ts-app-sync-volume:
+    external: true

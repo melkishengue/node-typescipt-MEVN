@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #404040;
+  font-size: 0.8em;
+  background-color: lavender;
+  text-align: center;
+  padding: 40px 30%;
+  font-size: 0.9em;
+
+  .wrapper {
+    margin: 20px;
+
+    #container {
+      font-size: 0.8em;
+    
+      .data-element {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+  }
+}

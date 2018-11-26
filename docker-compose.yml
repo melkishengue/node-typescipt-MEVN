@@ -1,11 +1,10 @@
+# all variables used in this file are defined in the .env file
 version: "2"
 services:
   node-app-0:
-    container_name: node-app-0
+    container_name: ${CONTAINER_NAME_1}
     restart: always
-    build: .
-    # ports:
-    #   - "3000:3000"
+    build: ./backend
     links:
       - ${DB_HOST}
     depends_on:
@@ -14,27 +13,44 @@ services:
       WAIT_HOSTS: mongo:${DB_PORT}
       WAIT_HOSTS_TIMEOUT: 150
       ROLE: MASTER
-      HOST: node-app-0
-  node-app-1:
-    container_name: node-app-1
-    restart: always
-    build: .
-    # ports:
-    #   - "3000:3000"
-    links:
-      - ${DB_HOST}
-    depends_on:
-      - ${DB_HOST}
-    environment:
-      WAIT_HOSTS: mongo:${DB_PORT}
-      WAIT_HOSTS_TIMEOUT: 150
-      HOST: node-app-1
+      HOST: ${CONTAINER_NAME_1}
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+      SERVER_PORT: ${SERVER_PORT}
+      BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
+      BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
+  # node-app-1:
+  #   container_name: ${CONTAINER_NAME_2}
+  #   restart: always
+  #   build: ./backend
+  #   links:
+  #     - ${DB_HOST}
+  #   depends_on:
+  #     - ${DB_HOST}
+  #   environment:
+  #     WAIT_HOSTS: mongo:${DB_PORT}
+  #     WAIT_HOSTS_TIMEOUT: 150
+  #     HOST: ${CONTAINER_NAME_2}
+  #     DB_HOST: ${DB_HOST}
+  #     DB_PORT: ${DB_PORT}
+  #     DB_NAME: ${DB_NAME}
+  #     DB_USER: ${DB_USER}
+  #     DB_PASS: ${DB_PASS}
+  #     SERVER_PORT: ${SERVER_PORT}
+  #     BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
+  #     BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
+  frontend:
+    container_name: ${CONTAINER_NAME_FRONTEND}
+    build: ./frontend
   mongo:
     container_name: ${DB_HOST}
     image: mongo
     user: mongodb
     volumes:
-      - /tmp/expressts:/data/db
+      - node-ts-volume:/data/db
       - .:/usr/src/app
     ports:
       - "${DB_PORT}:${DB_PORT}"
@@ -43,47 +59,13 @@ services:
       build: ./nginx
       tty: true
       links:
-          - node-app-0
-          - node-app-1
+          - ${CONTAINER_NAME_1}
+          # - ${CONTAINER_NAME_2}
       ports:
           - '8080:8080'
       depends_on:
-      - node-app-0
-      - node-app-1
-#   cadvisor:
-#     image: google/cadvisor
-#     container_name: cadvisor
-#     volumes:
-#       - /:/rootfs:ro
-#       - /var/run:/var/run:rw
-#       - /sys:/sys:ro
-#       - /var/lib/docker/:/var/lib/docker:ro
-#     expose:
-#       - 8081
-#     ports:
-#       - "8005:8081"
-#     networks:
-#       - monitoring
-#   prometheus:
-#       image: prom/prometheus:v2.0.0
-#       container_name: prometheus
-#       volumes:
-#         - ./docker/prometheus/:/etc/prometheus/
-#         - prometheus-data:/prometheus
-#       command:
-#         - '--config.file=/etc/prometheus/prometheus.yml'
-#         - '--storage.tsdb.path=/prometheus'
-#         - '--web.console.libraries=/etc/prometheus/console_libraries'
-#         - '--web.console.templates=/etc/prometheus/consoles'
-#         - '--storage.tsdb.retention=200h'
-#       expose:
-#         - 9090
-#       ports:
-#         - "9090:9090"
-#       networks:
-#         - monitoring
-# networks:
-#   monitoring:
-#     driver: bridge
-# volumes:
-#   prometheus-data: {}
+      - ${CONTAINER_NAME_1}
+      # - ${CONTAINER_NAME_2}
+volumes:
+  node-ts-volume:
+        external: true
