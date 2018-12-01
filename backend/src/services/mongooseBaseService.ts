@@ -9,6 +9,12 @@ export default abstract class MongooseBaseService implements IMongooseService {
     return await this.query(queryDataSetting);
   }
 
+  query(queryDataSetting: QueryDataSetting) {
+    return new  Promise((resolve, reject) => {
+      resolve('This is a dummy method, to be overriden')
+    });
+  };
+
   async find(id: string): Promise<any>{
     let queryDataSetting: QueryDataSetting = {queryObj: {_id: id}};
     return await this.query(queryDataSetting);

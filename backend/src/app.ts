@@ -4,23 +4,20 @@ import { IDatabaseConfiguration } from './database/databaseProvider.interface';
 import MongooseDatabaseProvider from './database/mongooseDatabaseProvider';
 import { Request, Response } from "express";
 import * as express from "express";
-import logger from './logger';
+import _logger from './logger';
 import bodyParser from 'body-parser';
 import { join } from 'path';
 import auth from 'basic-auth';
 import { check, loadEnvFile } from './utils';
 import createError from 'http-errors';
-const exphbs = require('express-handlebars');
+const exphbs = require('express-handlebars'); 
 
-// make logger global for all modules
-global.logger = logger;
-
-logger.debug('Environment is set to ', process.env.NODE_ENV);
+_logger.debug('Environment is set to ', process.env.NODE_ENV);
 
 let databaseConfiguration: IDatabaseConfiguration = {
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
-  username: process.env.DB_USER,
+  username: process.env.DB_USER, 
   password: process.env.DB_PASS,
   database: process.env.DB_NAME
 }
@@ -51,7 +48,7 @@ MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
 
   server.addMiddleware(bodyParser.json());
   server.addMiddleware((req: Request, res: Response, next: Function) => {
-    logger.debug(`${process.env.HOST}: ${req.method} ${req.url}`);
+    _logger.debug(`${process.env.HOST}: ${req.method} ${req.url}`);
     next();
   });
   server.addMiddleware(express.static(join(__dirname + '/../', 'frontend/dist')));
@@ -72,5 +69,5 @@ MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
 
   server.start();
 }).catch((error) => {
-  logger.debug(error)
+  _logger.debug(error)
 });

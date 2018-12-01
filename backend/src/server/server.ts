@@ -1,5 +1,6 @@
 import express from 'express';
 import IController from '../controllers/controller.interface';
+import _logger from '../logger';
 
 export interface IServer {
   get(url: string, handler: express.Router): void;
@@ -36,12 +37,12 @@ export default class Server implements IServer {
 
   private addRoute(method: string, url: string, handler: express.RequestHandler) {
     (this.app as any)[method](url, handler);
-    logger.debug(`New routed added at ${method} ${url}`);
+    _logger.debug(`New routed added at ${method} ${url}`);
   }
 
   start(): void {
     this.app.listen(this.port, () => {
-      logger.debug(`server started on port ${this.port}`);
+      _logger.debug(`server started on port ${this.port}`);
     })
   }
 

@@ -1,5 +1,5 @@
-var log4js = require('log4js');
-var logger = log4js.getLogger();
-logger.level = 'debug';
+let log4js = require('log4js');
+let _logger = log4js.getLogger();
+_logger.level = 'debug';
 
-export default logger;
+export default _logger;

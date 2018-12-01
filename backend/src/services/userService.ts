@@ -1,6 +1,7 @@
 import User from '../models/user';
 import MongooseBaseService from './mongooseBaseService';
 import { QueryDataSetting } from './mongooseService.interface';
+import _logger from 'logger';
 
 export class UserService extends MongooseBaseService {
 

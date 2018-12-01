@@ -22,6 +22,7 @@ services:
       SERVER_PORT: ${SERVER_PORT}
       BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
       BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
+      NODE_ENV: ${NODE_ENV}
   # node-app-1:
   #   container_name: ${CONTAINER_NAME_2}
   #   restart: always
@@ -50,7 +51,7 @@ services:
     image: mongo
     user: mongodb
     volumes:
-      - node-ts-volume:/data/db
+      - node-ts-app-volume:/data/db
       - .:/usr/src/app
     ports:
       - "${DB_PORT}:${DB_PORT}"
@@ -67,5 +68,5 @@ services:
       - ${CONTAINER_NAME_1}
       # - ${CONTAINER_NAME_2}
 volumes:
-  node-ts-volume:
+  node-ts-app-volume:
         external: true

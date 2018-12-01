@@ -2,9 +2,12 @@ import axios from 'axios';
 import { userService } from '../services/userService';
 import { postService } from '../services/postService';
 import MongooseDatabaseProvider from '../database/mongooseDatabaseProvider';
+import _logger from '../logger';
+import { AxiosResponse } from 'axios';
+import { QueryDataSetting } from '../services/mongooseService.interface';
 
 export  default class MongooseDatabaseSeeder {
-  private base_url: string = 'https://jsonplaceholder.typicode.com';
+  private _base_url: string = 'https://jsonplaceholder.typicode.com';
 
   async clean() {
     return new Promise((resolve: any, reject: any) => {
@@ -15,15 +18,15 @@ export  default class MongooseDatabaseSeeder {
 
   async seed() {
     return new Promise(async (resolve: any, reject: any) => {
-      logger.debug('Database seed starting. Fetching data from', this.base_url);
+      _logger.debug('Database seed starting. Fetching data from', this._base_url);
 
       Promise.all([
-        axios.get(`${this.base_url}/users`), 
-        axios.get(`${this.base_url}/posts`)
+        axios.get(`${this._base_url}/users`), 
+        axios.get(`${this._base_url}/posts`)
       ]).then((values) => {
 
-        let users = values[0];
-        let posts = values[1];
+        let users: AxiosResponse<any> = values[0];
+        let posts: AxiosResponse<any> = values[1];
 
         this.seedUsers(users).then((dbUsers) => {
           this.seedPosts(users).then((dbPosts) => {
@@ -38,16 +41,17 @@ export  default class MongooseDatabaseSeeder {
   }
 
   // TODO. find the right types and get rid of all these any
-  private seedUsers(users: array<any>): Promise<any> {
+  private seedUsers(users: AxiosResponse<any>): Promise<any> {
     return new Promise((resolve, reject) => {
-      let promises: array<any> = [];
+      let promises: Array<Promise<any>> = [];
+
       users.data.forEach(async (user: any) => {
         promises.push(userService.create(user));
       });
 
       Promise.all(promises).then((dbUsers) => {
         dbUsers.forEach((dbUser) => {
-          logger.debug(`+ New user created. ID: ${dbUser._id}`);
+          _logger.debug(`+ New user created. ID: ${dbUser._id}`);
         });
         resolve(dbUsers);
       }).catch((error) => {
@@ -57,13 +61,13 @@ export  default class MongooseDatabaseSeeder {
     })
   }
 
-  private seedPosts(users: Array<any>): Promise<any> {
+  private seedPosts(users: AxiosResponse<any>): Promise<any> {
     return new Promise(async (resolve, reject) => {
-      let promises: Array<any> = [];
+      let promises: Array<Promise<any>> = [];
 
       users.data.forEach((user: any) => {
         promises.push(
-          axios.get(`${this.base_url}/posts?userId=${user.id}`)
+          axios.get(`${this._base_url}/posts?userId=${user.id}`)
         );
       });
 
@@ -72,14 +76,18 @@ export  default class MongooseDatabaseSeeder {
 
         values.forEach(async (raw: any) => {
           let userPosts = raw.data;
-          let author = await userService.query({
-            id: userPosts[0].userId
-          });
+          let query: QueryDataSetting = {
+            queryObj: {
+              id: userPosts[0].userId
+            }
+          };
+          
+          let author = await userService.query(query);
           userPosts.forEach(async (userPost: any) => {
             userPost.author = author[0]._id;
             let dbPost = await postService.create(userPost);
             toResolve.push(dbPost);
-            logger.debug(`+ New post created. ID: ${dbPost._id}`);
+            _logger.debug(`+ New post created. ID: ${dbPost._id}`);
           });
         });
         

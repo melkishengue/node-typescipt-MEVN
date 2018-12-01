@@ -1,6 +1,7 @@
 const stream = require('stream');
 import { wait } from '../utils';
 import { postService } from '../services/postService';
+import _logger from '../logger';
 
 export class MongooseDatabaseStreamer extends stream.Readable {
     constructor () {
@@ -13,7 +14,7 @@ export class MongooseDatabaseStreamer extends stream.Readable {
     _read() {}
 
     fetchNextChunk(timeout: number): void {
-        logger.debug('just a log message');
+        _logger.debug('just a log message 3');
         wait(timeout).then(async () => {
             let user = await postService.findRandom();
             this.push(user);

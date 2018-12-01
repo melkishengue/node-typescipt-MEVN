@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 import { IDatabaseProvider, IDatabaseConfiguration } from './databaseProvider.interface';
 import { Promise } from 'es6-promise';
+import _logger from '../logger';
 // global.Promise = Promise;
 
 export default class MongooseDatabaseProvider implements IDatabaseProvider {
@@ -23,17 +24,17 @@ export default class MongooseDatabaseProvider implements IDatabaseProvider {
     } else {
       let conf = MongooseDatabaseProvider.databaseConfiguration;
       let url: string = `mongodb://${conf.username}:${conf.password}@${conf.host}:${conf.port}/${conf.database}`;
-      logger.debug(`Connecting to mongoDB on host ${conf.host}`);
+      _logger.debug(`Connecting to mongoDB on host ${conf.host}`);
       
       mongoose.connect(url, {useNewUrlParser: true});
       MongooseDatabaseProvider.connection = mongoose.connection;
 
       MongooseDatabaseProvider.connection.once("open", () => {
-        logger.debug("Connected to mongoDB database");
+        _logger.debug("Connected to mongoDB database");
       });
 
       MongooseDatabaseProvider.connection.on("error", () => {
-        logger.debug("MongoDB connection error. Please make sure MongoDB is running.");
+        _logger.debug("MongoDB connection error. Please make sure MongoDB is running.");
         // let node exit gracefully
         process.exitCode = 1;
       });

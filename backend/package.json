@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=PROD node build/app.js",
+    "start": "NODE_ENV=PROD ROLE=MASTER ts-node src/app.ts",
     "build": "./node_modules/typescript/bin/tsc",
-    "dev": "concurrently --kill-others \"./node_modules/typescript/bin/tsc -w\" \"NODE_ENV=DEV ROLE=MASTER nodemon build/app.js\"",
-    "docker-clean": "docker rm $(docker ps -aq)",
-    "docker-start": "docker-compose up --build",
-    "docker-stop": "docker-compose down"
+    "dev-old": " NODE_ENV=DEV ROLE=MASTER ts-node src/app.ts",
+    "dev": "NODE_ENV=DEV ROLE=MASTER nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/app.ts",
+    "dev-comp": "concurrently --kill-others \"./node_modules/typescript/bin/tsc -w\" \"NODE_ENV=DEV ROLE=MASTER nodemon build/app.js\""
   },
   "keywords": [],
   "author": "",
@@ -21,7 +20,8 @@
     "@types/mongoose": "^5.2.21",
     "@types/node": "^10.12.1",
     "@types/sequelize": "^4.27.30",
-    "concurrently": "^4.0.1"
+    "concurrently": "^4.0.1",
+    "ts-node": "^7.0.1"
   },
   "dependencies": {
     "@types/http-errors": "^1.6.1",

@@ -1,9 +1,3 @@
-export interface IMongooseService {
-  findAll(): Promise<any>;
-  find(id: string): Promise<any>;
-  query(): Promise<any>;
-}
-
 export interface QueryDataSetting {
   queryObj: any,
   limit?: number,
@@ -12,4 +6,10 @@ export interface QueryDataSetting {
     field?: string,
     order?: number
   }
+}
+
+export interface IMongooseService {
+  findAll(): Promise<any>;
+  find(id: string): Promise<any>;
+  query?(query: QueryDataSetting): Promise<any>;
 }

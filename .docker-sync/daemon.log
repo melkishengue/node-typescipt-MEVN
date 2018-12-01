@@ -1,0 +1,137 @@
+          ok  Starting rsync for sync node-ts-app-sync
+          ok  node-ts-app-sync container still running
+          ok  node-ts-app-sync: starting initial sync of /Applications/MAMP/htdocs/node-ts/backend/
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+     command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+          ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+      output  
+     success  Rsync server started
+     command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+          ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+      output  
+          ok  Cli mode is auto, selecting .. 
+          ok  .. docker-sync 
+     success  Starting to watch /Applications/MAMP/htdocs/node-ts/backend/ - Press CTRL-C to stop
+     command  fswatch --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='.*/.git' --exclude='.*/node_modules' --exclude='.*/bower_components' --exclude='.*/sass-cache' --exclude='.*/.sass-cache' --exclude='.*/.sass-cache' --exclude='.coffee' --exclude='.scss' --exclude='.sass' --exclude='.gitignore' --exclude='typo3temp' -orIE --event AttributeModified --event Created --event Link --event MovedFrom --event MovedTo --event Renamed --event Removed --event Updated '/Applications/MAMP/htdocs/node-ts/backend/'  | xargs -I -n1 docker-sync sync -n node-ts-app-sync --config='/Applications/MAMP/htdocs/node-ts/docker-sync.yml'
+[2018-12-01 12:49:00 +0100] Sync node-ts-app-sync       command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+[2018-12-01 12:49:01 +0100] Sync node-ts-app-sync            ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+[2018-12-01 12:49:01 +0100] Sync node-ts-app-sync        output  
+[2018-12-01 12:49:24 +0100] Sync node-ts-app-sync       command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+[2018-12-01 12:49:25 +0100] Sync node-ts-app-sync            ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+[2018-12-01 12:49:25 +0100] Sync node-ts-app-sync        output  
+    shutdown  Shutting down...
+          ok  Stopping sync container node-ts-app-sync
+          ok  Starting rsync for sync node-ts-app-sync
+          ok  node-ts-app-sync container still running
+          ok  node-ts-app-sync: starting initial sync of /Applications/MAMP/htdocs/node-ts/backend/
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+     command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+          ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+      output  
+     success  Rsync server started
+     command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+          ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+      output  
+          ok  Cli mode is auto, selecting .. 
+          ok  .. docker-sync 
+     success  Starting to watch /Applications/MAMP/htdocs/node-ts/backend/ - Press CTRL-C to stop
+     command  fswatch --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='.*/.git' --exclude='.*/node_modules' --exclude='.*/bower_components' --exclude='.*/sass-cache' --exclude='.*/.sass-cache' --exclude='.*/.sass-cache' --exclude='.coffee' --exclude='.scss' --exclude='.sass' --exclude='.gitignore' --exclude='typo3temp' -orIE --event AttributeModified --event Created --event Link --event MovedFrom --event MovedTo --event Renamed --event Removed --event Updated '/Applications/MAMP/htdocs/node-ts/backend/'  | xargs -I -n1 docker-sync sync -n node-ts-app-sync --config='/Applications/MAMP/htdocs/node-ts/docker-sync.yml'
+[2018-12-01 13:06:09 +0100] Sync node-ts-app-sync       command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+[2018-12-01 13:06:09 +0100] Sync node-ts-app-sync         error  Error starting sync, exit code 10
+[2018-12-01 13:06:09 +0100] Sync node-ts-app-sync       message  
+[2018-12-01 13:06:34 +0100] Sync node-ts-app-sync       command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+[2018-12-01 13:06:34 +0100] Sync node-ts-app-sync         error  Error starting sync, exit code 10
+[2018-12-01 13:06:34 +0100] Sync node-ts-app-sync       message  
+[2018-12-01 13:07:36 +0100] Sync node-ts-app-sync       command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+[2018-12-01 13:07:36 +0100] Sync node-ts-app-sync         error  Error starting sync, exit code 10
+[2018-12-01 13:07:36 +0100] Sync node-ts-app-sync       message  
+[2018-12-01 13:07:42 +0100] Sync node-ts-app-sync  rsync: failed to connect to 127.0.0.1 (127.0.0.1): Connection refused (61)
+    shutdown  Shutting down...
+[2018-12-01 13:07:42 +0100] Sync node-ts-app-sync  rsync error: error in socket IO (code 10) at clientserver.c(127) [sender=3.1.3]
+          ok  Stopping sync container node-ts-app-sync
+[2018-12-01 13:07:42 +0100] Sync node-ts-app-sync  rsync: failed to connect to 127.0.0.1 (127.0.0.1): Connection refused (61)
+[2018-12-01 13:07:42 +0100] Sync node-ts-app-sync  rsync error: error in socket IO (code 10) at clientserver.c(127) [sender=3.1.3]
+[2018-12-01 13:07:42 +0100] Sync node-ts-app-sync  rsync: failed to connect to 127.0.0.1 (127.0.0.1): Connection refused (61)
+[2018-12-01 13:07:42 +0100] Sync node-ts-app-sync  rsync error: error in socket IO (code 10) at clientserver.c(127) [sender=3.1.3]
+          ok  Starting rsync for sync node-ts-app-sync
+          ok  node-ts-app-sync container still running
+          ok  node-ts-app-sync: starting initial sync of /Applications/MAMP/htdocs/node-ts/backend/
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+     command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+          ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+      output  
+     success  Rsync server started
+     command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+          ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+      output  
+          ok  Cli mode is auto, selecting .. 
+          ok  .. docker-sync 
+     success  Starting to watch /Applications/MAMP/htdocs/node-ts/backend/ - Press CTRL-C to stop
+     command  fswatch --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='.*/.git' --exclude='.*/node_modules' --exclude='.*/bower_components' --exclude='.*/sass-cache' --exclude='.*/.sass-cache' --exclude='.*/.sass-cache' --exclude='.coffee' --exclude='.scss' --exclude='.sass' --exclude='.gitignore' --exclude='typo3temp' -orIE --event AttributeModified --event Created --event Link --event MovedFrom --event MovedTo --event Renamed --event Removed --event Updated '/Applications/MAMP/htdocs/node-ts/backend/'  | xargs -I -n1 docker-sync sync -n node-ts-app-sync --config='/Applications/MAMP/htdocs/node-ts/docker-sync.yml'
+[2018-12-01 13:11:36 +0100] Sync node-ts-app-sync       command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+[2018-12-01 13:11:37 +0100] Sync node-ts-app-sync            ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+[2018-12-01 13:11:37 +0100] Sync node-ts-app-sync        output  
+[2018-12-01 13:11:38 +0100] Sync node-ts-app-sync       command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+[2018-12-01 13:11:38 +0100] Sync node-ts-app-sync            ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+[2018-12-01 13:11:38 +0100] Sync node-ts-app-sync        output  
+[2018-12-01 13:11:39 +0100] Sync node-ts-app-sync       command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+[2018-12-01 13:11:39 +0100] Sync node-ts-app-sync            ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+[2018-12-01 13:11:39 +0100] Sync node-ts-app-sync        output  
+[2018-12-01 13:21:23 +0100] Sync node-ts-app-sync       command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+[2018-12-01 13:21:23 +0100] Sync node-ts-app-sync         error  Error starting sync, exit code 10
+[2018-12-01 13:21:23 +0100] Sync node-ts-app-sync       message  
+[2018-12-01 13:21:41 +0100] Sync node-ts-app-sync  rsync: failed to connect to 127.0.0.1 (127.0.0.1): Connection refused (61)
+    shutdown  Shutting down...
+[2018-12-01 13:21:41 +0100] Sync node-ts-app-sync  rsync error: error in socket IO (code 10) at clientserver.c(127) [sender=3.1.3]
+          ok  Stopping sync container node-ts-app-sync
+          ok  Starting rsync for sync node-ts-app-sync
+          ok  node-ts-app-sync container still running
+          ok  node-ts-app-sync: starting initial sync of /Applications/MAMP/htdocs/node-ts/backend/
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+          ok  waiting for rsync daemon on rsync://127.0.0.1:10871
+     command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+          ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+      output  
+     success  Rsync server started
+     command  rsync --exclude='htdocs/typo3' --exclude='htdocs/index.php' --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='Gemfile.lock' --exclude='Gemfile' --exclude='config.rb' --exclude='.sass-cache/' --exclude='sass/' --exclude='sass-cache/' --exclude='bower.json' --exclude='webpack.config.*' --exclude='package.json' --exclude='Gruntfile*' --exclude='._.DS_Store' --exclude='bower_components/' --exclude='node_modules/' --exclude='.gitignore' --exclude='.git/' --exclude='*.coffee' --exclude='*.scss' --exclude='*.sass' --exclude='typo3temp' -ap '/Applications/MAMP/htdocs/node-ts/backend/' rsync://127.0.0.1:10871/volume
+          ok  Synced /Applications/MAMP/htdocs/node-ts/backend/
+      output  
+          ok  Cli mode is auto, selecting .. 
+          ok  .. docker-sync 
+     success  Starting to watch /Applications/MAMP/htdocs/node-ts/backend/ - Press CTRL-C to stop
+     command  fswatch --exclude='build' --exclude='facebookstream' --exclude='ondigoconfiguration' --exclude='ondigoforms' --exclude='kieserbooking' --exclude='kieserstudio' --exclude='vendor' --exclude='.*/.git' --exclude='.*/node_modules' --exclude='.*/bower_components' --exclude='.*/sass-cache' --exclude='.*/.sass-cache' --exclude='.*/.sass-cache' --exclude='.coffee' --exclude='.scss' --exclude='.sass' --exclude='.gitignore' --exclude='typo3temp' -orIE --event AttributeModified --event Created --event Link --event MovedFrom --event MovedTo --event Renamed --event Removed --event Updated '/Applications/MAMP/htdocs/node-ts/backend/'  | xargs -I -n1 docker-sync sync -n node-ts-app-sync --config='/Applications/MAMP/htdocs/node-ts/docker-sync.yml'
