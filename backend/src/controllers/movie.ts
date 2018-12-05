@@ -1,10 +1,10 @@
 import Server from '../server/server';
 import { Request, Response } from "express";
-import { userService } from '../services/userService';
+import { movieService } from '../services/movieService';
 import IController from './controller.interface';
 
 export default class UserController implements IController {
-  private baseUrl: string = '/users';
+  private baseUrl: string = '/movies';
 
   init(server: Server): void {
     server.get(this.baseUrl, this.list.bind(this));
@@ -13,14 +13,14 @@ export default class UserController implements IController {
 
   async read(req: Request, res: Response) {
     let id = req.params.id;
-    let user = await userService.find(id);
+    let user = await movieService.find(id);
 
     if (user) res.send(user);
-    else res.status(404).send('User not found');
+    else res.status(404).send('Movie not found');
   }
 
   async list(req: Request, res: Response) {
-    let users = await userService.findAll();
+    let users = await movieService.findAll();
     res.send(users);
   }
 }

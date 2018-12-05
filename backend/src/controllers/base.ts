@@ -13,7 +13,7 @@ export default class BaseController implements IController {
   }
 
   async index(req: Request, res: Response) {
-    res.render('index');
+    // res.render('index');
   }
 
   async stream(req: Request, res: Response) {

@@ -1,12 +1,11 @@
 const stream = require('stream');
 import { wait } from '../utils';
-import { postService } from '../services/postService';
+import { movieService } from '../services/movieService';
 import _logger from '../logger';
 
 export class MongooseDatabaseStreamer extends stream.Readable {
     constructor () {
         super({objectMode: true});
-
         this.fetchNextChunk(1);
     }
 
@@ -14,9 +13,8 @@ export class MongooseDatabaseStreamer extends stream.Readable {
     _read() {}
 
     fetchNextChunk(timeout: number): void {
-        _logger.debug('just a log message 3');
         wait(timeout).then(async () => {
-            let user = await postService.findRandom();
+            let user = await movieService.findRandom();
             this.push(user);
             
             let timeout = Math.floor((Math.random() * 5) + 1);

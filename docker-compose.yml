@@ -1,5 +1,5 @@
 # all variables used in this file are defined in the .env file
-version: "2"
+version: "2.2"
 services:
   node-app-0:
     container_name: ${CONTAINER_NAME_1}
@@ -10,7 +10,7 @@ services:
     depends_on:
       - ${DB_HOST}
     environment:
-      WAIT_HOSTS: mongo:${DB_PORT}
+      WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
       WAIT_HOSTS_TIMEOUT: 150
       ROLE: MASTER
       HOST: ${CONTAINER_NAME_1}
@@ -23,26 +23,27 @@ services:
       BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
       BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
       NODE_ENV: ${NODE_ENV}
-  # node-app-1:
-  #   container_name: ${CONTAINER_NAME_2}
-  #   restart: always
-  #   build: ./backend
-  #   links:
-  #     - ${DB_HOST}
-  #   depends_on:
-  #     - ${DB_HOST}
-  #   environment:
-  #     WAIT_HOSTS: mongo:${DB_PORT}
-  #     WAIT_HOSTS_TIMEOUT: 150
-  #     HOST: ${CONTAINER_NAME_2}
-  #     DB_HOST: ${DB_HOST}
-  #     DB_PORT: ${DB_PORT}
-  #     DB_NAME: ${DB_NAME}
-  #     DB_USER: ${DB_USER}
-  #     DB_PASS: ${DB_PASS}
-  #     SERVER_PORT: ${SERVER_PORT}
-  #     BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
-  #     BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
+  node-app-1:
+    container_name: ${CONTAINER_NAME_2}
+    restart: always
+    build: ./backend
+    links:
+      - ${DB_HOST}
+    depends_on:
+      - ${DB_HOST}
+    environment:
+      WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
+      WAIT_HOSTS_TIMEOUT: 150
+      HOST: ${CONTAINER_NAME_2}
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+      SERVER_PORT: ${SERVER_PORT}
+      BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
+      BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
+      NODE_ENV: ${NODE_ENV}
   frontend:
     container_name: ${CONTAINER_NAME_FRONTEND}
     build: ./frontend
@@ -52,10 +53,25 @@ services:
     user: mongodb
     volumes:
       - node-ts-app-volume:/data/db
-      - .:/usr/src/app
     ports:
       - "${DB_PORT}:${DB_PORT}"
     command: mongod --smallfiles
+  mongo-seed:
+    build: 
+      context: ./backend/db-seed
+      dockerfile: Dockerfile
+    environment:
+      WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
+      WAIT_HOSTS_TIMEOUT: 150
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+    depends_on:
+      - ${DB_HOST}
+    links:
+      - ${DB_HOST}
   loadbalancer:
       build: ./nginx
       tty: true

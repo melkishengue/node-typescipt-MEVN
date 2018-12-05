@@ -1,11 +1,11 @@
-import UserController from './user';
-import PostController from './post';
+import MovieController from './movie';
+import ReviewController from './review';
 import SwaggerController from './swagger';
 import BaseController from './base';
 
 export default [
-  new UserController(),
-  new PostController(),
+  new MovieController(),
+  new ReviewController(),
   new BaseController(),
   new SwaggerController()
-]
+];

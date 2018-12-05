@@ -1,15 +1,15 @@
-import User from '../models/user';
+import Review from '../models/review';
 import MongooseBaseService from './mongooseBaseService';
 import { QueryDataSetting } from './mongooseService.interface';
 import _logger from 'logger';
 
-export class UserService extends MongooseBaseService {
+export class ReviewService extends MongooseBaseService {
 
-  create(pUser: any) {
+  create(pReview: any) {
     return new Promise<any>((resolve: any, reject: any) => {
-      let user = new User(pUser);
-      user.save(pUser).then((dbUser) => {
-        resolve(dbUser);
+      let user = new Review(pReview);
+      user.save(pReview).then((dbReview) => {
+        resolve(dbReview);
       }).catch((error: any) => {
         reject(error);
       })
@@ -17,8 +17,8 @@ export class UserService extends MongooseBaseService {
   }
 
   async query(query: QueryDataSetting): Promise<any> {
-    return await this._execute(User, query);
+    return await this._execute(Review, query);
   }
 }
 
-export const userService = new UserService();
+export const reviewService = new ReviewService();

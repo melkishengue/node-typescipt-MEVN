@@ -1,6 +1,6 @@
 import '../assets/styles.scss';
 
-const source = new EventSource('/stream');
+const source = new EventSource('/api/stream');
 
 source.addEventListener('data', (response) => {
   console.log(response.data);

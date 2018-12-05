@@ -1,10 +1,15 @@
-FROM node:latest
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
-COPY package.json /usr/src/app/
+FROM node:latest AS build
+RUN mkdir -p /app
+WORKDIR /app
+COPY package.json /app
 RUN npm install
-COPY . /usr/src/app
+COPY . /app
+RUN npm run build
 
-CMD [ "npm", "run", "build" ]
+FROM nginx:stable
+RUN mkdir -p /var/www/
+COPY --from=build /app/dist/ /var/www/
+# COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+COPY ./nginx.conf /etc/nginx/nginx.conf
 
-# CMD /wait && npm start
+CMD ["nginx", "-g", "daemon off;"]

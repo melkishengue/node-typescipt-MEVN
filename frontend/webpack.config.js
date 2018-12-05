@@ -1,13 +1,17 @@
 const { resolve } = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: '[name].[contenthash].js',
+      path: resolve(__dirname, 'dist')
   },
   plugins: [
-    
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: 'assets/index.html'
+    })
   ],
   module: {
     rules: [{

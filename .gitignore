@@ -6,3 +6,4 @@ npm-debug.log
 docker
 .env_dev
 _nodemon.json
+.docker-sync
