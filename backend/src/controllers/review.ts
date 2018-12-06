@@ -13,14 +13,14 @@ export default class PostController implements IController {
 
   async read(req: Request, res: Response) {
     let id = req.params.id;
-    let post = await reviewService.find(id);
+    let review = await reviewService.find(id);
 
-    if (post) res.send(post);
-    else res.status(404).send('Post not found');
+    if (review) res.send(review);
+    else res.status(404).send('Review not found');
   }
 
   async listAll(req: Request, res: Response) {
-    let posts = await reviewService.findAll();
-    res.send(posts);
+    let reviews = await reviewService.findAll();
+    res.send(reviews);
   }
 }

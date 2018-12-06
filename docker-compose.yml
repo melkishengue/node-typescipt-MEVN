@@ -77,12 +77,12 @@ services:
       tty: true
       links:
           - ${CONTAINER_NAME_1}
-          # - ${CONTAINER_NAME_2}
+          - ${CONTAINER_NAME_2}
       ports:
           - '8080:8080'
       depends_on:
       - ${CONTAINER_NAME_1}
-      # - ${CONTAINER_NAME_2}
+      - ${CONTAINER_NAME_2}
 volumes:
   node-ts-app-volume:
         external: true

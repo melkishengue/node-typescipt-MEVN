@@ -13,14 +13,14 @@ export default class UserController implements IController {
 
   async read(req: Request, res: Response) {
     let id = req.params.id;
-    let user = await movieService.find(id);
+    let movie = await movieService.find(id);
 
-    if (user) res.send(user);
+    if (movie) res.send(movie);
     else res.status(404).send('Movie not found');
   }
 
   async list(req: Request, res: Response) {
-    let users = await movieService.findAll();
-    res.send(users);
+    let movies = await movieService.findAll();
+    res.send(movies);
   }
 }
