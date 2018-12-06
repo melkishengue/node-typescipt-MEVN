@@ -56,3 +56,8 @@ ssh-$(CONTAINER_NAME_1):
 
 ssh-$(CONTAINER_NAME_2):
 	docker exec -it $(CONTAINER_NAME_2) bash
+
+git:
+	git add .
+	git commit -m "$(message)"
+	git push
