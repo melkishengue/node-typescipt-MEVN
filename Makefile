@@ -58,6 +58,7 @@ ssh-$(CONTAINER_NAME_2):
 	docker exec -it $(CONTAINER_NAME_2) bash
 
 git:
+	# e.g: make git m="Added frontend"
 	git add .
-	git commit -m "$(message)"
+	git commit -m "$(m)"
 	git push
