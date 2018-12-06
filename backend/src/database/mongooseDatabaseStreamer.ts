@@ -14,8 +14,8 @@ export class MongooseDatabaseStreamer extends stream.Readable {
 
     fetchNextChunk(timeout: number): void {
         wait(timeout).then(async () => {
-            let user = await movieService.findRandom();
-            this.push(user);
+            let movie = await movieService.findRandom();
+            this.push(movie);
             
             let timeout = Math.floor((Math.random() * 5) + 1);
             this.fetchNextChunk(timeout*1000);
