@@ -6,7 +6,7 @@ For bringing types into javascript
 ### MongoDB
 As database (you probably guessed it!)
 ### Graphql
-For quering datas from the client
+For querying datas from the client
 ### Docker & docker-compose
 For containerizing and deploying/managing the application (different services).
 When the app starts, multiple containers are started:
@@ -18,7 +18,7 @@ When the app starts, multiple containers are started:
     - the frontend container for building assets (js, css, html) for the [future] client application.
 
 ## Running the application
-Prerequisites: **[Docker](https://www.docker.com/) and make** (make is preinstalled on unix computers, can be installed on windows) has to be installed on the host machine.
+Prerequisites: **[Docker](https://www.docker.com/) and make** (make is preinstalled on unix computers, can be installed on windows) have to be installed on the host machine.
 
 First clone this repo
  `git clone https://github.com/melkishengue/node-typescipt-ME-N.git`

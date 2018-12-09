@@ -7,6 +7,7 @@ COPY . /seed
 ADD https://github.com/ufoscout/docker-compose-wait/releases/download/2.2.1/wait /wait
 RUN chmod +x /wait
 
+# connects to the mongo db host and seeds datas
 CMD /wait && mongoimport --drop --host ${DB_HOST} --port ${DB_PORT} --db ${DB_NAME} --collection movies --type json --file /seed/movies.json --jsonArray \
     && mongoimport --drop --host ${DB_HOST} --port ${DB_PORT} --db ${DB_NAME} --collection movieDetails --type json --file /seed/movieDetails.json --jsonArray \
     && mongoimport --drop --host ${DB_HOST} --port ${DB_PORT} --db ${DB_NAME} --collection moviesScratch --type json --file /seed/moviesScratch.json --jsonArray \
