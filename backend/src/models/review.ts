@@ -1,12 +1,14 @@
-import { Schema, Model, model, Document } from "mongoose";
+import { Schema, Model, Document } from "mongoose";
 import MongooseDatabaseProvider from '../database/mongooseDatabaseProvider';
 
-interface IReviewModel extends Document {
+export interface IReview {
   "rating": number,
   "date": Date,
   "reviewer": string,
   "text": string
 };
+
+interface IReviewModel extends IReview, Document {};
 
 // TODO: do we really need to define the types twice ?!
 const ReviewSchema: Schema = new Schema({

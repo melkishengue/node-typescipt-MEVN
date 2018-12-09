@@ -1,10 +1,9 @@
 import Server from './server/server';
 import IController from './controllers/controller.interface';
+import IMiddleware from './middlewares/middleware.interface';
 import { IDatabaseConfiguration } from './database/databaseProvider.interface';
 import MongooseDatabaseProvider from './database/mongooseDatabaseProvider';
-import { Request, Response } from "express";
 import _logger from './logger';
-import bodyParser from 'body-parser';
 
 _logger.debug('Environment is set to ', process.env.NODE_ENV);
 
@@ -19,13 +18,12 @@ let databaseConfiguration: IDatabaseConfiguration = {
 MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
   // controllers and the database seeder use models, so we need to load them after database initialization
   let controllers = (await import('./controllers/')).default;
+  let middlewares = (await import('./middlewares/')).default;
 
   let server = new Server(+process.env.SERVER_PORT || 3000);
-
-  server.addMiddleware(bodyParser.json());
-  server.addMiddleware((req: Request, res: Response, next: Function) => {
-    _logger.debug(`${process.env.HOST}: ${req.method} ${req.url}`);
-    next();
+  
+  middlewares.forEach((middleware: IMiddleware) => {
+    server.addMiddleware(middleware);
   });
 
   controllers.forEach((controller: IController) => {

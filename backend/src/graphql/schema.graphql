@@ -1,0 +1,24 @@
+type Movie {
+    _id: ID!
+    title: String
+    year: String
+    imdb: String
+}
+
+type Review {
+    _id: ID!
+    rating: Float
+    date: String
+    reviewer: String
+    text: String
+}
+
+type Query {
+    movies: [Movie]
+    reviews: [Review]
+}
+
+type Mutation {
+    createMovie(title: String, year: String, imdb: String, type: String): Movie
+    createReview(rating: Float, date: String, reviewer: String, text: String): Review
+} 

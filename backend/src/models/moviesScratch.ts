@@ -1,11 +1,13 @@
 import { Schema, Model, Document } from "mongoose";
 import MongooseDatabaseProvider from '../database/mongooseDatabaseProvider';
 
-interface IMovieScratchModel extends Document {
+export interface IMovieScratch {
   "year": number,
   "title": string,
   "type": string
 };
+
+interface IMovieScratchModel extends IMovieScratch, Document {};
 
 const MovieScratchSchema: Schema = new Schema({
     "year": Number,

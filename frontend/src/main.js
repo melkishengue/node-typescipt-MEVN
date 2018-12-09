@@ -10,4 +10,4 @@ source.addEventListener('data', (response) => {
   div.innerHTML = response.data;
   div.className = 'data-element';
   container.prepend(div);
-})
+});

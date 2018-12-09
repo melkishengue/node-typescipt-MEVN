@@ -1,6 +1,7 @@
 import express from 'express';
 import IController from '../controllers/controller.interface';
 import _logger from '../logger';
+import IMiddleware from '../middlewares/middleware.interface';
 
 export interface IServer {
   get(url: string, handler: express.Router): void;
@@ -35,9 +36,14 @@ export default class Server implements IServer {
     this.addRoute('delete', url, handler);
   }
 
+  middleware(url: string, fn: express.RequestHandler) {
+    this.addRoute('use', url, fn);
+  }
+
   private addRoute(method: string, url: string, handler: express.RequestHandler) {
     (this.app as any)[method](url, handler);
-    _logger.debug(`New routed added at ${method} ${url}`);
+    let type = method === 'use' ? 'middleware' : 'route';
+    _logger.debug(`New ${type} added at ${method} ${url}`);
   }
 
   start(): void {
@@ -50,8 +56,8 @@ export default class Server implements IServer {
     controller.init(this);
   }
 
-  addMiddleware(fn: any) {
-    this.app.use(fn);
+  addMiddleware(middleware: IMiddleware) {
+    middleware.init(this);
   }
 
   config(key: string, value: string): void{

@@ -2,9 +2,9 @@ version: "2.2"
 services:
   node-app-0:
     volumes:
-      - node-ts-app-sync-volume:/usr/src/app:rw # will be mounted on /var/www
-
-# that the important thing
-volumes:
-  node-ts-app-sync-volume:
-    external: true
+      - ./backend:/usr/src/app # will be mounted on /usr/src/app
+      - /usr/src/app/node_modules
+  # frontend:
+  #   volumes:
+  #     - ./frontend:/app
+  #     - /app/node_modules/ # ignore node_modules https://stackoverflow.com/questions/29181032/add-a-volume-to-docker-but-exclude-a-sub-folder

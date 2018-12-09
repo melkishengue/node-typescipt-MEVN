@@ -1,11 +1,13 @@
 import { Schema, Model, Document } from "mongoose";
 import MongooseDatabaseProvider from '../database/mongooseDatabaseProvider';
 
-interface IMovieModel extends Document {
+export interface IMovie {
   "year": number,
   "title": string,
   "imdb": string
 };
+
+export interface IMovieModel extends IMovie, Document {};
 
 const MovieSchema: Schema = new Schema({
   "year": Number,

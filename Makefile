@@ -3,7 +3,7 @@ export COMPOSE_PROJECT_NAME=$(PROJECT_NAME)
 
 setup: docker-sync-install
 
-start: prepare up
+start: clean prepare up
 
 sync-start:
 	docker-sync start
