@@ -26,6 +26,9 @@ First clone this repo
 Then 
  `cd node-typescipt-ME-N`
 
+Run tests:
+  `make test`
+
 Run the app:
  `make start` That's it 😎
 

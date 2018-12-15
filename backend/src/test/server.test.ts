@@ -1,6 +1,4 @@
 import Server from '../server/server';
-import { IServer } from '../server/server';
-import sinon from 'sinon';
 import express from 'express';
 
 let server: Server;
