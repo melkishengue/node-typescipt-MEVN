@@ -3,7 +3,7 @@ import IMiddleware from './middleware.interface';
 import { Request, Response } from "express";
 import _logger from '../logger';
 
-export default class BodyParsermiddleware implements IMiddleware {
+export default class RequestLogger implements IMiddleware {
   private _baseUrl = '/';
   
   init(server: Server): void {

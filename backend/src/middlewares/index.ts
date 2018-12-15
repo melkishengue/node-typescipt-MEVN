@@ -1,9 +1,9 @@
-import BodyParserMiddleware from './bodyParser';
-import requestLoggerMiddleware from './requestLoggerMiddleware';
-import GraphqlMiddleware from './graphql';
+import BodyParser from './bodyParser';
+import RequestLogger from './requestLogger';
+import Graphql from './graphql';
 
 export default [
-  new BodyParserMiddleware(),
-  new requestLoggerMiddleware(),
-  new GraphqlMiddleware()
+  new BodyParser(),
+  new RequestLogger(),
+  new Graphql()
 ];

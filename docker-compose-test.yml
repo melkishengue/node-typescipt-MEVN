@@ -1,0 +1,26 @@
+# all variables used in this file are defined in the .env file
+version: "2.2"
+services:
+  node-app-0:
+    container_name: ${CONTAINER_NAME_1}
+    restart: always
+    build:
+      context: ./backend
+      dockerfile: Dockerfile-test
+    environment:
+      WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
+      WAIT_HOSTS_TIMEOUT: 150
+      ROLE: MASTER
+      HOST: ${CONTAINER_NAME_1}
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+      SERVER_PORT: ${SERVER_PORT}
+      BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
+      BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
+      NODE_ENV: ${NODE_ENV}
+volumes:
+  node-ts-app-volume:
+        external: true

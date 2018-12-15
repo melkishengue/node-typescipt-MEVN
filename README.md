@@ -59,5 +59,6 @@ To stop the app:
 
 - add auth for mongoDB
 - add swagger for API documentation (first solve the problem of redefinintion of models accross different parts of the application: graphql, mongoose, typescript and swagger...)
+- convert the compose file to version 3
 - deploy the app with kubernetes/rancher
 - writing tests

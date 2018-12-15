@@ -9,6 +9,7 @@ export interface IServer {
   put(url: string, handler: express.Router): void;
   delete(url: string, handler: express.Router): void;
   start(): void;
+  middleware(url: string, fn: express.RequestHandler): void;
 }
 
 export default class Server implements IServer {
@@ -18,6 +19,14 @@ export default class Server implements IServer {
   constructor(port: number) {
     this.app = express();
     this.port = port;
+  }
+
+  getApp(): express.Application {
+    return this.app;
+  }
+
+  setApp(app: express.Application) {
+    this.app = app;
   }
 
   get(url: string, handler: express.RequestHandler) {
