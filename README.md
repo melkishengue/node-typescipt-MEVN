@@ -32,7 +32,7 @@ Run tests:
 Run the app:
  `make start` That's it 😎
 
-When the installation is completed, visit [localhost:8080/graphql](localhost:8080/graphql).
+When the installation is completed, visit the graphiql endoint at [localhost:8080/graphql](localhost:8080/graphql) the movies page at [localhost:9000](localhost:9000).
 2 schemas have been defined: movies and reviews. You can query against them using [graphql queries](https://graphql.org/learn/queries/) :
 
 E.g.:
