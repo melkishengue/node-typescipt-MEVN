@@ -1,8 +1,6 @@
 import mongoose from 'mongoose';
 import { IDatabaseProvider, IDatabaseConfiguration } from './databaseProvider.interface';
-import { Promise } from 'es6-promise';
 import _logger from '../logger';
-// global.Promise = Promise;
 
 export default class MongooseDatabaseProvider implements IDatabaseProvider {
   private static connection: mongoose.Connection;
@@ -25,7 +23,8 @@ export default class MongooseDatabaseProvider implements IDatabaseProvider {
       let conf = MongooseDatabaseProvider.databaseConfiguration;
       let url: string = `mongodb://${conf.username}:${conf.password}@${conf.host}:${conf.port}/${conf.database}`;
       _logger.debug(`Connecting to mongoDB on host ${conf.host}`);
-      
+
+      mongoose.set('debug', process.env.NODE_ENV == 'DEV');
       mongoose.connect(url, {useNewUrlParser: true});
       MongooseDatabaseProvider.connection = mongoose.connection;
 

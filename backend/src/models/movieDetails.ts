@@ -82,6 +82,6 @@ const MovieDetailsSchema: Schema = new Schema({
 });
 
 let connection = MongooseDatabaseProvider.getConnection();
-const MovieDetails: Model<IMovieDetailsModel> = connection.model<IMovieDetailsModel>("MovieDetails", MovieDetailsSchema);
+const MovieDetails: Model<IMovieDetailsModel> = connection.model<IMovieDetailsModel>("moviedetail", MovieDetailsSchema);
 
 export default MovieDetails;

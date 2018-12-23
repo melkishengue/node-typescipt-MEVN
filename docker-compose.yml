@@ -47,6 +47,11 @@ services:
   frontend:
     container_name: ${CONTAINER_NAME_FRONTEND}
     build: ./frontend
+    ports:
+      # DEV: the port inside and outside must be the same.
+      # webpack dev server hot reloading tries to connect directly to the port
+      # inside the container (not possible if not the same port)
+      - '9000:9000'
   mongo:
     container_name: ${DB_HOST}
     image: mongo
@@ -73,16 +78,19 @@ services:
     links:
       - ${DB_HOST}
   loadbalancer:
-      build: ./nginx
-      tty: true
-      links:
-          - ${CONTAINER_NAME_1}
-          # - ${CONTAINER_NAME_2}
-      ports:
-          - '8080:8080'
-      depends_on:
+    build: ./nginx
+    tty: true
+    links:
       - ${CONTAINER_NAME_1}
       # - ${CONTAINER_NAME_2}
+      # - frontend
+    ports:
+      - '8080:8080'
+      - '8081:8081'
+    depends_on:
+      - ${CONTAINER_NAME_1}
+    # - ${CONTAINER_NAME_2}
+      # - frontend
 volumes:
   node-ts-app-volume:
-        external: true
+    external: true

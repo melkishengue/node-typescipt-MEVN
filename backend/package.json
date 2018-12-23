@@ -31,10 +31,12 @@
     "ts-node": "^7.0.1"
   },
   "dependencies": {
+    "@types/cors": "^2.8.4",
     "@types/http-errors": "^1.6.1",
     "axios": "^0.18.0",
     "basic-auth": "^2.0.1",
     "bluebird": "^3.5.2",
+    "cors": "^2.8.5",
     "debug": "^4.1.0",
     "dotenv": "^6.1.0",
     "express": "^4.16.4",

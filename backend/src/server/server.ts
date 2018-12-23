@@ -9,12 +9,13 @@ export interface IServer {
   put(url: string, handler: express.Router): void;
   delete(url: string, handler: express.Router): void;
   start(): void;
-  middleware(url: string, fn: express.RequestHandler): void;
+  middleware(url: string, fn: express.RequestHandler, onRoot: boolean, name: string): void;
 }
 
 export default class Server implements IServer {
   protected app: express.Application;
   private port: number;
+  private baseUrl: String = "/api";
 
   constructor(port: number) {
     this.app = express();
@@ -29,35 +30,47 @@ export default class Server implements IServer {
     this.app = app;
   }
 
+  getPort(): number {
+    return this.port;
+  }
+
   get(url: string, handler: express.RequestHandler) {
-    this.addRoute('get', url, handler);
+    this.addRoute('get', `${this.baseUrl}${url}`, handler, undefined);
   }
 
   post(url: string, handler: express.RequestHandler) {
-    this.addRoute('post', url, handler);
+    this.addRoute('post', `${this.baseUrl}${url}`, handler, undefined);
   }
 
   put(url: string, handler: express.RequestHandler) {
-    this.addRoute('put', url, handler);
+    this.addRoute('put', `${this.baseUrl}${url}`, handler, undefined);
   }
 
   delete(url: string, handler: express.RequestHandler) {
-    this.addRoute('delete', url, handler);
+    this.addRoute('delete', `${this.baseUrl}${url}`, handler, undefined);
   }
 
-  middleware(url: string, fn: express.RequestHandler) {
-    this.addRoute('use', url, fn);
+  options(url: string, handler: express.RequestHandler) {
+    this.addRoute('options', `${this.baseUrl}${url}`, handler, undefined);
   }
 
-  private addRoute(method: string, url: string, handler: express.RequestHandler) {
+  middleware(url: string, fn: express.RequestHandler, onRoot: boolean, name: String) {
+    let _url: string = onRoot ? "*" : `${this.baseUrl}${url}`;
+    this.addRoute('use', _url, fn, name);
+  }
+
+  private addRoute(method: string, url: string, handler: express.RequestHandler, name: String) {
     (this.app as any)[method](url, handler);
-    let type = method === 'use' ? 'middleware' : 'route';
+    let type = method === 'use' ? `middleware ${name}` : 'route';
     _logger.debug(`New ${type} added at ${method} ${url}`);
   }
 
-  start(): void {
-    this.app.listen(this.port, () => {
-      _logger.debug(`server started on port ${this.port}`);
+  start(): Promise<string> {
+    return new Promise((resolve, reject) => {
+      this.app.listen(this.port, (err: Error) => {
+        if (err) reject(err);
+        resolve(`Server started on port ${this.port}`);
+      })
     })
   }
 

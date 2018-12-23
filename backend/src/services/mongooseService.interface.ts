@@ -6,6 +6,7 @@ export interface QueryDataSetting {
     field?: string,
     order?: number
   }
+  populate?: string
 }
 
 export interface IMongooseService {

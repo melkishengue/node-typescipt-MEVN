@@ -1,8 +1,55 @@
+type imdbType {
+    id: String
+    rating: Int
+    votes: Int
+}
+
+type tomatoType {
+    meter: Int
+    image: String
+    rating: Int
+    reviews: Int
+    fresh: Int
+    consensus: String
+    userMeter: Int
+    userRating: Int
+    userReviews: Int
+}
+
+type awardsType {
+    wins: Int
+    nominations: Int
+    text: String
+    type: String
+
+}
+
+type movieDetails {
+    _id: ID!
+    year: Int
+    title: String
+    rated: String
+    released: String
+    runtime: Int
+    countries: [String]
+    genres: [String]
+    director: String
+    writers: [String]
+    actors: [String]
+    plot: String
+    poster: String
+    imdb: imdbType
+    tomato: tomatoType
+    metacritic: Int
+    awards: awardsType
+}
+
 type Movie {
     _id: ID!
     title: String
     year: String
     imdb: String
+    details: [movieDetails]
 }
 
 type Review {

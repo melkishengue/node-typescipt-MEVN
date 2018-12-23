@@ -1,13 +1,12 @@
-import '../assets/styles.scss';
+import Vue from 'vue'
+import App from './App.vue'
+import { store } from 'Src/store/store';
 
-const source = new EventSource('/api/stream');
+import styles from "../assets/styles.scss";
 
-source.addEventListener('data', (response) => {
-  console.log(response.data);
+Vue.config.productionTip = false;
 
-  let container = document.querySelector('#container');
-  let div = document.createElement('div');
-  div.innerHTML = response.data;
-  div.className = 'data-element';
-  container.prepend(div);
-});
+new Vue({
+  store,
+  render: h => h(App) 
+}).$mount('#app')

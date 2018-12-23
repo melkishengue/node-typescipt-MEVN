@@ -6,6 +6,6 @@ export default class BodyParserMiddleware implements IMiddleware {
   private _baseUrl = '/';
 
   init(server: Server): void {
-    server.middleware(this._baseUrl, bodyParser.json());
+    server.middleware(this._baseUrl, bodyParser.json(), false, 'bodyparser');
   }
 }

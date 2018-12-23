@@ -1,33 +1,35 @@
 import Server from '../server/server';
 import express from 'express';
 
-let server: Server;
-let app: express.Application = express();
-const fakeMiddlewareFn = (req: any, res: any, next: any) => {next()};
-beforeEach(() => {
-    server = new Server(3000);
-    // stub functions to be able to check if the method will be called
-    app.use = jest.fn();
-    app.get = jest.fn();
-    app.post = jest.fn();
-    app.put = jest.fn();
-    app.delete = jest.fn();
-    server.setApp(app);
-});
-
-const testMethodCalled = (method: string, url: string,  middleware: Function, message: string) => {
+const testExpressMethodCalled = (method: string, url: string,  middleware: Function, message: string) => {
     test(message, () => {
         server[method](url, middleware);
         expect(server.getApp()[method]).toBeCalled();
     });
 }
 
-const testMethodCalledWith = (method: string, url: string,  middleware: Function, message: string) => {
+const testExpressMethodCalledWith = (method: string, url: string,  middleware: Function, message: string) => {
     test(message, () => {
         server[method](url, middleware);
         expect(server.getApp()[method]).toBeCalledWith(url, middleware);
     });
 }
+let server: Server;
+let app: express.Application = express();
+const fakeMiddlewareFn = (req: any, res: any, next: any) => {next()};
+const PORT = 3000;
+beforeEach(() => {
+    server = new Server(PORT);
+    // stub functions to be able to check if the method will be called
+    app.use = jest.fn();
+    app.get = jest.fn();
+    app.post = jest.fn();
+    app.put = jest.fn();
+    app.delete = jest.fn();
+    app.listen = jest.fn();
+
+    server.setApp(app);
+});
 
 // test server.middleware
 test('server.middleware: use method should be called', () => {
@@ -41,13 +43,13 @@ test('server.middleware: use method should be called with the url and the middle
 });
 
 // test server.get
-testMethodCalled(
+testExpressMethodCalled(
     'get',
     '/',
     fakeMiddlewareFn,
     'server.get: post method should be called with the url and the route handler passed',
 );
-testMethodCalledWith(
+testExpressMethodCalledWith(
     'get',
     '/',
     fakeMiddlewareFn,
@@ -55,13 +57,13 @@ testMethodCalledWith(
 );
 
 // test server.post
-testMethodCalled(
+testExpressMethodCalled(
     'post',
     '/',
     fakeMiddlewareFn,
     'server.post: post method should be called with the url and the route handler passed',
 );
-testMethodCalledWith(
+testExpressMethodCalledWith(
     'post',
     '/',
     fakeMiddlewareFn,
@@ -69,13 +71,13 @@ testMethodCalledWith(
 );
 
 // test server.put
-testMethodCalled(
+testExpressMethodCalled(
     'put',
     '/',
     fakeMiddlewareFn,
     'server.put: put method should be called with the url and the route handler passed',
 );
-testMethodCalledWith(
+testExpressMethodCalledWith(
     'put',
     '/',
     fakeMiddlewareFn,
@@ -83,16 +85,34 @@ testMethodCalledWith(
 );
 
 // test server.delete
-testMethodCalled(
+testExpressMethodCalled(
     'delete',
     '/',
     fakeMiddlewareFn,
     'server.delete: delete method should be called with the url and the route handler passed',
 );
 
-testMethodCalledWith(
+testExpressMethodCalledWith(
     'delete',
     '/',
     fakeMiddlewareFn,
     'server.delete: delete method should be called with the url and the route handler passed',
 );
+
+// test server.start
+test('server.start: app.listen should be called', () => {
+    server.start();
+    expect(server.getApp().listen).toBeCalled();
+});
+
+test('server.start: app.listen should be called with port as 1st parameter', () => {
+    // expect.assertions(1);
+
+    // return server.start().then(() => {
+    //     console.log('server.getApp().listen', server.getApp().listen);
+    //     expect(server.getApp().listen.mock.calls[0][0]).toBe(PORT);
+    // });
+
+    server.start(); 
+    expect(server.getApp().listen).toBeCalledWith(3000);
+});

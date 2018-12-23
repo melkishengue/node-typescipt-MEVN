@@ -10,6 +10,6 @@ export default class RequestLogger implements IMiddleware {
     server.middleware(this._baseUrl, (req: Request, res: Response, next: Function) => {
       _logger.debug(`${process.env.HOST}: ${req.method} ${req.url}`);
       next();
-    });
+    }, true, 'requestLogger');
   }
 }

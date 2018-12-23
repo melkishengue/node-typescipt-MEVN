@@ -24,18 +24,19 @@ export default class GraphqlMiddleware implements IMiddleware {
             schema: this._schema,
             rootValue: {
                 movies: () => {
-                    return movieService.findAll()
+                    return movieService.findAllMovies()
                 },
-                reviews: () => {
+                reviews: () => { 
                     return reviewService.findAll()
                 },
                 createMovie: async (args: any) => {
-                    const { year, title, imdb } = args;
+                    const { year, title, imdb, type } = args;
 
                     let movie: IMovie = {
                         year,
                         title,
-                        imdb
+                        imdb,
+                        type
                     };
 
                     return await movieService.create(movie);
@@ -54,6 +55,6 @@ export default class GraphqlMiddleware implements IMiddleware {
                 }
             },
             graphiql: true
-        }));
+        }), false, 'graphql');
     }
 }

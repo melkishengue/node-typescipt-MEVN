@@ -1,0 +1,5564 @@
+[
+    {
+    "_id": "56918f5e24de1e0ce2dfccc3",
+    "title": "Once Upon a Time in the West",
+    "year": 1968,
+    "imdb": "tt0064116",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190ca24de1e0ce2dfcd4f",
+    "title": "Once Upon a Time in the West",
+    "year": 1968,
+    "rated": "PG-13",
+    "released": "1968-12-21T05:00:00.000Z",
+    "runtime": 175,
+    "countries": [
+    "Italy",
+    "USA",
+    "Spain"
+    ],
+    "genres": [
+    "Western"
+    ],
+    "director": "Sergio Leone",
+    "writers": [
+    "Sergio Donati",
+    "Sergio Leone",
+    "Dario Argento",
+    "Bernardo Bertolucci",
+    "Sergio Leone"
+    ],
+    "actors": [
+    "Claudia Cardinale",
+    "Henry Fonda",
+    "Jason Robards",
+    "Charles Bronson"
+    ],
+    "plot": "Epic story of a mysterious stranger with a harmonica who joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTEyODQzNDkzNjVeQTJeQWpwZ15BbWU4MDgyODk1NDEx._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0064116",
+    "rating": 8.6,
+    "votes": 201283
+    },
+    "tomato": {
+    "meter": 98,
+    "image": "certified",
+    "rating": 9,
+    "reviews": 54,
+    "fresh": 53,
+    "consensus": "A landmark Sergio Leone spaghetti western masterpiece featuring a classic Morricone score.",
+    "userMeter": 95,
+    "userRating": 4.3,
+    "userReviews": 64006
+    },
+    "metacritic": 80,
+    "awards": {
+    "wins": 4,
+    "nominations": 5,
+    "text": "4 wins & 5 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccc4",
+    "title": "A Million Ways to Die in the West",
+    "year": 2014,
+    "imdb": "tt2557490",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cb24de1e0ce2dfcd50",
+    "title": "A Million Ways to Die in the West",
+    "year": 2014,
+    "rated": "R",
+    "released": "2014-05-30T04:00:00.000Z",
+    "runtime": 116,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Western"
+    ],
+    "director": "Seth MacFarlane",
+    "writers": [
+    "Seth MacFarlane",
+    "Alec Sulkin",
+    "Wellesley Wild"
+    ],
+    "actors": [
+    "Seth MacFarlane",
+    "Charlize Theron",
+    "Amanda Seyfried",
+    "Liam Neeson"
+    ],
+    "plot": "As a cowardly farmer begins to fall for the mysterious new woman in town, he must put his new-found courage to the test when her husband, a notorious gun-slinger, announces his arrival.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ0NDcyNjg0MV5BMl5BanBnXkFtZTgwMzk4NTA4MTE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt2557490",
+    "rating": 6.1,
+    "votes": 126592
+    },
+    "tomato": {
+    "meter": 33,
+    "image": "rotten",
+    "rating": 4.9,
+    "reviews": 188,
+    "fresh": 62,
+    "consensus": "While it offers a few laughs and boasts a talented cast, Seth MacFarlane's overlong, aimless A Million Ways to Die in the West is a disappointingly scattershot affair.",
+    "userMeter": 40,
+    "userRating": 3,
+    "userReviews": 62945
+    },
+    "metacritic": 44,
+    "awards": {
+    "wins": 0,
+    "nominations": 6,
+    "text": "6 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccc5",
+    "title": "Wild Wild West",
+    "year": 1999,
+    "imdb": "tt0120891",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cb24de1e0ce2dfcd51",
+    "title": "Wild Wild West",
+    "year": 1999,
+    "rated": "PG-13",
+    "released": "1999-06-30T04:00:00.000Z",
+    "runtime": 106,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Western",
+    "Comedy"
+    ],
+    "director": "Barry Sonnenfeld",
+    "writers": [
+    "Jim Thomas",
+    "John Thomas",
+    "S.S. Wilson",
+    "Brent Maddock",
+    "Jeffrey Price",
+    "Peter S. Seaman"
+    ],
+    "actors": [
+    "Will Smith",
+    "Kevin Kline",
+    "Kenneth Branagh",
+    "Salma Hayek"
+    ],
+    "plot": "The two best hired guns in the West must save President Grant from the clutches of a nineteenth-century inventor-villain.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNDI5NDk5MjgxMl5BMl5BanBnXkFtZTcwNjI1MTUyMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0120891",
+    "rating": 4.8,
+    "votes": 124558
+    },
+    "tomato": {
+    "meter": 17,
+    "image": "rotten",
+    "rating": 4.1,
+    "reviews": 130,
+    "fresh": 22,
+    "consensus": "Bombastic, manic, and largely laugh-free, Wild Wild West is a bizarre misfire in which greater care was lavished upon the special effects than on the script.",
+    "userMeter": 28,
+    "userRating": 2.7,
+    "userReviews": 463740
+    },
+    "metacritic": 38,
+    "awards": {
+    "wins": 10,
+    "nominations": 11,
+    "text": "10 wins & 11 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccc6",
+    "title": "West Side Story",
+    "year": 1961,
+    "imdb": "tt0055614",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cb24de1e0ce2dfcd52",
+    "title": "West Side Story",
+    "year": 1961,
+    "rated": "UNRATED",
+    "released": "1961-12-23T05:00:00.000Z",
+    "runtime": 152,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Crime",
+    "Drama",
+    "Musical"
+    ],
+    "director": "Jerome Robbins, Robert Wise",
+    "writers": [
+    "Ernest Lehman",
+    "Arthur Laurents",
+    "Jerome Robbins"
+    ],
+    "actors": [
+    "Natalie Wood",
+    "Richard Beymer",
+    "Russ Tamblyn",
+    "Rita Moreno"
+    ],
+    "plot": "Two youngsters from rival New York City gangs fall in love, but tensions between their respective friends build toward tragedy.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTM0NDAxOTI5MF5BMl5BanBnXkFtZTcwNjI4Mjg3NA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0055614",
+    "rating": 7.6,
+    "votes": 67824
+    },
+    "awards": {
+    "wins": 18,
+    "nominations": 11,
+    "text": "Won 10 Oscars. Another 18 wins & 11 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccc7",
+    "title": "Slow West",
+    "year": 2015,
+    "imdb": "tt3205376",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cb24de1e0ce2dfcd53",
+    "title": "Slow West",
+    "year": 2015,
+    "rated": "R",
+    "released": "2015-04-16T04:00:00.000Z",
+    "runtime": 84,
+    "countries": [
+    "UK",
+    "New Zealand"
+    ],
+    "genres": [
+    "Action",
+    "Thriller",
+    "Western"
+    ],
+    "director": "John Maclean",
+    "writers": [
+    "John Maclean"
+    ],
+    "actors": [
+    "Kodi Smit-McPhee",
+    "Michael Fassbender",
+    "Ben Mendelsohn",
+    "Aorere Paki"
+    ],
+    "plot": "A young Scottish man travels across America in pursuit of the woman he loves, attracting the attention of an outlaw who is willing to serve as a guide.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNTYxNDA5ODk5NF5BMl5BanBnXkFtZTgwNzMwMzIwNTE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt3205376",
+    "rating": 7,
+    "votes": 19101
+    },
+    "tomato": {
+    "meter": 92,
+    "image": "certified",
+    "rating": 7.5,
+    "reviews": 115,
+    "fresh": 106,
+    "consensus": "Slow West serves as an impressive calling card for first-time writer-director John M. Maclean -- and offers an inventive treat for fans of the Western.",
+    "userMeter": 75,
+    "userRating": 3.7,
+    "userReviews": 9850
+    },
+    "metacritic": 72,
+    "awards": {
+    "wins": 2,
+    "nominations": 9,
+    "text": "2 wins & 9 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccc8",
+    "title": "An American Tail: Fievel Goes West",
+    "year": 1991,
+    "imdb": "tt0101329",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cb24de1e0ce2dfcd54",
+    "title": "An American Tail: Fievel Goes West",
+    "year": 1991,
+    "rated": "G",
+    "released": "1991-11-22T05:00:00.000Z",
+    "runtime": 75,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Animation",
+    "Adventure",
+    "Family"
+    ],
+    "director": "Phil Nibbelink, Simon Wells",
+    "writers": [
+    "Flint Dille",
+    "Charles Swenson",
+    "David Kirschner"
+    ],
+    "actors": [
+    "Phillip Glasser",
+    "James Stewart",
+    "Erica Yohn",
+    "Cathy Cavadini"
+    ],
+    "plot": "A family of Emigre mice decide to move out to the west, unaware that they are falling into a trap perpetrated by a smooth talking cat.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTYzODMxNTUyNF5BMl5BanBnXkFtZTcwMTAwMzQyMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0101329",
+    "rating": 6.4,
+    "votes": 16013
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 0,
+    "text": ""
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccc9",
+    "title": "Red Rock West",
+    "year": 1993,
+    "imdb": "tt0105226",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cc24de1e0ce2dfcd55",
+    "title": "Red Rock West",
+    "year": 1993,
+    "rated": "R",
+    "released": "1993-05-14T04:00:00.000Z",
+    "runtime": 98,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+    ],
+    "director": "John Dahl",
+    "writers": [
+    "John Dahl",
+    "Rick Dahl"
+    ],
+    "actors": [
+    "Nicolas Cage",
+    "Dennis Hopper",
+    "Lara Flynn Boyle",
+    "J.T. Walsh"
+    ],
+    "plot": "When a promised job for Texan Michael fails to materialise in Wyoming, Mike is mistaken by Wayne to be the hitman he hired to kill his unfaithful wife, Suzanne. Mike takes full advantage of...",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTk0Mjg4OTc3OF5BMl5BanBnXkFtZTYwNzgzOTg5._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0105226",
+    "rating": 7,
+    "votes": 15007
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 3,
+    "text": "3 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccca",
+    "title": "How the West Was Won",
+    "year": 1962,
+    "imdb": "tt0056085",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cc24de1e0ce2dfcd56",
+    "title": "How the West Was Won",
+    "year": 1962,
+    "rated": "APPROVED",
+    "released": "1963-02-20T05:00:00.000Z",
+    "runtime": 164,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Western"
+    ],
+    "director": "John Ford, Henry Hathaway, George Marshall, Richard Thorpe",
+    "writers": [
+    "James R. Webb"
+    ],
+    "actors": [
+    "Carroll Baker",
+    "Lee J. Cobb",
+    "Henry Fonda",
+    "Carolyn Jones"
+    ],
+    "plot": "A family saga covering several decades of Westward expansion in the nineteenth century--including the Gold Rush, the Civil War, and the building of the railroads.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNTk2NDk1NjY0MV5BMl5BanBnXkFtZTgwMzkzNTcxMTE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0056085",
+    "rating": 7.1,
+    "votes": 13640
+    },
+    "awards": {
+    "wins": 7,
+    "nominations": 5,
+    "text": "Won 3 Oscars. Another 7 wins & 5 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcccb",
+    "title": "Journey to the West",
+    "year": 2013,
+    "imdb": "tt2017561",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cc24de1e0ce2dfcd57",
+    "title": "Journey to the West",
+    "year": 2013,
+    "rated": "PG-13",
+    "released": "2013-02-07T05:00:00.000Z",
+    "runtime": 110,
+    "countries": [
+    "China"
+    ],
+    "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+    ],
+    "director": "Stephen Chow, Chi-kin Kwok",
+    "writers": [
+    "Stephen Chow",
+    "Chi-kin Kwok",
+    "Xin Huo",
+    "Yun Wang",
+    "Chi Keung Fung",
+    "Zhengyu Lu",
+    "Shing-Cheung Lee",
+    "Ivy Kong"
+    ],
+    "actors": [
+    "Qi Shu",
+    "Zhang Wen",
+    "Bo Huang",
+    "Show Luo"
+    ],
+    "plot": "Tang Sanzang, an aspiring Buddhist hero tries to protect a village from three demons. He develops complex feelings for Miss Duan, the demon hunter who repeatedly helps him, and finally quests to meet the legendary Monkey King.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQzMzUxNzk0NV5BMl5BanBnXkFtZTgwMTEwOTE4MDE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt2017561",
+    "rating": 6.8,
+    "votes": 7111
+    },
+    "tomato": {
+    "meter": 93,
+    "image": "fresh",
+    "rating": 7.2,
+    "reviews": 30,
+    "fresh": 28,
+    "consensus": "As sweet, silly, action-packed and ridiculous as director Steven Chow's best work, Journey to the West serves up dazzling action sequences while playing its disparate elements against each other with thrilling abandon.",
+    "userMeter": 68,
+    "userRating": 3.6,
+    "userReviews": 2198
+    },
+    "metacritic": 68,
+    "awards": {
+    "wins": 1,
+    "nominations": 12,
+    "text": "1 win & 12 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcccc",
+    "title": "West of Memphis",
+    "year": 2012,
+    "imdb": "tt2130321",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cc24de1e0ce2dfcd58",
+    "title": "West of Memphis",
+    "year": 2012,
+    "rated": "R",
+    "released": "2012-11-22T05:00:00.000Z",
+    "runtime": 147,
+    "countries": [
+    "New Zealand",
+    "USA"
+    ],
+    "genres": [
+    "Documentary"
+    ],
+    "director": "Amy Berg",
+    "writers": [
+    "Amy Berg",
+    "Billy McMillin"
+    ],
+    "actors": [
+    "Michael Baden",
+    "Jason Baldwin",
+    "Holly Ballard",
+    "Jamie Clark Ballard"
+    ],
+    "plot": "An examination of a failure of justice in the case against the West Memphis Three.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMjIzNDM3NjkzOV5BMl5BanBnXkFtZTcwNjI5Nzg0OA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt2130321",
+    "rating": 7.9,
+    "votes": 6627
+    },
+    "tomato": {
+    "meter": 95,
+    "image": "certified",
+    "rating": 7.9,
+    "reviews": 111,
+    "fresh": 106,
+    "consensus": "Both a sobering look at a true crime story and a scathing indictment of the American justice system, West of Memphis is a real-life horror story told with fury and compassion.",
+    "userMeter": 87,
+    "userRating": 4.1,
+    "userReviews": 8482
+    },
+    "metacritic": 80,
+    "awards": {
+    "wins": 0,
+    "nominations": 9,
+    "text": "Nominated for 1 BAFTA Film Award. Another 9 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcccd",
+    "title": "Star Wars: Episode IV - A New Hope",
+    "year": 1977,
+    "imdb": "tt0076759",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cc24de1e0ce2dfcd59",
+    "title": "Star Wars: Episode IV - A New Hope",
+    "year": 1977,
+    "rated": "PG",
+    "released": "1977-05-25T04:00:00.000Z",
+    "runtime": 121,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+    ],
+    "director": "George Lucas",
+    "writers": [
+    "George Lucas"
+    ],
+    "actors": [
+    "Mark Hamill",
+    "Harrison Ford",
+    "Carrie Fisher",
+    "Peter Cushing"
+    ],
+    "plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the universe from the Empire's world-destroying battle-station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTU4NTczODkwM15BMl5BanBnXkFtZTcwMzEyMTIyMw@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0076759",
+    "rating": 8.7,
+    "votes": 822849
+    },
+    "tomato": {
+    "meter": 94,
+    "image": "certified",
+    "rating": 8.5,
+    "reviews": 99,
+    "fresh": 93,
+    "consensus": "A legendarily expansive and ambitious start to the sci-fi saga, George Lucas opened our eyes to the possibilities of blockbuster filmmaking and things have never been the same.",
+    "userMeter": 96,
+    "userRating": 4.1,
+    "userReviews": 851120
+    },
+    "metacritic": 92,
+    "awards": {
+    "wins": 38,
+    "nominations": 27,
+    "text": "Won 6 Oscars. Another 38 wins & 27 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcccf",
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "year": 1983,
+    "imdb": "tt0086190",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cc24de1e0ce2dfcd5b",
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "year": 1983,
+    "rated": "PG",
+    "released": "1983-05-25T04:00:00.000Z",
+    "runtime": 131,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+    ],
+    "director": "Richard Marquand",
+    "writers": [
+    "Lawrence Kasdan",
+    "George Lucas",
+    "George Lucas"
+    ],
+    "actors": [
+    "Mark Hamill",
+    "Harrison Ford",
+    "Carrie Fisher",
+    "Billy Dee Williams"
+    ],
+    "plot": "After rescuing Han Solo from the palace of Jabba the Hutt, the rebels attempt to destroy the second Death Star, while Luke struggles to make Vader return from the dark side of the Force.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ0MzI1NjYwOF5BMl5BanBnXkFtZTgwODU3NDU2MTE@._V1._CR93,97,1209,1861_SX89_AL_.jpg_V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0086190",
+    "rating": 8.4,
+    "votes": 623252
+    },
+    "tomato": {
+    "meter": 80,
+    "image": "certified",
+    "rating": 7.2,
+    "reviews": 84,
+    "fresh": 67,
+    "consensus": "Though failing to reach the cinematic heights of its predecessors, Return of the Jedi remains an entertaining sci-fi adventure and a fitting end to the classic trilogy.",
+    "userMeter": 94,
+    "userRating": 4,
+    "userReviews": 1003937
+    },
+    "metacritic": 52,
+    "awards": {
+    "wins": 15,
+    "nominations": 15,
+    "text": "Nominated for 4 Oscars. Another 15 wins & 15 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccd0",
+    "title": "Star Wars: Episode I - The Phantom Menace",
+    "year": 1999,
+    "imdb": "tt0120915",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cc24de1e0ce2dfcd5c",
+    "title": "Star Wars: Episode I - The Phantom Menace",
+    "year": 1999,
+    "rated": "PG",
+    "released": "1999-05-19T04:00:00.000Z",
+    "runtime": 136,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+    ],
+    "director": "George Lucas",
+    "writers": [
+    "George Lucas"
+    ],
+    "actors": [
+    "Liam Neeson",
+    "Ewan McGregor",
+    "Natalie Portman",
+    "Jake Lloyd"
+    ],
+    "plot": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to reclaim their old glory.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ4NjEwNDA2Nl5BMl5BanBnXkFtZTcwNDUyNDQzNw@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0120915",
+    "rating": 6.5,
+    "votes": 494267
+    },
+    "tomato": null,
+    "metacritic": 51,
+    "awards": {
+    "wins": 17,
+    "nominations": 59,
+    "text": "Nominated for 3 Oscars. Another 17 wins & 59 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccd1",
+    "title": "Star Wars: Episode III - Revenge of the Sith",
+    "year": 2005,
+    "imdb": "tt0121766",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cd24de1e0ce2dfcd5d",
+    "title": "Star Wars: Episode III - Revenge of the Sith",
+    "year": 2005,
+    "rated": "PG-13",
+    "released": "2005-05-19T04:00:00.000Z",
+    "runtime": 140,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+    ],
+    "director": "George Lucas",
+    "writers": [
+    "George Lucas"
+    ],
+    "actors": [
+    "Ewan McGregor",
+    "Natalie Portman",
+    "Hayden Christensen",
+    "Ian McDiarmid"
+    ],
+    "plot": "Three years after the onset of the Clone Wars; the noble Jedi Knights are spread out across the galaxy leading a massive clone army in the war against the Separatists. After Chancellor ...",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0121766",
+    "rating": 7.6,
+    "votes": 483613
+    },
+    "tomato": {
+    "meter": 79,
+    "image": "certified",
+    "rating": 7.3,
+    "reviews": 282,
+    "fresh": 222,
+    "consensus": "With Episode III: Revenge of the Sith, George Lucas brings his second Star Wars trilogy to a suitably thrilling and often poignant -- if still a bit uneven -- conclusion.",
+    "userMeter": 65,
+    "userRating": 3.1,
+    "userReviews": 33674396
+    },
+    "metacritic": 68,
+    "awards": {
+    "wins": 21,
+    "nominations": 49,
+    "text": "Nominated for 1 Oscar. Another 21 wins & 49 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccd2",
+    "title": "Star Trek",
+    "year": 2009,
+    "imdb": "tt0796366",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cd24de1e0ce2dfcd5e",
+    "title": "Star Trek",
+    "year": 2009,
+    "rated": "PG-13",
+    "released": "2009-05-08T04:00:00.000Z",
+    "runtime": 127,
+    "countries": [
+    "USA",
+    "Germany"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+    ],
+    "director": "J.J. Abrams",
+    "writers": [
+    "Roberto Orci",
+    "Alex Kurtzman",
+    "Gene Roddenberry"
+    ],
+    "actors": [
+    "Chris Pine",
+    "Zachary Quinto",
+    "Leonard Nimoy",
+    "Eric Bana"
+    ],
+    "plot": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful, time-traveling Romulan creates black holes to destroy the Federation one planet at a time.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0796366",
+    "rating": 8,
+    "votes": 483229
+    },
+    "tomato": {
+    "meter": 95,
+    "image": "certified",
+    "rating": 8.2,
+    "reviews": 329,
+    "fresh": 312,
+    "consensus": "Star Trek reignites a classic franchise with action, humor, a strong story, and brilliant visuals, and will please traditional Trekkies and new fans alike.",
+    "userMeter": 91,
+    "userRating": 4.1,
+    "userReviews": 743375
+    },
+    "metacritic": 82,
+    "awards": {
+    "wins": 22,
+    "nominations": 77,
+    "text": "Won 1 Oscar. Another 22 wins & 77 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccd3",
+    "title": "Star Wars: Episode II - Attack of the Clones",
+    "year": 2002,
+    "imdb": "tt0121765",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cd24de1e0ce2dfcd5f",
+    "title": "Star Wars: Episode II - Attack of the Clones",
+    "year": 2002,
+    "rated": "PG",
+    "released": "2002-05-16T04:00:00.000Z",
+    "runtime": 142,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+    ],
+    "director": "George Lucas",
+    "writers": [
+    "George Lucas",
+    "Jonathan Hales",
+    "George Lucas"
+    ],
+    "actors": [
+    "Ewan McGregor",
+    "Natalie Portman",
+    "Hayden Christensen",
+    "Christopher Lee"
+    ],
+    "plot": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé, while Obi-Wan investigates an assassination attempt on the Senator and discovers a secret clone army crafted for the Jedi.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTY5MjI5NTIwNl5BMl5BanBnXkFtZTYwMTM1Njg2._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0121765",
+    "rating": 6.7,
+    "votes": 425728
+    },
+    "tomato": {
+    "meter": 66,
+    "image": "fresh",
+    "rating": 6.7,
+    "reviews": 242,
+    "fresh": 159,
+    "consensus": "Star Wars Episode II: Attack of the Clones benefits from an increased emphasis on thrilling action, although they're once again undercut by ponderous plot points and underdeveloped characters.",
+    "userMeter": 58,
+    "userRating": 3.3,
+    "userReviews": 844634
+    },
+    "metacritic": 54,
+    "awards": {
+    "wins": 13,
+    "nominations": 47,
+    "text": "Nominated for 1 Oscar. Another 13 wins & 47 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccd4",
+    "title": "Star Trek Into Darkness",
+    "year": 2013,
+    "imdb": "tt1408101",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cd24de1e0ce2dfcd60",
+    "title": "Star Trek Into Darkness",
+    "year": 2013,
+    "rated": "PG-13",
+    "released": "2013-05-16T04:00:00.000Z",
+    "runtime": 132,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+    ],
+    "director": "J.J. Abrams",
+    "writers": [
+    "Roberto Orci",
+    "Alex Kurtzman",
+    "Damon Lindelof",
+    "Gene Roddenberry"
+    ],
+    "actors": [
+    "Chris Pine",
+    "Zachary Quinto",
+    "Zoe Saldana",
+    "Karl Urban"
+    ],
+    "plot": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTk2NzczOTgxNF5BMl5BanBnXkFtZTcwODQ5ODczOQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt1408101",
+    "rating": 7.8,
+    "votes": 370638
+    },
+    "tomato": {
+    "meter": 87,
+    "image": "certified",
+    "rating": 7.6,
+    "reviews": 250,
+    "fresh": 217,
+    "consensus": "Visually spectacular and suitably action packed, Star Trek Into Darkness is a rock-solid installment in the venerable sci-fi franchise, even if it's not as fresh as its predecessor.",
+    "userMeter": 90,
+    "userRating": 4.2,
+    "userReviews": 309531
+    },
+    "metacritic": 72,
+    "awards": {
+    "wins": 6,
+    "nominations": 44,
+    "text": "Nominated for 1 Oscar. Another 6 wins & 44 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccce",
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": 1980,
+    "imdb": "tt0080684",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cc24de1e0ce2dfcd5a",
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": 1980,
+    "rated": "PG",
+    "released": "1980-06-20T04:00:00.000Z",
+    "runtime": 124,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+    ],
+    "director": "Irvin Kershner",
+    "writers": [
+    "Leigh Brackett",
+    "Lawrence Kasdan",
+    "George Lucas"
+    ],
+    "actors": [
+    "Mark Hamill",
+    "Harrison Ford",
+    "Carrie Fisher",
+    "Billy Dee Williams"
+    ],
+    "plot": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMjE2MzQwMTgxN15BMl5BanBnXkFtZTcwMDQzNjk2OQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0080684",
+    "rating": 8.8,
+    "votes": 739949
+    },
+    "tomato": {
+    "meter": 94,
+    "image": "certified",
+    "rating": 8.9,
+    "reviews": 87,
+    "fresh": 82,
+    "consensus": "Dark, sinister, but ultimately even more involving than A New Hope, The Empire Strikes Back defies viewer expectations and takes the series to heightened emotional levels.",
+    "userMeter": 97,
+    "userRating": 4.1,
+    "userReviews": 1045537
+    },
+    "metacritic": 79,
+    "awards": {
+    "wins": 15,
+    "nominations": 17,
+    "text": "Won 1 Oscar. Another 15 wins & 17 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccd5",
+    "title": "Star Trek: First Contact",
+    "year": 1996,
+    "imdb": "tt0117731",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cd24de1e0ce2dfcd61",
+    "title": "Star Trek: First Contact",
+    "year": 1996,
+    "rated": "PG-13",
+    "released": "1996-11-22T05:00:00.000Z",
+    "runtime": 111,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+    ],
+    "director": "Jonathan Frakes",
+    "writers": [
+    "Gene Roddenberry",
+    "Rick Berman",
+    "Brannon Braga",
+    "Ronald D. Moore",
+    "Brannon Braga",
+    "Ronald D. Moore"
+    ],
+    "actors": [
+    "Patrick Stewart",
+    "Jonathan Frakes",
+    "Brent Spiner",
+    "LeVar Burton"
+    ],
+    "plot": "The Borg go back in time intent on preventing Earth's first contact with an alien species. Captain Picard and his crew pursue them to ensure that Zefram Cochrane makes his maiden flight reaching warp speed.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTg4OTYwODY4MF5BMl5BanBnXkFtZTgwNTg2NjIyMDE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0117731",
+    "rating": 7.6,
+    "votes": 94153
+    },
+    "tomato": {
+    "meter": 93,
+    "image": "certified",
+    "rating": 7.4,
+    "reviews": 55,
+    "fresh": 51,
+    "consensus": "While fans of the series will surely appreciate it, First Contact is exciting, engaging, and visually appealing enough to entertain Star Trek novices.",
+    "userMeter": 89,
+    "userRating": 3.6,
+    "userReviews": 99646
+    },
+    "metacritic": 71,
+    "awards": {
+    "wins": 8,
+    "nominations": 19,
+    "text": "Nominated for 1 Oscar. Another 8 wins & 19 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccd7",
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "year": 1964,
+    "imdb": "tt0057012",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cd24de1e0ce2dfcd63",
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "year": 1964,
+    "rated": "PG",
+    "released": "1964-01-29T05:00:00.000Z",
+    "runtime": 95,
+    "countries": [
+    "USA",
+    "UK"
+    ],
+    "genres": [
+    "Comedy"
+    ],
+    "director": "Stanley Kubrick",
+    "writers": [
+    "Stanley Kubrick",
+    "Terry Southern",
+    "Peter George",
+    "Peter George"
+    ],
+    "actors": [
+    "Peter Sellers",
+    "George C. Scott",
+    "Sterling Hayden",
+    "Keenan Wynn"
+    ],
+    "plot": "An insane general triggers a path to nuclear holocaust that a war room full of politicians and generals frantically try to stop.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTU2ODM2NTkxNF5BMl5BanBnXkFtZTcwOTMwMzU3Mg@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0057012",
+    "rating": 8.5,
+    "votes": 323857
+    },
+    "tomato": {
+    "meter": 99,
+    "image": "certified",
+    "rating": 9,
+    "reviews": 68,
+    "fresh": 67,
+    "consensus": "Stanley Kubrick's brilliant Cold War satire remains as funny and razor-sharp today as it was in 1964.",
+    "userMeter": 94,
+    "userRating": 4.2,
+    "userReviews": 206480
+    },
+    "metacritic": 96,
+    "awards": {
+    "wins": 13,
+    "nominations": 6,
+    "text": "Nominated for 4 Oscars. Another 13 wins & 6 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccd8",
+    "title": "Love Actually",
+    "year": 2003,
+    "imdb": "tt0314331",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cd24de1e0ce2dfcd64",
+    "title": "Love Actually",
+    "year": 2003,
+    "rated": "R",
+    "released": "2003-11-14T05:00:00.000Z",
+    "runtime": 135,
+    "countries": [
+    "UK",
+    "USA",
+    "France"
+    ],
+    "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+    ],
+    "director": "Richard Curtis",
+    "writers": [
+    "Richard Curtis"
+    ],
+    "actors": [
+    "Bill Nighy",
+    "Gregor Fisher",
+    "Rory MacGregor",
+    "Colin Firth"
+    ],
+    "plot": "Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0314331",
+    "rating": 7.7,
+    "votes": 306036
+    },
+    "tomato": {
+    "meter": 63,
+    "image": "fresh",
+    "rating": 6.4,
+    "reviews": 192,
+    "fresh": 120,
+    "consensus": "A sugary tale overstuffed with too many stories. Still, the cast charms.",
+    "userMeter": 72,
+    "userRating": 3.1,
+    "userReviews": 31625241
+    },
+    "metacritic": 55,
+    "awards": {
+    "wins": 10,
+    "nominations": 24,
+    "text": "Nominated for 2 Golden Globes. Another 10 wins & 24 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccd9",
+    "title": "Shakespeare in Love",
+    "year": 1998,
+    "imdb": "tt0138097",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cd24de1e0ce2dfcd65",
+    "title": "Shakespeare in Love",
+    "year": 1998,
+    "rated": "R",
+    "released": "1999-01-08T05:00:00.000Z",
+    "runtime": 123,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+    ],
+    "director": "John Madden",
+    "writers": [
+    "Marc Norman",
+    "Tom Stoppard"
+    ],
+    "actors": [
+    "Geoffrey Rush",
+    "Tom Wilkinson",
+    "Steven O'Donnell",
+    "Tim McMullan"
+    ],
+    "plot": "A young Shakespeare, out of ideas and short of cash, meets his ideal woman and is inspired to write one of his most famous plays.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTc0ODI2NDk2OV5BMl5BanBnXkFtZTcwNTIzNDQ4OQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0138097",
+    "rating": 7.2,
+    "votes": 167371
+    },
+    "tomato": {
+    "meter": 92,
+    "image": "certified",
+    "rating": 8.3,
+    "reviews": 125,
+    "fresh": 115,
+    "consensus": "Endlessly witty, visually rapturous, and sweetly romantic, Shakespeare in Love is a delightful romantic comedy that succeeds on nearly every level.",
+    "userMeter": 80,
+    "userRating": 3.4,
+    "userReviews": 225871
+    },
+    "metacritic": 87,
+    "awards": {
+    "wins": 55,
+    "nominations": 85,
+    "text": "Won 7 Oscars. Another 55 wins & 85 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccda",
+    "title": "I Love You, Man",
+    "year": 2009,
+    "imdb": "tt1155056",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cd24de1e0ce2dfcd66",
+    "title": "I Love You, Man",
+    "year": 2009,
+    "rated": "R",
+    "released": "2009-03-20T04:00:00.000Z",
+    "runtime": 105,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Romance"
+    ],
+    "director": "John Hamburg",
+    "writers": [
+    "John Hamburg",
+    "Larry Levin",
+    "Larry Levin"
+    ],
+    "actors": [
+    "Paul Rudd",
+    "Rashida Jones",
+    "Sarah Burns",
+    "Greg Levine"
+    ],
+    "plot": "Friendless Peter Klaven goes on a series of man-dates to find a Best Man for his wedding. But, when his insta-bond with his new B.F.F. puts a strain on his relationship with his fiancée, can the trio learn to live happily ever after?",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTU4MjI5NTEyNV5BMl5BanBnXkFtZTcwNjQ1NTMzMg@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt1155056",
+    "rating": 7.1,
+    "votes": 160540
+    },
+    "tomato": {
+    "meter": 84,
+    "image": "certified",
+    "rating": 6.9,
+    "reviews": 200,
+    "fresh": 167,
+    "consensus": "I Love You, Man makes the most of its simple premise due to the heartfelt and hilarious performances of Paul Rudd and Jason Segel.",
+    "userMeter": 74,
+    "userRating": 2.7,
+    "userReviews": 1550369
+    },
+    "metacritic": 70,
+    "awards": {
+    "wins": 1,
+    "nominations": 8,
+    "text": "1 win & 8 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccdb",
+    "title": "P.S. I Love You",
+    "year": 2007,
+    "imdb": "tt0431308",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190ce24de1e0ce2dfcd67",
+    "title": "P.S. I Love You",
+    "year": 2007,
+    "rated": "PG-13",
+    "released": "2007-12-21T05:00:00.000Z",
+    "runtime": 126,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Drama",
+    "Romance"
+    ],
+    "director": "Richard LaGravenese",
+    "writers": [
+    "Richard LaGravenese",
+    "Steven Rogers",
+    "Cecelia Ahern"
+    ],
+    "actors": [
+    "Hilary Swank",
+    "Gerard Butler",
+    "Lisa Kudrow",
+    "Gina Gershon"
+    ],
+    "plot": "A young widow discovers that her late husband has left her 10 messages intended to help ease her pain and start a new life.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNTg2MDg4MjI5NV5BMl5BanBnXkFtZTcwMzQ0MDczMw@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0431308",
+    "rating": 7.1,
+    "votes": 158007
+    },
+    "tomato": null,
+    "metacritic": 39,
+    "awards": {
+    "wins": 2,
+    "nominations": 4,
+    "text": "2 wins & 4 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccd6",
+    "title": "Star Trek II: The Wrath of Khan",
+    "year": 1982,
+    "imdb": "tt0084726",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cd24de1e0ce2dfcd62",
+    "title": "Star Trek II: The Wrath of Khan",
+    "year": 1982,
+    "rated": "PG",
+    "released": "1982-06-04T04:00:00.000Z",
+    "runtime": 113,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+    ],
+    "director": "Nicholas Meyer",
+    "writers": [
+    "Gene Roddenberry",
+    "Harve Bennett",
+    "Jack B. Sowards",
+    "Jack B. Sowards"
+    ],
+    "actors": [
+    "William Shatner",
+    "Leonard Nimoy",
+    "DeForest Kelley",
+    "James Doohan"
+    ],
+    "plot": "With the assistance of the Enterprise crew, Admiral Kirk must stop an old nemesis, Khan Noonien Singh, from using the life-generating Genesis Device as the ultimate weapon.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTcwNjc5NjA4N15BMl5BanBnXkFtZTcwNDk5MzI4OA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0084726",
+    "rating": 7.7,
+    "votes": 86687
+    },
+    "tomato": {
+    "meter": 88,
+    "image": "certified",
+    "rating": 8,
+    "reviews": 49,
+    "fresh": 43,
+    "consensus": "Considered by many fans to be the best of the Star Trek movies, Khan features a strong plot, increased tension, and a sharp supporting performance from Ricardo Montalban.",
+    "userMeter": 90,
+    "userRating": 3.8,
+    "userReviews": 84279
+    },
+    "metacritic": 71,
+    "awards": {
+    "wins": 2,
+    "nominations": 9,
+    "text": "2 wins & 9 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccdd",
+    "title": "Punch-Drunk Love",
+    "year": 2002,
+    "imdb": "tt0272338",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190ce24de1e0ce2dfcd69",
+    "title": "Punch-Drunk Love",
+    "year": 2002,
+    "rated": "R",
+    "released": "2002-11-01T05:00:00.000Z",
+    "runtime": 95,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+    ],
+    "director": "Paul Thomas Anderson",
+    "writers": [
+    "Paul Thomas Anderson"
+    ],
+    "actors": [
+    "Adam Sandler",
+    "Jason Andrews",
+    "Don McManus",
+    "Emily Watson"
+    ],
+    "plot": "A psychologically troubled novelty supplier is nudged towards a romance with an English woman, all the while being extorted by a phone-sex line run by a crooked mattress salesman, and purchasing stunning amounts of pudding.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BOTcwMDMxMjg2NF5BMl5BanBnXkFtZTYwNzg0MDc3._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0272338",
+    "rating": 7.3,
+    "votes": 104292
+    },
+    "tomato": {
+    "meter": 79,
+    "image": "certified",
+    "rating": 7.4,
+    "reviews": 184,
+    "fresh": 145,
+    "consensus": "Odd, touching, and unique, Punch-Drunk Love is also delightfully funny, utilizing Adam Sandler's comic persona to explore the life of a lonely guy who finds love.",
+    "userMeter": 77,
+    "userRating": 3.3,
+    "userReviews": 138756
+    },
+    "metacritic": 78,
+    "awards": {
+    "wins": 14,
+    "nominations": 28,
+    "text": "Nominated for 1 Golden Globe. Another 14 wins & 28 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccdc",
+    "title": "Love & Other Drugs",
+    "year": 2010,
+    "imdb": "tt0758752",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190ce24de1e0ce2dfcd68",
+    "title": "Love & Other Drugs",
+    "year": 2010,
+    "rated": "R",
+    "released": "2010-11-24T05:00:00.000Z",
+    "runtime": 112,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+    ],
+    "director": "Edward Zwick",
+    "writers": [
+    "Charles Randolph",
+    "Edward Zwick",
+    "Marshall Herskovitz",
+    "Jamie Reidy"
+    ],
+    "actors": [
+    "Jake Gyllenhaal",
+    "Anne Hathaway",
+    "Oliver Platt",
+    "Hank Azaria"
+    ],
+    "plot": "A young woman suffering from Parkinson's befriends a drug rep working for Pfizer in 1990s Pittsburgh.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTgxOTczODEyMF5BMl5BanBnXkFtZTcwMDc0NDY4Mw@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0758752",
+    "rating": 6.7,
+    "votes": 134363
+    },
+    "tomato": {
+    "meter": 49,
+    "image": "rotten",
+    "rating": 5.8,
+    "reviews": 160,
+    "fresh": 78,
+    "consensus": "It's a pleasure to see Hollywood produce a romance this refreshingly adult, but Love and Other Drugs struggles to find a balance between its disparate plot elements.",
+    "userMeter": 53,
+    "userRating": 3.3,
+    "userReviews": 73737
+    },
+    "metacritic": 55,
+    "awards": {
+    "wins": 1,
+    "nominations": 5,
+    "text": "Nominated for 2 Golden Globes. Another 1 win & 5 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccdf",
+    "title": "From Russia with Love",
+    "year": 1963,
+    "imdb": "tt0057076",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190ce24de1e0ce2dfcd6b",
+    "title": "From Russia with Love",
+    "year": 1963,
+    "rated": "APPROVED",
+    "released": "1964-05-27T04:00:00.000Z",
+    "runtime": 115,
+    "countries": [
+    "UK",
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
+    ],
+    "director": "Terence Young",
+    "writers": [
+    "Richard Maibaum",
+    "Johanna Harwood"
+    ],
+    "actors": [
+    "Sean Connery",
+    "Daniela Bianchi",
+    "Pedro Armendáriz",
+    "Lotte Lenya"
+    ],
+    "plot": "James Bond willingly falls into an assassination ploy involving a naive Russian beauty in order to retrieve a Soviet encryption device that was stolen by SPECTRE.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQxNTIzMTExN15BMl5BanBnXkFtZTcwODI4MDgzNA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0057076",
+    "rating": 7.5,
+    "votes": 84828
+    },
+    "awards": {
+    "wins": 2,
+    "nominations": 5,
+    "text": "Nominated for 1 Golden Globe. Another 2 wins & 5 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccde",
+    "title": "From Paris with Love",
+    "year": 2010,
+    "imdb": "tt1179034",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190ce24de1e0ce2dfcd6a",
+    "title": "From Paris with Love",
+    "year": 2010,
+    "rated": "R",
+    "released": "2010-02-05T05:00:00.000Z",
+    "runtime": 92,
+    "countries": [
+    "France"
+    ],
+    "genres": [
+    "Action",
+    "Thriller"
+    ],
+    "director": "Pierre Morel",
+    "writers": [
+    "Adi Hasak",
+    "Luc Besson"
+    ],
+    "actors": [
+    "John Travolta",
+    "Jonathan Rhys Meyers",
+    "Kasia Smutniak",
+    "Richard Durden"
+    ],
+    "plot": "In Paris, a young employee in the office of the US Ambassador hooks up with an American spy looking to stop a terrorist attack in the city.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNDUyMzExOTAyM15BMl5BanBnXkFtZTcwMTU0NjAyMw@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt1179034",
+    "rating": 6.5,
+    "votes": 94446
+    },
+    "tomato": {
+    "meter": 37,
+    "image": "rotten",
+    "rating": 4.7,
+    "reviews": 154,
+    "fresh": 57,
+    "consensus": "Thought not without its charms -- chief among them John Travolta's endearingly over-the-top performance -- From Paris with Love is too muddled and disjointed to satisfy.",
+    "userMeter": 54,
+    "userRating": 3.3,
+    "userReviews": 155501
+    },
+    "metacritic": 42,
+    "awards": {
+    "wins": 0,
+    "nominations": 0,
+    "text": ""
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcce0",
+    "title": "I Love You Phillip Morris",
+    "year": 2009,
+    "imdb": "tt1045772",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190ce24de1e0ce2dfcd6c",
+    "title": "I Love You Phillip Morris",
+    "year": 2009,
+    "rated": "R",
+    "released": "2011-01-07T05:00:00.000Z",
+    "runtime": 98,
+    "countries": [
+    "France",
+    "USA"
+    ],
+    "genres": [
+    "Biography",
+    "Comedy",
+    "Crime"
+    ],
+    "director": "Glenn Ficarra, John Requa",
+    "writers": [
+    "John Requa",
+    "Glenn Ficarra",
+    "Steve McVicker"
+    ],
+    "actors": [
+    "Jim Carrey",
+    "Ewan McGregor",
+    "Leslie Mann",
+    "Rodrigo Santoro"
+    ],
+    "plot": "A cop turns con man once he comes out of the closet. Once imprisoned, he meets the second love of his life, whom he'll stop at nothing to be with.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNDkzMjkwNjc5NV5BMl5BanBnXkFtZTcwNzEyOTk5Mw@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt1045772",
+    "rating": 6.7,
+    "votes": 73578
+    },
+    "tomato": {
+    "meter": 72,
+    "image": "certified",
+    "rating": 6.6,
+    "reviews": 152,
+    "fresh": 109,
+    "consensus": "This fact-based romantic comedy has its flaws, but they're mostly overcome by its consistently sweet, funny tone and one of the best performances of Jim Carrey's career.",
+    "userMeter": 61,
+    "userRating": 3.3,
+    "userReviews": 88181
+    },
+    "metacritic": 65,
+    "awards": {
+    "wins": 5,
+    "nominations": 8,
+    "text": "5 wins & 8 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcce2",
+    "title": "Office Space",
+    "year": 1999,
+    "imdb": "tt0151804",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cf24de1e0ce2dfcd6e",
+    "title": "Office Space",
+    "year": 1999,
+    "rated": "R",
+    "released": "1999-02-19T05:00:00.000Z",
+    "runtime": 89,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy"
+    ],
+    "director": "Mike Judge",
+    "writers": [
+    "Mike Judge",
+    "Mike Judge"
+    ],
+    "actors": [
+    "Ron Livingston",
+    "Jennifer Aniston",
+    "David Herman",
+    "Ajay Naidu"
+    ],
+    "plot": "Three company workers who hate their jobs decide to rebel against their greedy boss.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BOTA5MzQ3MzI1NV5BMl5BanBnXkFtZTgwNTcxNTYxMTE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0151804",
+    "rating": 7.8,
+    "votes": 192080
+    },
+    "tomato": {
+    "meter": 79,
+    "image": "certified",
+    "rating": 6.8,
+    "reviews": 95,
+    "fresh": 75,
+    "consensus": "Mike Judge lampoons the office grind with its inspired mix of sharp dialogue and witty one-liners.",
+    "userMeter": 93,
+    "userRating": 4,
+    "userReviews": 324362
+    },
+    "metacritic": 68,
+    "awards": {
+    "wins": 0,
+    "nominations": 2,
+    "text": "2 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcce3",
+    "title": "Zathura: A Space Adventure",
+    "year": 2005,
+    "imdb": "tt0406375",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cf24de1e0ce2dfcd6f",
+    "title": "Zathura: A Space Adventure",
+    "year": 2005,
+    "rated": "PG",
+    "released": "2005-11-11T05:00:00.000Z",
+    "runtime": 101,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+    ],
+    "director": "Jon Favreau",
+    "writers": [
+    "Chris Van Allsburg",
+    "David Koepp",
+    "John Kamps"
+    ],
+    "actors": [
+    "Jonah Bobo",
+    "Josh Hutcherson",
+    "Dax Shepard",
+    "Kristen Stewart"
+    ],
+    "plot": "Two young brothers are drawn into an intergalactic adventure when their house is hurled through the depths of space by the magical board game they are playing.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMjEyOTQ2ODg4OV5BMl5BanBnXkFtZTcwMjk2ODUzMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0406375",
+    "rating": 6.1,
+    "votes": 62971
+    },
+    "tomato": {
+    "meter": 75,
+    "image": "certified",
+    "rating": 6.6,
+    "reviews": 158,
+    "fresh": 119,
+    "consensus": "Dazzling special effects for the kids + well-crafted storytelling for the 'rents = cinematic satisfaction for the whole family.",
+    "userMeter": 51,
+    "userRating": 3,
+    "userReviews": 280429
+    },
+    "metacritic": 67,
+    "awards": {
+    "wins": 2,
+    "nominations": 3,
+    "text": "2 wins & 3 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcce4",
+    "title": "Space Cowboys",
+    "year": 2000,
+    "imdb": "tt0186566",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cf24de1e0ce2dfcd70",
+    "title": "Space Cowboys",
+    "year": 2000,
+    "rated": "PG-13",
+    "released": "2000-08-04T04:00:00.000Z",
+    "runtime": 130,
+    "countries": [
+    "USA",
+    "Australia"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Thriller"
+    ],
+    "director": "Clint Eastwood",
+    "writers": [
+    "Ken Kaufman",
+    "Howard Klausner"
+    ],
+    "actors": [
+    "Clint Eastwood",
+    "Tommy Lee Jones",
+    "Donald Sutherland",
+    "James Garner"
+    ],
+    "plot": "When a retired engineer is called upon to rescue a failing satellite, he insists that his equally old teammates accompany him into space.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTk4NzAwOTkwMF5BMl5BanBnXkFtZTYwMDM3MTM3._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0186566",
+    "rating": 6.4,
+    "votes": 57735
+    },
+    "tomato": {
+    "meter": 78,
+    "image": "certified",
+    "rating": 6.7,
+    "reviews": 119,
+    "fresh": 93,
+    "consensus": "While the plot is overly cliched, the suberb acting by the stars (especially the tense interactions between Clint Eastwood and Tommy Lee Jones) and the spectacular special effects make this a movie worth seeing.",
+    "userMeter": 53,
+    "userRating": 3,
+    "userReviews": 72556
+    },
+    "metacritic": 73,
+    "awards": {
+    "wins": 4,
+    "nominations": 6,
+    "text": "Nominated for 1 Oscar. Another 4 wins & 6 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcce5",
+    "title": "Lost in Space",
+    "year": 1998,
+    "imdb": "tt0120738",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cf24de1e0ce2dfcd71",
+    "title": "Lost in Space",
+    "year": 1998,
+    "rated": "PG-13",
+    "released": "1998-04-03T05:00:00.000Z",
+    "runtime": 130,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Family"
+    ],
+    "director": "Stephen Hopkins",
+    "writers": [
+    "Irwin Allen",
+    "Akiva Goldsman"
+    ],
+    "actors": [
+    "William Hurt",
+    "Mimi Rogers",
+    "Heather Graham",
+    "Lacey Chabert"
+    ],
+    "plot": "The Robinson family was going into space to fight for a chance for humanity. Now they are fighting to live long enough to find a way home.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTkwNzEyNTgyN15BMl5BanBnXkFtZTcwODk4NTU0Mg@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0120738",
+    "rating": 5.1,
+    "votes": 56757
+    },
+    "tomato": {
+    "meter": 27,
+    "image": "rotten",
+    "rating": 4.7,
+    "reviews": 84,
+    "fresh": 23,
+    "consensus": "Clumsily directed and missing most of the TV series' campy charm, Lost in Space sadly lives down to its title.",
+    "userMeter": 24,
+    "userRating": 2.5,
+    "userReviews": 173585
+    },
+    "metacritic": 42,
+    "awards": {
+    "wins": 1,
+    "nominations": 13,
+    "text": "1 win & 13 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcce6",
+    "title": "Plan 9 from Outer Space",
+    "year": 1959,
+    "imdb": "tt0052077",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cf24de1e0ce2dfcd72",
+    "title": "Plan 9 from Outer Space",
+    "year": 1959,
+    "rated": "UNRATED",
+    "released": "1959-07-22T04:00:00.000Z",
+    "runtime": 79,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Horror",
+    "Sci-Fi"
+    ],
+    "director": "Edward D. Wood Jr.",
+    "writers": [
+    "Edward D. Wood Jr."
+    ],
+    "actors": [
+    "Gregory Walcott",
+    "Mona McKinnon",
+    "Duke Moore",
+    "Tom Keene"
+    ],
+    "plot": "Aliens resurrect dead humans as zombies and vampires to stop humanity from creating the Solaranite (a sort of sun-driven bomb).",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMzUzMzA0NDE3MF5BMl5BanBnXkFtZTgwMzg1Mjc1MDE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0052077",
+    "rating": 4,
+    "votes": 29171
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 0,
+    "text": ""
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcce7",
+    "title": "Muppets from Space",
+    "year": 1999,
+    "imdb": "tt0158811",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cf24de1e0ce2dfcd73",
+    "title": "Muppets from Space",
+    "year": 1999,
+    "rated": "G",
+    "released": "1999-07-14T04:00:00.000Z",
+    "runtime": 87,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Adventure",
+    "Comedy",
+    "Family"
+    ],
+    "director": "Tim Hill",
+    "writers": [
+    "Jerry Juhl",
+    "Joey Mazzarino",
+    "Ken Kaufman"
+    ],
+    "actors": [
+    "Dave Goelz",
+    "Steve Whitmire",
+    "Bill Barretta",
+    "Jerry Nelson"
+    ],
+    "plot": "Gonzo is contacted by his alien family through his breakfast cereal. He is kidnapped and it's up to Kermit and the gang to rescue Gonzo and help reunite him with his long-lost family.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTgwNDE0NDM1M15BMl5BanBnXkFtZTcwNDg4MzkxMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0158811",
+    "rating": 6.2,
+    "votes": 14105
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 1,
+    "text": "1 nomination."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcce8",
+    "title": "Turks in Space",
+    "year": 2006,
+    "imdb": "tt0808240",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cf24de1e0ce2dfcd74",
+    "title": "Turks in Space",
+    "year": 2006,
+    "rated": null,
+    "released": "2006-12-15T05:00:00.000Z",
+    "runtime": 110,
+    "countries": [
+    "Turkey"
+    ],
+    "genres": [
+    "Action",
+    "Comedy",
+    "Sci-Fi"
+    ],
+    "director": "Kartal Tibet",
+    "writers": [
+    "Murat Boyacioglu"
+    ],
+    "actors": [
+    "Cüneyt Arkin",
+    "Haldun Boysan",
+    "Berda Ceyhan",
+    "Veysel Diker"
+    ],
+    "plot": "A family of Turks try to adapt to life in a new solar system.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTYwOTMwODIxNF5BMl5BanBnXkFtZTcwMjc0NzA0MQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0808240",
+    "rating": 1.9,
+    "votes": 12638
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 0,
+    "text": ""
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcce1",
+    "title": "2001: A Space Odyssey",
+    "year": 1968,
+    "imdb": "tt0062622",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190ce24de1e0ce2dfcd6d",
+    "title": "2001: A Space Odyssey",
+    "year": 1968,
+    "rated": "G",
+    "released": "1968-05-15T04:00:00.000Z",
+    "runtime": 149,
+    "countries": [
+    "USA",
+    "UK"
+    ],
+    "genres": [
+    "Mystery",
+    "Sci-Fi"
+    ],
+    "director": "Stanley Kubrick",
+    "writers": [
+    "Stanley Kubrick",
+    "Arthur C. Clarke"
+    ],
+    "actors": [
+    "Keir Dullea",
+    "Gary Lockwood",
+    "William Sylvester",
+    "Daniel Richter"
+    ],
+    "plot": "Humanity finds a mysterious, obviously artificial object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNDYyMDgxNDQ5Nl5BMl5BanBnXkFtZTcwMjc1ODg3OA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0062622",
+    "rating": 8.3,
+    "votes": 396824
+    },
+    "tomato": {
+    "meter": 96,
+    "image": "certified",
+    "rating": 9.2,
+    "reviews": 70,
+    "fresh": 67,
+    "consensus": "One of the most influential of all sci-fi films -- and one of the most controversial -- Stanley Kubrick's 2001 is a delicate, poetic meditation on the ingenuity -- and folly -- of mankind.",
+    "userMeter": 89,
+    "userRating": 3.8,
+    "userReviews": 294447
+    },
+    "metacritic": 86,
+    "awards": {
+    "wins": 13,
+    "nominations": 7,
+    "text": "Won 1 Oscar. Another 13 wins & 7 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccea",
+    "title": "Space Chimps",
+    "year": 2008,
+    "imdb": "tt0482603",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cf24de1e0ce2dfcd76",
+    "title": "Space Chimps",
+    "year": 2008,
+    "rated": "G",
+    "released": "2008-07-18T04:00:00.000Z",
+    "runtime": 81,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Animation",
+    "Adventure",
+    "Comedy"
+    ],
+    "director": "Kirk De Micco",
+    "writers": [
+    "Kirk De Micco",
+    "Robert Moreland",
+    "Kirk De Micco",
+    "Jason Mayland"
+    ],
+    "actors": [
+    "Andy Samberg",
+    "Cheryl Hines",
+    "Jeff Daniels",
+    "Patrick Warburton"
+    ],
+    "plot": "Ham III, the grandson of the first chimp astronaut, is blasted off into space by an opportunity-seeking senator. Soon, the fun-loving chimp has to get serious about the mission at hand; ...",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNDU0MDY1OTQzOV5BMl5BanBnXkFtZTcwNzQ3ODI3MQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0482603",
+    "rating": 4.5,
+    "votes": 8561
+    },
+    "tomato": {
+    "meter": 34,
+    "image": "rotten",
+    "rating": 4.6,
+    "reviews": 91,
+    "fresh": 31,
+    "consensus": "Space Chimps' cheap animation and overabundance of monkey puns feels especially dated in a post-Wall-E world.",
+    "userMeter": 32,
+    "userRating": 2.8,
+    "userReviews": 124232
+    },
+    "metacritic": 36,
+    "awards": {
+    "wins": 0,
+    "nominations": 1,
+    "text": "1 nomination."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcceb",
+    "title": "The Adventures of Tintin",
+    "year": 2011,
+    "imdb": "tt0983193",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d024de1e0ce2dfcd77",
+    "title": "The Adventures of Tintin",
+    "year": 2011,
+    "rated": "PG",
+    "released": "2011-12-21T05:00:00.000Z",
+    "runtime": 107,
+    "countries": [
+    "USA",
+    "New Zealand"
+    ],
+    "genres": [
+    "Animation",
+    "Action",
+    "Adventure"
+    ],
+    "director": "Steven Spielberg",
+    "writers": [
+    "Steven Moffat",
+    "Edgar Wright",
+    "Joe Cornish",
+    "Hergé"
+    ],
+    "actors": [
+    "Jamie Bell",
+    "Andy Serkis",
+    "Daniel Craig",
+    "Nick Frost"
+    ],
+    "plot": "Intrepid reporter Tintin and Captain Haddock set off on a treasure hunt for a sunken ship commanded by Haddock's ancestor.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNDE5MDExNTQ1OF5BMl5BanBnXkFtZTcwMDIxMTM5Ng@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0983193",
+    "rating": 7.4,
+    "votes": 169875
+    },
+    "tomato": {
+    "meter": 75,
+    "image": "certified",
+    "rating": 7,
+    "reviews": 205,
+    "fresh": 153,
+    "consensus": "Drawing deep from the classic Raiders of the Lost Ark playbook, Steven Spielberg has crafted another spirited, thrilling adventure in the form of Tintin.",
+    "userMeter": 74,
+    "userRating": 3.7,
+    "userReviews": 76244
+    },
+    "metacritic": 68,
+    "awards": {
+    "wins": 22,
+    "nominations": 58,
+    "text": "Nominated for 1 Oscar. Another 22 wins & 58 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccec",
+    "title": "The Adventures of Baron Munchausen",
+    "year": 1988,
+    "imdb": "tt0096764",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d024de1e0ce2dfcd78",
+    "title": "The Adventures of Baron Munchausen",
+    "year": 1988,
+    "rated": "PG",
+    "released": "1989-03-10T05:00:00.000Z",
+    "runtime": 126,
+    "countries": [
+    "UK",
+    "Italy"
+    ],
+    "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+    ],
+    "director": "Terry Gilliam",
+    "writers": [
+    "Charles McKeown",
+    "Terry Gilliam"
+    ],
+    "actors": [
+    "John Neville",
+    "Eric Idle",
+    "Sarah Polley",
+    "Oliver Reed"
+    ],
+    "plot": "An account of Baron Munchausen's supposed travels and fantastical experiences with his band of misfits.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTM3OTA5MTU2NF5BMl5BanBnXkFtZTcwOTIzMjk3OA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0096764",
+    "rating": 7.2,
+    "votes": 40089
+    },
+    "tomato": {
+    "meter": 92,
+    "image": "certified",
+    "rating": 7.3,
+    "reviews": 51,
+    "fresh": 47,
+    "consensus": "Bursting with Terry Gilliam's typically imaginative flourishes, this story of a possibly deranged Baron recounting his storied life is a flamboyant and witty visual treat.",
+    "userMeter": 82,
+    "userRating": 3.5,
+    "userReviews": 36148
+    },
+    "metacritic": 69,
+    "awards": {
+    "wins": 6,
+    "nominations": 9,
+    "text": "Nominated for 4 Oscars. Another 6 wins & 9 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcced",
+    "title": "The Adventures of Robin Hood",
+    "year": 1938,
+    "imdb": "tt0029843",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d024de1e0ce2dfcd79",
+    "title": "The Adventures of Robin Hood",
+    "year": 1938,
+    "rated": "PG",
+    "released": "1938-05-14T04:00:00.000Z",
+    "runtime": 102,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Romance"
+    ],
+    "director": "Michael Curtiz, William Keighley",
+    "writers": [
+    "Norman Reilly Raine",
+    "Seton I. Miller"
+    ],
+    "actors": [
+    "Errol Flynn",
+    "Olivia de Havilland",
+    "Basil Rathbone",
+    "Claude Rains"
+    ],
+    "plot": "When Prince John and the Norman Lords begin oppressing the Saxon masses in King Richard's absence, a Saxon lord fights back as the outlaw leader of a rebel guerrilla army.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTUxMzE0MjI0MF5BMl5BanBnXkFtZTcwMTQ1OTM2MQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0029843",
+    "rating": 8,
+    "votes": 37543
+    },
+    "tomato": {
+    "meter": 100,
+    "image": "certified",
+    "rating": 8.9,
+    "reviews": 44,
+    "fresh": 44,
+    "consensus": "Errol Flynn thrills as the legendary title character, and the film embodies the type of imaginative family adventure tailor-made for the silver screen.",
+    "userMeter": 89,
+    "userRating": 3.7,
+    "userReviews": 33282
+    },
+    "metacritic": 97,
+    "awards": {
+    "wins": 2,
+    "nominations": 2,
+    "text": "Won 3 Oscars. Another 2 wins & 2 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccee",
+    "title": "The Adventures of Priscilla, Queen of the Desert",
+    "year": 1994,
+    "imdb": "tt0109045",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d024de1e0ce2dfcd7a",
+    "title": "The Adventures of Priscilla, Queen of the Desert",
+    "year": 1994,
+    "rated": "R",
+    "released": "1994-08-10T04:00:00.000Z",
+    "runtime": 104,
+    "countries": [
+    "Australia",
+    "UK"
+    ],
+    "genres": [
+    "Comedy",
+    "Music"
+    ],
+    "director": "Stephan Elliott",
+    "writers": [
+    "Stephan Elliott"
+    ],
+    "actors": [
+    "Hugo Weaving",
+    "Guy Pearce",
+    "Terence Stamp",
+    "Rebel Penfold-Russell"
+    ],
+    "plot": "Two drag queens and a transsexual travel across the desert to perform their unique style of cabaret.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTc5MDU1NzcyN15BMl5BanBnXkFtZTcwMDA0ODYyNA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0109045",
+    "rating": 7.5,
+    "votes": 35048
+    },
+    "tomato": {
+    "meter": 93,
+    "image": "fresh",
+    "rating": 7.1,
+    "reviews": 30,
+    "fresh": 28,
+    "consensus": "While its premise is ripe for comedy -- and it certainly delivers its fair share of laughs -- Priscilla is also a surprisingly tender and thoughtful road movie with some outstanding performances.",
+    "userMeter": 88,
+    "userRating": 3.7,
+    "userReviews": 44128
+    },
+    "metacritic": 68,
+    "awards": {
+    "wins": 9,
+    "nominations": 16,
+    "text": "Won 1 Oscar. Another 9 wins & 16 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccef",
+    "title": "Adventures in Babysitting",
+    "year": 1987,
+    "imdb": "tt0092513",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d024de1e0ce2dfcd7b",
+    "title": "Adventures in Babysitting",
+    "year": 1987,
+    "rated": "PG-13",
+    "released": "1987-07-03T04:00:00.000Z",
+    "runtime": 102,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+    ],
+    "director": "Chris Columbus",
+    "writers": [
+    "David Simkins"
+    ],
+    "actors": [
+    "Elisabeth Shue",
+    "Maia Brewton",
+    "Keith Coogan",
+    "Anthony Rapp"
+    ],
+    "plot": "Chris Parker agrees to babysit after her \"dread\" date stands her up. Expecting a dull evening, Chris settles down with three kids for a night of TV... and boredom. But when her frantic ...",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTI4NzY3Njg4Nl5BMl5BanBnXkFtZTYwNzM3ODE5._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0092513",
+    "rating": 6.8,
+    "votes": 26195
+    },
+    "awards": {
+    "wins": 2,
+    "nominations": 4,
+    "text": "2 wins & 4 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccf0",
+    "title": "The Many Adventures of Winnie the Pooh",
+    "year": 1977,
+    "imdb": "tt0076363",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d024de1e0ce2dfcd7c",
+    "title": "The Many Adventures of Winnie the Pooh",
+    "year": 1977,
+    "rated": "G",
+    "released": "1977-03-11T05:00:00.000Z",
+    "runtime": 74,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Animation",
+    "Family",
+    "Musical"
+    ],
+    "director": "John Lounsbery, Wolfgang Reitherman",
+    "writers": [
+    "A.A. Milne",
+    "Larry Clemmons",
+    "Ralph Wright",
+    "Vance Gerry",
+    "Xavier Atencio",
+    "Ken Anderson",
+    "Julius Svendsen",
+    "Ted Berman",
+    "Eric Cleworth",
+    "Winston Hibler"
+    ],
+    "actors": [
+    "Sebastian Cabot",
+    "Junius Matthews",
+    "Barbara Luddy",
+    "Howard Morris"
+    ],
+    "plot": "A collection of animated shorts based on the stories and characters by A. A. Milne.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTY3OTkyMzYwNV5BMl5BanBnXkFtZTcwMzkzODU0MQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0076363",
+    "rating": 7.6,
+    "votes": 22830
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 1,
+    "text": "1 nomination."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccf1",
+    "title": "The Adventures of Sharkboy and Lavagirl 3-D",
+    "year": 2005,
+    "imdb": "tt0424774",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d024de1e0ce2dfcd7d",
+    "title": "The Adventures of Sharkboy and Lavagirl 3-D",
+    "year": 2005,
+    "rated": "PG",
+    "released": "2005-06-10T04:00:00.000Z",
+    "runtime": 93,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Family"
+    ],
+    "director": "Robert Rodriguez",
+    "writers": [
+    "Robert Rodriguez",
+    "Marcel Rodriguez",
+    "Racer Rodriguez"
+    ],
+    "actors": [
+    "Taylor Lautner",
+    "Taylor Dooley",
+    "Cayden Boyd",
+    "George Lopez"
+    ],
+    "plot": "A young boy is recruited by his imaginary friends Sharkboy and Lavagirl to help save their planet.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTM1NzI3OTAwMl5BMl5BanBnXkFtZTcwMTI3ODkyMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0424774",
+    "rating": 3.5,
+    "votes": 18621
+    },
+    "tomato": {
+    "meter": 20,
+    "image": "rotten",
+    "rating": 4.3,
+    "reviews": 123,
+    "fresh": 24,
+    "consensus": "The decision to turn this kiddie fantasy into a 3-D film was a miscalculation.",
+    "userMeter": 31,
+    "userRating": 2.5,
+    "userReviews": 31651
+    },
+    "metacritic": 38,
+    "awards": {
+    "wins": 1,
+    "nominations": 10,
+    "text": "1 win & 10 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccf2",
+    "title": "The Adventures of Buckaroo Banzai Across the 8th Dimension",
+    "year": 1984,
+    "imdb": "tt0086856",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d024de1e0ce2dfcd7e",
+    "title": "The Adventures of Buckaroo Banzai Across the 8th Dimension",
+    "year": 1984,
+    "rated": "PG",
+    "released": "1984-08-10T04:00:00.000Z",
+    "runtime": 103,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Adventure",
+    "Comedy",
+    "Romance"
+    ],
+    "director": "W.D. Richter",
+    "writers": [
+    "Earl Mac Rauch"
+    ],
+    "actors": [
+    "Peter Weller",
+    "John Lithgow",
+    "Ellen Barkin",
+    "Jeff Goldblum"
+    ],
+    "plot": "Adventurer/surgeon/rock musician Buckaroo Banzai and his band of men, the Hong Kong Cavaliers, take on evil alien invaders from the 8th dimension.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTk3OTAwNDQwOF5BMl5BanBnXkFtZTgwOTE0MzQxMDE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0086856",
+    "rating": 6.4,
+    "votes": 17154
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 5,
+    "text": "5 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccf3",
+    "title": "The Adventures of Rocky & Bullwinkle",
+    "year": 2000,
+    "imdb": "tt0131704",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d024de1e0ce2dfcd7f",
+    "title": "The Adventures of Rocky & Bullwinkle",
+    "year": 2000,
+    "rated": "PG",
+    "released": "2000-06-30T04:00:00.000Z",
+    "runtime": 92,
+    "countries": [
+    "USA",
+    "Germany"
+    ],
+    "genres": [
+    "Animation",
+    "Adventure",
+    "Comedy"
+    ],
+    "director": "Des McAnuff",
+    "writers": [
+    "Jay Ward",
+    "Kenneth Lonergan"
+    ],
+    "actors": [
+    "Rene Russo",
+    "Jason Alexander",
+    "Piper Perabo",
+    "Randy Quaid"
+    ],
+    "plot": "When enemies Boris, Natasha and Fearless leader escape into the real world with a nefarious scheme, Rocky & Bullwinkle do the same and team up with a young F.B.I. agent to stop the trio.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMzI0Mzk2NzcwNV5BMl5BanBnXkFtZTcwNjYyNTkxMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0131704",
+    "rating": 4.1,
+    "votes": 16248
+    },
+    "tomato": {
+    "meter": 43,
+    "image": "rotten",
+    "rating": 4.8,
+    "reviews": 96,
+    "fresh": 41,
+    "consensus": "Though the film stays true to the nature of the original cartoon, the script is disappointing and not funny.",
+    "userMeter": 19,
+    "userRating": 2.2,
+    "userReviews": 51819
+    },
+    "metacritic": 36,
+    "awards": {
+    "wins": 2,
+    "nominations": 4,
+    "text": "2 wins & 4 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccf4",
+    "title": "The Extraordinary Adventures of Adèle Blanc-Sec",
+    "year": 2010,
+    "imdb": "tt1179025",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d024de1e0ce2dfcd80",
+    "title": "The Extraordinary Adventures of Adèle Blanc-Sec",
+    "year": 2010,
+    "rated": "PG",
+    "released": "2010-04-14T04:00:00.000Z",
+    "runtime": 107,
+    "countries": [
+    "France",
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+    ],
+    "director": "Luc Besson",
+    "writers": [
+    "Luc Besson",
+    "Jacques Tardi"
+    ],
+    "actors": [
+    "Louise Bourgoin",
+    "Mathieu Amalric",
+    "Gilles Lellouche",
+    "Jean-Paul Rouve"
+    ],
+    "plot": "An adventure set in the early part of the 20th century and focused on a popular novelist and her dealings with would-be suitors, the cops, monsters, and other distractions.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTcwNzc0ODc5N15BMl5BanBnXkFtZTcwNDI1MTY4NA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt1179025",
+    "rating": 6.3,
+    "votes": 14871
+    },
+    "awards": {
+    "wins": 2,
+    "nominations": 1,
+    "text": "2 wins & 1 nomination."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccf5",
+    "title": "The Truman Show",
+    "year": 1998,
+    "imdb": "tt0120382",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd81",
+    "title": "The Truman Show",
+    "year": 1998,
+    "rated": "PG",
+    "released": "1998-06-05T04:00:00.000Z",
+    "runtime": 103,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Drama"
+    ],
+    "director": "Peter Weir",
+    "writers": [
+    "Andrew Niccol"
+    ],
+    "actors": [
+    "Jim Carrey",
+    "Laura Linney",
+    "Noah Emmerich",
+    "Natascha McElhone"
+    ],
+    "plot": "An insurance salesman/adjuster discovers his entire life is actually a T.V. show.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTg4NTU3NTAyMF5BMl5BanBnXkFtZTgwNjYwNzc3NjE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0120382",
+    "rating": 8.1,
+    "votes": 613430
+    },
+    "tomato": {
+    "meter": 94,
+    "image": "certified",
+    "rating": 8.4,
+    "reviews": 125,
+    "fresh": 118,
+    "consensus": "A funny, tender, and thought-provoking film, The Truman Show is all the more noteworthy for its remarkably prescient vision of runaway celebrity culture and a nation with an insatiable thirst for the private details of ordinary lives.",
+    "userMeter": 88,
+    "userRating": 3.5,
+    "userReviews": 580012
+    },
+    "metacritic": 90,
+    "awards": {
+    "wins": 35,
+    "nominations": 65,
+    "text": "Nominated for 3 Oscars. Another 35 wins & 65 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccf6",
+    "title": "The Rocky Horror Picture Show",
+    "year": 1975,
+    "imdb": "tt0073629",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd82",
+    "title": "The Rocky Horror Picture Show",
+    "year": 1975,
+    "rated": "R",
+    "released": "1975-08-15T04:00:00.000Z",
+    "runtime": 100,
+    "countries": [
+    "UK",
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Musical"
+    ],
+    "director": "Jim Sharman",
+    "writers": [
+    "Richard O'Brien",
+    "Jim Sharman",
+    "Richard O'Brien"
+    ],
+    "actors": [
+    "Tim Curry",
+    "Susan Sarandon",
+    "Barry Bostwick",
+    "Richard O'Brien"
+    ],
+    "plot": "A newly engaged couple have a breakdown in an isolated area and must pay a call to the bizarre residence of Dr. Frank-N-Furter.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMjE5NDc0NjE2NF5BMl5BanBnXkFtZTcwMTE4MTI3NA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0073629",
+    "rating": 7.4,
+    "votes": 97249
+    },
+    "tomato": {
+    "meter": 80,
+    "image": "fresh",
+    "rating": 6.8,
+    "reviews": 41,
+    "fresh": 33,
+    "consensus": null,
+    "userMeter": 85,
+    "userRating": 3.6,
+    "userReviews": 364776
+    },
+    "metacritic": 58,
+    "awards": {
+    "wins": 2,
+    "nominations": 4,
+    "text": "2 wins & 4 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccf7",
+    "title": "Quiz Show",
+    "year": 1994,
+    "imdb": "tt0110932",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd83",
+    "title": "Quiz Show",
+    "year": 1994,
+    "rated": "PG-13",
+    "released": "1994-10-07T04:00:00.000Z",
+    "runtime": 133,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Drama",
+    "History"
+    ],
+    "director": "Robert Redford",
+    "writers": [
+    "Paul Attanasio",
+    "Richard N. Goodwin"
+    ],
+    "actors": [
+    "John Turturro",
+    "Rob Morrow",
+    "Ralph Fiennes",
+    "Paul Scofield"
+    ],
+    "plot": "A young lawyer, Richard Goodwin, investigates a potentially fixed game show. Charles Van Doren, a big time show winner, is under Goodwin's investigation.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTc2NTU3MTY4Nl5BMl5BanBnXkFtZTcwNTc1NzkxMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0110932",
+    "rating": 7.5,
+    "votes": 51692
+    },
+    "tomato": {
+    "meter": 96,
+    "image": "certified",
+    "rating": 8.2,
+    "reviews": 53,
+    "fresh": 51,
+    "consensus": "Robert Redford refracts the sociopolitical and moral issues posed by the subject material through a purely entertaining, well-acted lens.",
+    "userMeter": 86,
+    "userRating": 3.6,
+    "userReviews": 30669
+    },
+    "metacritic": 88,
+    "awards": {
+    "wins": 5,
+    "nominations": 23,
+    "text": "Nominated for 4 Oscars. Another 5 wins & 23 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccf8",
+    "title": "Best in Show",
+    "year": 2000,
+    "imdb": "tt0218839",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd84",
+    "title": "Best in Show",
+    "year": 2000,
+    "rated": "PG-13",
+    "released": "2000-10-20T04:00:00.000Z",
+    "runtime": 90,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy"
+    ],
+    "director": "Christopher Guest",
+    "writers": [
+    "Christopher Guest",
+    "Eugene Levy"
+    ],
+    "actors": [
+    "Jay Brazeau",
+    "Parker Posey",
+    "Michael Hitchcock",
+    "Catherine O'Hara"
+    ],
+    "plot": "A colorful array of characters competes at a national dog show.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ5OTc0NDU1MF5BMl5BanBnXkFtZTYwNzk1OTI3._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0218839",
+    "rating": 7.5,
+    "votes": 44198
+    },
+    "tomato": {
+    "meter": 95,
+    "image": "certified",
+    "rating": 7.5,
+    "reviews": 110,
+    "fresh": 104,
+    "consensus": "A fine example of writer-director-star Christopher Guest's gift for improv comedy, Best in Show boasts an appealingly quirky premise and a brilliantly talented cast.",
+    "userMeter": 89,
+    "userRating": 3.7,
+    "userReviews": 55763
+    },
+    "metacritic": 78,
+    "awards": {
+    "wins": 11,
+    "nominations": 13,
+    "text": "Nominated for 1 Golden Globe. Another 11 wins & 13 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccf9",
+    "title": "Show Me Love",
+    "year": 1998,
+    "imdb": "tt0150662",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd85",
+    "title": "Show Me Love",
+    "year": 1998,
+    "rated": "UNRATED",
+    "released": "1998-10-23T04:00:00.000Z",
+    "runtime": 89,
+    "countries": [
+    "Sweden",
+    "Denmark"
+    ],
+    "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+    ],
+    "director": "Lukas Moodysson",
+    "writers": [
+    "Lukas Moodysson"
+    ],
+    "actors": [
+    "Alexandra Dahlström",
+    "Rebecka Liljeberg",
+    "Erica Carlson",
+    "Mathias Rust"
+    ],
+    "plot": "Two teenage girls in small-town Sweden. Elin is beautiful, popular, and bored with life. Agnes is friendless, sad, and secretly in love with Elin.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMjE0NDY0MjcxN15BMl5BanBnXkFtZTcwNzYxMDQyMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0150662",
+    "rating": 7.7,
+    "votes": 41316
+    },
+    "tomato": {
+    "meter": 90,
+    "image": "certified",
+    "rating": 7.6,
+    "reviews": 40,
+    "fresh": 36,
+    "consensus": "A naturalistic depiction of teenage life, Show Me Love has a charming, authentic feel.",
+    "userMeter": 86,
+    "userRating": 3.9,
+    "userReviews": 16636
+    },
+    "metacritic": 73,
+    "awards": {
+    "wins": 19,
+    "nominations": 8,
+    "text": "19 wins & 8 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccfa",
+    "title": "The Last Picture Show",
+    "year": 1971,
+    "imdb": "tt0067328",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd86",
+    "title": "The Last Picture Show",
+    "year": 1971,
+    "rated": "R",
+    "released": "1971-10-22T04:00:00.000Z",
+    "runtime": 118,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Drama"
+    ],
+    "director": "Peter Bogdanovich",
+    "writers": [
+    "Larry McMurtry",
+    "Peter Bogdanovich",
+    "Larry McMurtry"
+    ],
+    "actors": [
+    "Timothy Bottoms",
+    "Jeff Bridges",
+    "Cybill Shepherd",
+    "Ben Johnson"
+    ],
+    "plot": "A group of 1950s high schoolers come of age in a bleak, isolated, atrophied West Texas town that is slowly dying, both economically and culturally.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNDkyNzQ1NzYzN15BMl5BanBnXkFtZTcwNjE5MDEwNw@@._V1._CR73.19999694824219,89.69999694824219,1196,1865.2000274658203_SX89_AL_.jpg_V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0067328",
+    "rating": 8.1,
+    "votes": 29830
+    },
+    "awards": {
+    "wins": 16,
+    "nominations": 22,
+    "text": "Won 2 Oscars. Another 16 wins & 22 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccfb",
+    "title": "The Greatest Show on Earth",
+    "year": 1952,
+    "imdb": "tt0044672",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd87",
+    "title": "The Greatest Show on Earth",
+    "year": 1952,
+    "rated": "NOT RATED",
+    "released": "1952-05-01T04:00:00.000Z",
+    "runtime": 152,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Drama",
+    "Family",
+    "Romance"
+    ],
+    "director": "Cecil B. DeMille",
+    "writers": [
+    "Fredric M. Frank",
+    "Barré Lyndon",
+    "Theodore St. John",
+    "Fredric M. Frank",
+    "Theodore St. John",
+    "Frank Cavett"
+    ],
+    "actors": [
+    "Betty Hutton",
+    "Cornel Wilde",
+    "Charlton Heston",
+    "Dorothy Lamour"
+    ],
+    "plot": "The dramatic lives of trapeze artists, a clown, and an elephant trainer against a background of circus spectacle.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTgzMTA1MDM5NV5BMl5BanBnXkFtZTgwNjg5NDc2MjE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0044672",
+    "rating": 6.7,
+    "votes": 8952
+    },
+    "awards": {
+    "wins": 4,
+    "nominations": 5,
+    "text": "Won 2 Oscars. Another 4 wins & 5 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccfc",
+    "title": "There's No Business Like Show Business",
+    "year": 1954,
+    "imdb": "tt0047574",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd88",
+    "title": "There's No Business Like Show Business",
+    "year": 1954,
+    "rated": "APPROVED",
+    "released": "1954-12-16T05:00:00.000Z",
+    "runtime": 117,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Drama",
+    "Musical"
+    ],
+    "director": "Walter Lang",
+    "writers": [
+    "Phoebe Ephron",
+    "Henry Ephron",
+    "Lamar Trotti"
+    ],
+    "actors": [
+    "Ethel Merman",
+    "Donald O'Connor",
+    "Marilyn Monroe",
+    "Dan Dailey"
+    ],
+    "plot": "Molly and Terry Donahue, plus their three children, are The Five Donahues. Son Tim meets hat-check girl Vicky and the family act begins to fall apart.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ3ODk4NzIzM15BMl5BanBnXkFtZTcwODMyMTMyMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0047574",
+    "rating": 6.5,
+    "votes": 3913
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 1,
+    "text": "Nominated for 3 Oscars. Another 1 nomination."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcce9",
+    "title": "2001: A Space Travesty",
+    "year": 2000,
+    "imdb": "tt0157262",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190cf24de1e0ce2dfcd75",
+    "title": "2001: A Space Travesty",
+    "year": 2000,
+    "rated": "R",
+    "released": "2001-09-07T04:00:00.000Z",
+    "runtime": 99,
+    "countries": [
+    "Canada",
+    "Germany"
+    ],
+    "genres": [
+    "Comedy",
+    "Sci-Fi"
+    ],
+    "director": "Allan A. Goldstein",
+    "writers": [
+    "Vince Di Clemente",
+    "Alan Shearman"
+    ],
+    "actors": [
+    "Leslie Nielsen",
+    "Ophélie Winter",
+    "Ezio Greggio",
+    "Peter Egan"
+    ],
+    "plot": "Leslie Nielsen once again plays a bumbling detective in the vein of the 'Naked Gun' movies, but this time as Marshall Richard 'Dick' Dix. When odd reports are received through official ...",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTA5NTk1NTc3MjJeQTJeQWpwZ15BbWU3MDkxNTMyMjE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0157262",
+    "rating": 3.3,
+    "votes": 9321
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 0,
+    "text": ""
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccfd",
+    "title": "Show Boat",
+    "year": 1951,
+    "imdb": "tt0044030",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd89",
+    "title": "Show Boat",
+    "year": 1951,
+    "rated": "PASSED",
+    "released": "1951-09-24T04:00:00.000Z",
+    "runtime": 108,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Drama",
+    "Family",
+    "Musical"
+    ],
+    "director": "George Sidney",
+    "writers": [
+    "John Lee Mahin",
+    "Jerome Kern",
+    "Oscar Hammerstein II",
+    "Edna Ferber"
+    ],
+    "actors": [
+    "Kathryn Grayson",
+    "Ava Gardner",
+    "Howard Keel",
+    "Joe E. Brown"
+    ],
+    "plot": "The daughter of a riverboat captain falls in love with a charming gambler, but their fairytale romance is threatened when his luck turns sour.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ2NTQ0MzI1MV5BMl5BanBnXkFtZTgwNzY5ODU3MTE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0044030",
+    "rating": 7,
+    "votes": 3406
+    },
+    "awards": {
+    "wins": 1,
+    "nominations": 2,
+    "text": "Nominated for 2 Oscars. Another 1 win & 2 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccff",
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "year": 2006,
+    "imdb": "tt0383574",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd8b",
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "year": 2006,
+    "rated": "PG-13",
+    "released": "2006-07-07T04:00:00.000Z",
+    "runtime": 151,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+    ],
+    "director": "Gore Verbinski",
+    "writers": [
+    "Ted Elliott",
+    "Terry Rossio",
+    "Ted Elliott",
+    "Terry Rossio",
+    "Stuart Beattie",
+    "Jay Wolpert"
+    ],
+    "actors": [
+    "Johnny Depp",
+    "Orlando Bloom",
+    "Keira Knightley",
+    "Jack Davenport"
+    ],
+    "plot": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTcwODc1MTMxM15BMl5BanBnXkFtZTYwMDg1NzY3._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0383574",
+    "rating": 7.3,
+    "votes": 492854
+    },
+    "tomato": {
+    "meter": 54,
+    "image": "rotten",
+    "rating": 6,
+    "reviews": 219,
+    "fresh": 118,
+    "consensus": "Gone is Depp's unpredictability and much of the humor and originality of the first movie.",
+    "userMeter": 72,
+    "userRating": 3.9,
+    "userReviews": 1845112
+    },
+    "metacritic": 53,
+    "awards": {
+    "wins": 41,
+    "nominations": 48,
+    "text": "Won 1 Oscar. Another 41 wins & 48 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcd00",
+    "title": "Shaun of the Dead",
+    "year": 2004,
+    "imdb": "tt0365748",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d224de1e0ce2dfcd8c",
+    "title": "Shaun of the Dead",
+    "year": 2004,
+    "rated": "R",
+    "released": "2004-09-24T04:00:00.000Z",
+    "runtime": 99,
+    "countries": [
+    "UK",
+    "France"
+    ],
+    "genres": [
+    "Comedy",
+    "Horror"
+    ],
+    "director": "Edgar Wright",
+    "writers": [
+    "Simon Pegg",
+    "Edgar Wright"
+    ],
+    "actors": [
+    "Simon Pegg",
+    "Kate Ashfield",
+    "Nick Frost",
+    "Lucy Davis"
+    ],
+    "plot": "A man decides to turn his moribund life around by winning back his ex-girlfriend, reconciling his relationship with his mother, and dealing with an entire community that has returned from the dead to eat the living.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTU2NjA0NDk0NV5BMl5BanBnXkFtZTcwOTA0OTQzMw@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0365748",
+    "rating": 8,
+    "votes": 372719
+    },
+    "tomato": {
+    "meter": 92,
+    "image": "certified",
+    "rating": 7.8,
+    "reviews": 200,
+    "fresh": 183,
+    "consensus": "Shaun of the Dead cleverly balances scares and witty satire, making for a bloody good zombie movie with loads of wit.",
+    "userMeter": 93,
+    "userRating": 3.9,
+    "userReviews": 494999
+    },
+    "metacritic": 76,
+    "awards": {
+    "wins": 11,
+    "nominations": 17,
+    "text": "11 wins & 17 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcd01",
+    "title": "Dead Poets Society",
+    "year": 1989,
+    "imdb": "tt0097165",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d224de1e0ce2dfcd8d",
+    "title": "Dead Poets Society",
+    "year": 1989,
+    "rated": "PG",
+    "released": "1989-06-09T04:00:00.000Z",
+    "runtime": 128,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Drama"
+    ],
+    "director": "Peter Weir",
+    "writers": [
+    "Tom Schulman"
+    ],
+    "actors": [
+    "Robin Williams",
+    "Robert Sean Leonard",
+    "Ethan Hawke",
+    "Josh Charles"
+    ],
+    "plot": "English teacher John Keating inspires his students to discover their love for poetry and seize the day.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMzA5MTE0NTUwOV5BMl5BanBnXkFtZTgwOTgyMDUxMDE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0097165",
+    "rating": 8,
+    "votes": 259878
+    },
+    "tomato": {
+    "meter": 85,
+    "image": "certified",
+    "rating": 7.2,
+    "reviews": 54,
+    "fresh": 46,
+    "consensus": "Affecting performances from the young cast and a genuinely inspirational turn from Robin Williams grant Peter Weir's prep school drama top honors.",
+    "userMeter": 92,
+    "userRating": 3.8,
+    "userReviews": 304924
+    },
+    "metacritic": 79,
+    "awards": {
+    "wins": 17,
+    "nominations": 18,
+    "text": "Won 1 Oscar. Another 17 wins & 18 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcd02",
+    "title": "Dawn of the Dead",
+    "year": 2004,
+    "imdb": "tt0363547",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d224de1e0ce2dfcd8e",
+    "title": "Dawn of the Dead",
+    "year": 2004,
+    "rated": "R",
+    "released": "2004-03-19T05:00:00.000Z",
+    "runtime": 101,
+    "countries": [
+    "USA",
+    "Canada",
+    "Japan",
+    "France"
+    ],
+    "genres": [
+    "Action",
+    "Horror",
+    "Sci-Fi"
+    ],
+    "director": "Zack Snyder",
+    "writers": [
+    "George A. Romero",
+    "James Gunn"
+    ],
+    "actors": [
+    "Sarah Polley",
+    "Ving Rhames",
+    "Jake Weber",
+    "Mekhi Phifer"
+    ],
+    "plot": "A nurse, a policeman, a young married couple, a salesman, and other survivors of a worldwide plague that is producing aggressive, flesh-eating zombies, take refuge in a mega Midwestern shopping mall.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTI4OTU2NjY5OF5BMl5BanBnXkFtZTYwOTQ2Mzg3._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0363547",
+    "rating": 7.4,
+    "votes": 186031
+    },
+    "tomato": {
+    "meter": 75,
+    "image": "certified",
+    "rating": 6.7,
+    "reviews": 180,
+    "fresh": 135,
+    "consensus": "A kinetic, violent and surprisingly worthy remake of George Romero's horror classic that pays homage to the original while working on its own terms.",
+    "userMeter": 77,
+    "userRating": 3.4,
+    "userReviews": 402786
+    },
+    "metacritic": 58,
+    "awards": {
+    "wins": 1,
+    "nominations": 14,
+    "text": "1 win & 14 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcd03",
+    "title": "The Evil Dead",
+    "year": 1981,
+    "imdb": "tt0083907",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d224de1e0ce2dfcd8f",
+    "title": "The Evil Dead",
+    "year": 1981,
+    "rated": "NC-17",
+    "released": "1983-04-15T05:00:00.000Z",
+    "runtime": 85,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Horror"
+    ],
+    "director": "Sam Raimi",
+    "writers": [
+    "Sam Raimi"
+    ],
+    "actors": [
+    "Bruce Campbell",
+    "Ellen Sandweiss",
+    "Richard DeManincor",
+    "Betsy Baker"
+    ],
+    "plot": "Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTI0ODQ4NDkwNV5BMl5BanBnXkFtZTcwNDQ3MTU1MQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0083907",
+    "rating": 7.6,
+    "votes": 132303
+    },
+    "tomato": {
+    "meter": 95,
+    "image": "fresh",
+    "rating": 8.1,
+    "reviews": 55,
+    "fresh": 52,
+    "consensus": "This classic low budget horror film combines just the right amount of gore and black humor, giving The Evil Dead an equal amount of thrills and laughs.",
+    "userMeter": 84,
+    "userRating": 3.7,
+    "userReviews": 201087
+    },
+    "metacritic": 70,
+    "awards": {
+    "wins": 3,
+    "nominations": 1,
+    "text": "3 wins & 1 nomination."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcd04",
+    "title": "Evil Dead",
+    "year": 2013,
+    "imdb": "tt1288558",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d224de1e0ce2dfcd90",
+    "title": "Evil Dead",
+    "year": 2013,
+    "rated": "R",
+    "released": "2013-04-05T04:00:00.000Z",
+    "runtime": 91,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Horror"
+    ],
+    "director": "Fede Alvarez",
+    "writers": [
+    "Fede Alvarez",
+    "Rodo Sayagues",
+    "Sam Raimi"
+    ],
+    "actors": [
+    "Jane Levy",
+    "Shiloh Fernandez",
+    "Lou Taylor Pucci",
+    "Jessica Lucas"
+    ],
+    "plot": "Five friends head to a remote cabin, where the discovery of a Book of the Dead leads them to unwittingly summon up demons living in the nearby woods. The evil presence possesses them until only one is left to fight for survival.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNTQ3OTkwNTgyN15BMl5BanBnXkFtZTcwNTAzOTAzOQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt1288558",
+    "rating": 6.5,
+    "votes": 117842
+    },
+    "tomato": {
+    "meter": 62,
+    "image": "fresh",
+    "rating": 6.1,
+    "reviews": 173,
+    "fresh": 107,
+    "consensus": "It may lack the absurd humor that underlined the original, but the new-look Evil Dead compensates with brutal terror, gory scares, and gleefully bloody violence.",
+    "userMeter": 63,
+    "userRating": 3.5,
+    "userReviews": 75958
+    },
+    "metacritic": 57,
+    "awards": {
+    "wins": 6,
+    "nominations": 16,
+    "text": "6 wins & 16 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcd05",
+    "title": "Evil Dead II",
+    "year": 1987,
+    "imdb": "tt0092991",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d224de1e0ce2dfcd91",
+    "title": "Evil Dead II",
+    "year": 1987,
+    "rated": "X",
+    "released": "1987-03-13T05:00:00.000Z",
+    "runtime": 84,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Horror"
+    ],
+    "director": "Sam Raimi",
+    "writers": [
+    "Sam Raimi",
+    "Scott Spiegel"
+    ],
+    "actors": [
+    "Bruce Campbell",
+    "Sarah Berry",
+    "Dan Hicks",
+    "Kassie Wesley DePaiva"
+    ],
+    "plot": "The lone survivor of an onslaught of flesh-possessing spirits holds up in a cabin with a group of strangers while the demons continue their attack.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTA4Nzg5MjMwNzFeQTJeQWpwZ15BbWU4MDA2NDg4MDcx._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0092991",
+    "rating": 7.8,
+    "votes": 106566
+    },
+    "tomato": {
+    "meter": 98,
+    "image": "certified",
+    "rating": 8,
+    "reviews": 52,
+    "fresh": 51,
+    "consensus": "Evil Dead 2's increased special effects and slapstick-gore makes it as good -- if not better -- than the original.",
+    "userMeter": 89,
+    "userRating": 3.8,
+    "userReviews": 146840
+    },
+    "metacritic": 69,
+    "awards": {
+    "wins": 0,
+    "nominations": 5,
+    "text": "5 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcd06",
+    "title": "Dawn of the Dead",
+    "year": 1978,
+    "imdb": "tt0077402",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d224de1e0ce2dfcd92",
+    "title": "Dawn of the Dead",
+    "year": 1978,
+    "rated": "UNRATED",
+    "released": "1979-05-24T04:00:00.000Z",
+    "runtime": 127,
+    "countries": [
+    "Italy",
+    "USA"
+    ],
+    "genres": [
+    "Horror"
+    ],
+    "director": "George A. Romero",
+    "writers": [
+    "George A. Romero"
+    ],
+    "actors": [
+    "David Emge",
+    "Ken Foree",
+    "Scott H. Reiniger",
+    "Gaylen Ross"
+    ],
+    "plot": "Following an ever-growing epidemic of zombies that have risen from the dead, two Philadelphia S.W.A.T. team members, a traffic reporter, and his television executive girlfriend seek refuge in a secluded shopping mall.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMjE1NzI5OTA1OF5BMl5BanBnXkFtZTcwMjg1MDUyMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0077402",
+    "rating": 8,
+    "votes": 85927
+    },
+    "awards": {
+    "wins": 2,
+    "nominations": 2,
+    "text": "2 wins & 2 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcd07",
+    "title": "Night of the Living Dead",
+    "year": 1968,
+    "imdb": "tt0063350",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d224de1e0ce2dfcd93",
+    "title": "Night of the Living Dead",
+    "year": 1968,
+    "rated": "UNRATED",
+    "released": "1968-10-01T04:00:00.000Z",
+    "runtime": 96,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Horror"
+    ],
+    "director": "George A. Romero",
+    "writers": [
+    "John A. Russo",
+    "George A. Romero"
+    ],
+    "actors": [
+    "Duane Jones",
+    "Judith O'Dea",
+    "Karl Hardman",
+    "Marilyn Eastman"
+    ],
+    "plot": "A group of people hide from bloodthirsty zombies in a farmhouse.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ2MjAxODUyNl5BMl5BanBnXkFtZTgwOTExMzUzMDE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0063350",
+    "rating": 8,
+    "votes": 84070
+    },
+    "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfcd08",
+    "title": "Before the Devil Knows You're Dead",
+    "year": 2007,
+    "imdb": "tt0292963",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d224de1e0ce2dfcd94",
+    "title": "Before the Devil Knows You're Dead",
+    "year": 2007,
+    "rated": "R",
+    "released": "2007-12-07T05:00:00.000Z",
+    "runtime": 117,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+    ],
+    "director": "Sidney Lumet",
+    "writers": [
+    "Kelly Masterson"
+    ],
+    "actors": [
+    "Philip Seymour Hoffman",
+    "Ethan Hawke",
+    "Albert Finney",
+    "Marisa Tomei"
+    ],
+    "plot": "When two brothers organize the robbery of their parents' jewelry store the job goes horribly wrong, triggering a series of events that sends them, their father and one brother's wife hurtling towards a shattering climax.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ1NzM2ODQxNF5BMl5BanBnXkFtZTcwMDczMDU1MQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0292963",
+    "rating": 7.3,
+    "votes": 79728
+    },
+    "tomato": {
+    "meter": 88,
+    "image": "certified",
+    "rating": 7.7,
+    "reviews": 167,
+    "fresh": 147,
+    "consensus": "A tense and effective thriller, Before the Devil Knows You're Dead marks a triumphant return to form for director Sidney Lumet.",
+    "userMeter": 71,
+    "userRating": 3.5,
+    "userReviews": 85883
+    },
+    "metacritic": 84,
+    "awards": {
+    "wins": 17,
+    "nominations": 25,
+    "text": "17 wins & 25 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd95",
+    "title": "Rise of the Planet of the Apes",
+    "year": 2011,
+    "imdb": "tt1318514",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13b24de1e0ce2dfcea5",
+    "title": "Rise of the Planet of the Apes",
+    "year": 2011,
+    "rated": "PG-13",
+    "released": "2011-08-05T04:00:00.000Z",
+    "runtime": 105,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Drama",
+    "Sci-Fi"
+    ],
+    "director": "Rupert Wyatt",
+    "writers": [
+    "Rick Jaffa",
+    "Amanda Silver",
+    "Pierre Boulle"
+    ],
+    "actors": [
+    "Andy Serkis",
+    "Karin Konoval",
+    "Terry Notary",
+    "Richard Ridings"
+    ],
+    "plot": "A substance, designed to help the brain repair itself, gives rise to a super-intelligent chimp who leads an ape uprising.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQyMjUxNTc0Ml5BMl5BanBnXkFtZTcwMjg1ODExNg@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt1318514",
+    "rating": 7.6,
+    "votes": 383633
+    },
+    "tomato": {
+    "meter": 82,
+    "image": "certified",
+    "rating": 7.1,
+    "reviews": 248,
+    "fresh": 203,
+    "consensus": "Led by Rupert Wyatt's stylish direction, some impressive special effects, and a mesmerizing performance by Andy Serkis, Rise of the Planet of the Apes breathes unlikely new life into a long-running franchise.",
+    "userMeter": 77,
+    "userRating": 4,
+    "userReviews": 446278
+    },
+    "metacritic": 68,
+    "awards": {
+    "wins": 19,
+    "nominations": 40,
+    "text": "Nominated for 1 Oscar. Another 19 wins & 40 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd96",
+    "title": "Dawn of the Planet of the Apes",
+    "year": 2014,
+    "imdb": "tt2103281",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13b24de1e0ce2dfcea6",
+    "title": "Dawn of the Planet of the Apes",
+    "year": 2014,
+    "rated": "PG-13",
+    "released": "2014-07-11T04:00:00.000Z",
+    "runtime": 130,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Drama",
+    "Sci-Fi"
+    ],
+    "director": "Matt Reeves",
+    "writers": [
+    "Mark Bomback",
+    "Rick Jaffa",
+    "Amanda Silver",
+    "Rick Jaffa",
+    "Amanda Silver",
+    "Pierre Boulle"
+    ],
+    "actors": [
+    "Andy Serkis",
+    "Jason Clarke",
+    "Gary Oldman",
+    "Keri Russell"
+    ],
+    "plot": "A growing nation of genetically evolved apes led by Caesar is threatened by a band of human survivors of the devastating virus unleashed a decade earlier.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTgwODk3NDc1N15BMl5BanBnXkFtZTgwNTc1NjQwMjE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt2103281",
+    "rating": 7.6,
+    "votes": 294568
+    },
+    "tomato": {
+    "meter": 90,
+    "image": "certified",
+    "rating": 7.9,
+    "reviews": 268,
+    "fresh": 241,
+    "consensus": "With intelligence and emotional resonance to match its stunning special effects, Dawn of the Planet of the Apes expands on its predecessor with an exciting and ambitious burst of sci-fi achievement.",
+    "userMeter": 88,
+    "userRating": 4.2,
+    "userReviews": 201217
+    },
+    "metacritic": 79,
+    "awards": {
+    "wins": 13,
+    "nominations": 43,
+    "text": "Nominated for 1 Oscar. Another 13 wins & 43 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd97",
+    "title": "Planet of the Apes",
+    "year": 2001,
+    "imdb": "tt0133152",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13b24de1e0ce2dfcea7",
+    "title": "Planet of the Apes",
+    "year": 2001,
+    "rated": "PG-13",
+    "released": "2001-07-27T04:00:00.000Z",
+    "runtime": 119,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+    ],
+    "director": "Tim Burton",
+    "writers": [
+    "Pierre Boulle",
+    "William Broyles Jr.",
+    "Lawrence Konner",
+    "Mark Rosenthal"
+    ],
+    "actors": [
+    "Mark Wahlberg",
+    "Tim Roth",
+    "Helena Bonham Carter",
+    "Michael Clarke Duncan"
+    ],
+    "plot": "An Air Force astronaut crash lands on a mysterious planet where evolved, talking apes dominate a race of primitive humans.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTY5Nzg4NzAzMF5BMl5BanBnXkFtZTcwMjc5MzcyMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0133152",
+    "rating": 5.7,
+    "votes": 172416
+    },
+    "tomato": {
+    "meter": 45,
+    "image": "rotten",
+    "rating": 5.5,
+    "reviews": 156,
+    "fresh": 70,
+    "consensus": "This remake of Planet of the Apes can't compare to the original in some critics' mind, but the striking visuals and B-movie charms may win you over.",
+    "userMeter": 27,
+    "userRating": 2.7,
+    "userReviews": 366047
+    },
+    "metacritic": 50,
+    "awards": {
+    "wins": 10,
+    "nominations": 23,
+    "text": "Nominated for 2 BAFTA Film Awards. Another 10 wins & 23 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd98",
+    "title": "Planet Terror",
+    "year": 2007,
+    "imdb": "tt1077258",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13b24de1e0ce2dfcea8",
+    "title": "Planet Terror",
+    "year": 2007,
+    "rated": "NOT RATED",
+    "released": "2007-06-21T04:00:00.000Z",
+    "runtime": 105,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Comedy",
+    "Horror"
+    ],
+    "director": "Robert Rodriguez",
+    "writers": [
+    "Robert Rodriguez"
+    ],
+    "actors": [
+    "Rose McGowan",
+    "Freddy Rodríguez",
+    "Josh Brolin",
+    "Marley Shelton"
+    ],
+    "plot": "After an experimental bio-weapon is released, turning thousands into zombie-like creatures, it's up to a rag-tag group of survivors to stop the infected and those behind its release.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTI0NDQ5MTM2MV5BMl5BanBnXkFtZTcwOTIwMjk2MQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt1077258",
+    "rating": 7.2,
+    "votes": 160542
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 2,
+    "text": "2 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd99",
+    "title": "Planet of the Apes",
+    "year": 1968,
+    "imdb": "tt0063442",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13b24de1e0ce2dfcea9",
+    "title": "Planet of the Apes",
+    "year": 1968,
+    "rated": "G",
+    "released": "1968-04-03T04:00:00.000Z",
+    "runtime": 112,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Adventure",
+    "Sci-Fi"
+    ],
+    "director": "Franklin J. Schaffner",
+    "writers": [
+    "Michael Wilson",
+    "Rod Serling",
+    "Pierre Boulle"
+    ],
+    "actors": [
+    "Charlton Heston",
+    "Roddy McDowall",
+    "Kim Hunter",
+    "Maurice Evans"
+    ],
+    "plot": "An astronaut crew crash lands on a planet in the distant future where intelligent talking apes are the dominant species, and humans are the oppressed and enslaved.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTg0NjUwMzg5NF5BMl5BanBnXkFtZTgwNDQ0NjcwMTE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0063442",
+    "rating": 8,
+    "votes": 130800
+    },
+    "awards": {
+    "wins": 4,
+    "nominations": 1,
+    "text": "Nominated for 2 Oscars. Another 4 wins & 1 nomination."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd9a",
+    "title": "Treasure Planet",
+    "year": 2002,
+    "imdb": "tt0133240",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13b24de1e0ce2dfceaa",
+    "title": "Treasure Planet",
+    "year": 2002,
+    "rated": "PG",
+    "released": "2002-11-27T05:00:00.000Z",
+    "runtime": 95,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Animation",
+    "Adventure",
+    "Family"
+    ],
+    "director": "Ron Clements, John Musker",
+    "writers": [
+    "Robert Louis Stevenson",
+    "Ron Clements",
+    "John Musker",
+    "Rob Edwards",
+    "Ron Clements",
+    "John Musker",
+    "Ted Elliott",
+    "Terry Rossio"
+    ],
+    "actors": [
+    "Roscoe Lee Browne",
+    "Corey Burton",
+    "Dane A. Davis",
+    "Joseph Gordon-Levitt"
+    ],
+    "plot": "A Disney animated version of \"Treasure Island\". The only difference is that the film is set in outer space with alien worlds and other galactic wonders.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ0NDg3MjU2OV5BMl5BanBnXkFtZTYwODgyMDg5._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0133240",
+    "rating": 7.1,
+    "votes": 66157
+    },
+    "tomato": {
+    "meter": 68,
+    "image": "fresh",
+    "rating": 6.5,
+    "reviews": 146,
+    "fresh": 100,
+    "consensus": "Though its characterizations are weaker than usual, Treasure Planet offers a fast-paced, beautifully rendered vision of outer space.",
+    "userMeter": 70,
+    "userRating": 3.2,
+    "userReviews": 67264
+    },
+    "metacritic": 60,
+    "awards": {
+    "wins": 1,
+    "nominations": 12,
+    "text": "Nominated for 1 Oscar. Another 1 win & 12 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd9b",
+    "title": "Red Planet",
+    "year": 2000,
+    "imdb": "tt0199753",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13b24de1e0ce2dfceab",
+    "title": "Red Planet",
+    "year": 2000,
+    "rated": "PG-13",
+    "released": "2000-11-10T05:00:00.000Z",
+    "runtime": 106,
+    "countries": [
+    "USA",
+    "Australia"
+    ],
+    "genres": [
+    "Action",
+    "Sci-Fi",
+    "Thriller"
+    ],
+    "director": "Antony Hoffman",
+    "writers": [
+    "Chuck Pfarrer",
+    "Chuck Pfarrer",
+    "Jonathan Lemkin"
+    ],
+    "actors": [
+    "Val Kilmer",
+    "Carrie-Anne Moss",
+    "Tom Sizemore",
+    "Benjamin Bratt"
+    ],
+    "plot": "Astronauts, and their robotic dog AMME, search for solutions to save a dying Earth by searching on Mars, only to have the mission go terribly awry.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTY2MzE0MjAwOF5BMl5BanBnXkFtZTYwNDM4Mzg2._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0199753",
+    "rating": 5.6,
+    "votes": 46080
+    },
+    "tomato": {
+    "meter": 14,
+    "image": "rotten",
+    "rating": 3.8,
+    "reviews": 101,
+    "fresh": 14,
+    "consensus": "While the special effects are impressive, the movie suffers from a lack of energy and interesting characters.",
+    "userMeter": 28,
+    "userRating": 2.6,
+    "userReviews": 48221
+    },
+    "metacritic": 34,
+    "awards": {
+    "wins": 0,
+    "nominations": 1,
+    "text": "1 nomination."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd9c",
+    "title": "Planet 51",
+    "year": 2009,
+    "imdb": "tt0762125",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13b24de1e0ce2dfceac",
+    "title": "Planet 51",
+    "year": 2009,
+    "rated": "PG",
+    "released": "2009-11-20T05:00:00.000Z",
+    "runtime": 91,
+    "countries": [
+    "Spain",
+    "UK",
+    "USA"
+    ],
+    "genres": [
+    "Animation",
+    "Adventure",
+    "Comedy"
+    ],
+    "director": "Jorge Blanco, Javier Abad, Marcos Martínez",
+    "writers": [
+    "Javier Abad",
+    "Jorge Blanco",
+    "Marcos Martínez",
+    "Ignacio Pérez Dolset",
+    "Joe Stillman"
+    ],
+    "actors": [
+    "Jessica Biel",
+    "John Cleese",
+    "Gary Oldman",
+    "Dwayne Johnson"
+    ],
+    "plot": "An alien civilization is invaded by Astronaut Chuck Baker, who believes that the planet was uninhabited. Wanted by the military, Baker must get back to his ship before it goes into orbit without him.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTUyOTAyNTA5Ml5BMl5BanBnXkFtZTcwODU2OTM0Mg@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0762125",
+    "rating": 6.1,
+    "votes": 39493
+    },
+    "tomato": {
+    "meter": 21,
+    "image": "rotten",
+    "rating": 4.2,
+    "reviews": 107,
+    "fresh": 23,
+    "consensus": "Planet 51 squanders an interesting premise with an overly familiar storyline, stock characters, and humor that alternates between curious and potentially offensive.",
+    "userMeter": 39,
+    "userRating": 2.8,
+    "userReviews": 356891
+    },
+    "metacritic": 39,
+    "awards": {
+    "wins": 3,
+    "nominations": 4,
+    "text": "3 wins & 4 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56918f5e24de1e0ce2dfccfe",
+    "title": "Show People",
+    "year": 1928,
+    "imdb": "tt0019379",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "569190d124de1e0ce2dfcd8a",
+    "title": "Show People",
+    "year": 1928,
+    "rated": "NOT RATED",
+    "released": "1928-11-20T05:00:00.000Z",
+    "runtime": 83,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Romance"
+    ],
+    "director": "King Vidor",
+    "writers": [
+    "Agnes Christine Johnston",
+    "Laurence Stallings",
+    "Wanda Tuchock",
+    "Ralph Spence"
+    ],
+    "actors": [
+    "Marion Davies",
+    "William Haines",
+    "Dell Henderson",
+    "Paul Ralli"
+    ],
+    "plot": "A young lady from Georgia goes to Hollywood in the hopes of becoming an actress.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ3MTUwMTg2Nl5BMl5BanBnXkFtZTgwMTM2ODAyMjE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0019379",
+    "rating": 8.2,
+    "votes": 2721
+    },
+    "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd9d",
+    "title": "Forbidden Planet",
+    "year": 1956,
+    "imdb": "tt0049223",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13b24de1e0ce2dfcead",
+    "title": "Forbidden Planet",
+    "year": 1956,
+    "rated": "PASSED",
+    "released": "1956-03-15T04:00:00.000Z",
+    "runtime": 98,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Family"
+    ],
+    "director": "Fred M. Wilcox",
+    "writers": [
+    "Cyril Hume",
+    "Irving Block",
+    "Allen Adler"
+    ],
+    "actors": [
+    "Walter Pidgeon",
+    "Anne Francis",
+    "Leslie Nielsen",
+    "Warren Stevens"
+    ],
+    "plot": "A starship crew goes to investigate the silence of a planet's colony only to find two survivors and a deadly secret that one of them has.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTMxOTc2NzgxMF5BMl5BanBnXkFtZTcwNzYxNDcyMg@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0049223",
+    "rating": 7.7,
+    "votes": 32236
+    },
+    "awards": {
+    "wins": 1,
+    "nominations": 1,
+    "text": "Nominated for 1 Oscar. Another 1 win & 1 nomination."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd9e",
+    "title": "Beneath the Planet of the Apes",
+    "year": 1970,
+    "imdb": "tt0065462",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13b24de1e0ce2dfceae",
+    "title": "Beneath the Planet of the Apes",
+    "year": 1970,
+    "rated": "G",
+    "released": "1970-05-26T04:00:00.000Z",
+    "runtime": 95,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+    ],
+    "director": "Ted Post",
+    "writers": [
+    "Paul Dehn",
+    "Mort Abrahams",
+    "Pierre Boulle",
+    "Paul Dehn"
+    ],
+    "actors": [
+    "James Franciscus",
+    "Kim Hunter",
+    "Maurice Evans",
+    "Linda Harrison"
+    ],
+    "plot": "The sole survivor of an interplanetary rescue mission searches for the only survivor of the previous expedition. He discovers a planet ruled by apes and an underground city run by telepathic humans.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTk0NDE0OTg2Ml5BMl5BanBnXkFtZTcwMDk3MTk0MQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0065462",
+    "rating": 6.1,
+    "votes": 30663
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 0,
+    "text": ""
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcd9f",
+    "title": "Alien",
+    "year": 1979,
+    "imdb": "tt0078748",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13c24de1e0ce2dfceaf",
+    "title": "Alien",
+    "year": 1979,
+    "rated": "R",
+    "released": "1979-06-22T04:00:00.000Z",
+    "runtime": 117,
+    "countries": [
+    "USA",
+    "UK"
+    ],
+    "genres": [
+    "Horror",
+    "Sci-Fi"
+    ],
+    "director": "Ridley Scott",
+    "writers": [
+    "Dan O'Bannon",
+    "Ronald Shusett",
+    "Dan O'Bannon"
+    ],
+    "actors": [
+    "Tom Skerritt",
+    "Sigourney Weaver",
+    "Veronica Cartwright",
+    "Harry Dean Stanton"
+    ],
+    "plot": "The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTU1ODQ4NjQyOV5BMl5BanBnXkFtZTgwOTQ3NDU2MTE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0078748",
+    "rating": 8.5,
+    "votes": 527017
+    },
+    "tomato": {
+    "meter": 97,
+    "image": "certified",
+    "rating": 9,
+    "reviews": 100,
+    "fresh": 97,
+    "consensus": "A modern classic, Alien blends science fiction, horror and bleak poetry into a seamless whole.",
+    "userMeter": 94,
+    "userRating": 3.9,
+    "userReviews": 453948
+    },
+    "metacritic": 83,
+    "awards": {
+    "wins": 15,
+    "nominations": 19,
+    "text": "Won 1 Oscar. Another 15 wins & 19 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcda0",
+    "title": "Alien³",
+    "year": 1992,
+    "imdb": "tt0103644",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13c24de1e0ce2dfceb0",
+    "title": "Alien³",
+    "year": 1992,
+    "rated": "R",
+    "released": "1992-05-22T04:00:00.000Z",
+    "runtime": 114,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Horror",
+    "Sci-Fi"
+    ],
+    "director": "David Fincher",
+    "writers": [
+    "Dan O'Bannon",
+    "Ronald Shusett",
+    "Vincent Ward",
+    "David Giler",
+    "Walter Hill",
+    "Larry Ferguson"
+    ],
+    "actors": [
+    "Sigourney Weaver",
+    "Charles S. Dutton",
+    "Charles Dance",
+    "Paul McGann"
+    ],
+    "plot": "Ripley continues to be stalked by a savage alien, after her escape pod crashes on a prison planet.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQzMTg3NTM2Ml5BMl5BanBnXkFtZTcwMTkzMTk3OA@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0103644",
+    "rating": 6.4,
+    "votes": 196084
+    },
+    "tomato": {
+    "meter": 44,
+    "image": "rotten",
+    "rating": 5.4,
+    "reviews": 45,
+    "fresh": 20,
+    "consensus": null,
+    "userMeter": 47,
+    "userRating": 3.1,
+    "userReviews": 337319
+    },
+    "metacritic": 59,
+    "awards": {
+    "wins": 4,
+    "nominations": 19,
+    "text": "Nominated for 1 Oscar. Another 4 wins & 19 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcda1",
+    "title": "Alien: Resurrection",
+    "year": 1997,
+    "imdb": "tt0118583",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13c24de1e0ce2dfceb1",
+    "title": "Alien: Resurrection",
+    "year": 1997,
+    "rated": "R",
+    "released": "1997-11-26T05:00:00.000Z",
+    "runtime": 109,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Horror",
+    "Sci-Fi"
+    ],
+    "director": "Jean-Pierre Jeunet",
+    "writers": [
+    "Dan O'Bannon",
+    "Ronald Shusett",
+    "Joss Whedon"
+    ],
+    "actors": [
+    "Sigourney Weaver",
+    "Winona Ryder",
+    "Dominique Pinon",
+    "Ron Perlman"
+    ],
+    "plot": "Two centuries after her death, Ellen Ripley is revived as a powerful human/alien hybrid clone who must continue her war against the aliens.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTc2MDIyMjc3N15BMl5BanBnXkFtZTcwNzQzODAwMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0118583",
+    "rating": 6.3,
+    "votes": 160808
+    },
+    "tomato": {
+    "meter": 54,
+    "image": "rotten",
+    "rating": 5.8,
+    "reviews": 71,
+    "fresh": 38,
+    "consensus": null,
+    "userMeter": 40,
+    "userRating": 3,
+    "userReviews": 261912
+    },
+    "metacritic": 63,
+    "awards": {
+    "wins": 5,
+    "nominations": 16,
+    "text": "5 wins & 16 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcda2",
+    "title": "AVP: Alien vs. Predator",
+    "year": 2004,
+    "imdb": "tt0370263",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13c24de1e0ce2dfceb2",
+    "title": "AVP: Alien vs. Predator",
+    "year": 2004,
+    "rated": "PG-13",
+    "released": "2004-08-13T04:00:00.000Z",
+    "runtime": 101,
+    "countries": [
+    "USA",
+    "UK",
+    "Czech Republic",
+    "Canada",
+    "Germany"
+    ],
+    "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+    ],
+    "director": "Paul W.S. Anderson",
+    "writers": [
+    "Dan O'Bannon",
+    "Ronald Shusett",
+    "Jim Thomas",
+    "John Thomas",
+    "Paul W.S. Anderson",
+    "Dan O'Bannon",
+    "Ronald Shusett",
+    "Paul W.S. Anderson"
+    ],
+    "actors": [
+    "Sanaa Lathan",
+    "Raoul Bova",
+    "Lance Henriksen",
+    "Ewen Bremner"
+    ],
+    "plot": "During an archaeological expedition on Bouvetøya Island in Antarctica, a team of archaeologists and other scientists find themselves caught up in a battle between the two legends. Soon, the team realize that only one species can win.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTU4MjIwMTcyMl5BMl5BanBnXkFtZTYwMTYwNDA3._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0370263",
+    "rating": 5.6,
+    "votes": 137113
+    },
+    "tomato": {
+    "meter": 21,
+    "image": "rotten",
+    "rating": 4,
+    "reviews": 141,
+    "fresh": 29,
+    "consensus": "Gore without scares and cardboard cut-out characters make this clash of the monsters a dull sit.",
+    "userMeter": 39,
+    "userRating": 3,
+    "userReviews": 429302
+    },
+    "metacritic": 29,
+    "awards": {
+    "wins": 2,
+    "nominations": 2,
+    "text": "2 wins & 2 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcda3",
+    "title": "My Stepmother Is an Alien",
+    "year": 1988,
+    "imdb": "tt0095687",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13c24de1e0ce2dfceb3",
+    "title": "My Stepmother Is an Alien",
+    "year": 1988,
+    "rated": "PG-13",
+    "released": "1988-12-09T05:00:00.000Z",
+    "runtime": 105,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Sci-Fi"
+    ],
+    "director": "Richard Benjamin",
+    "writers": [
+    "Jerico",
+    "Herschel Weingrod",
+    "Timothy Harris",
+    "Jonathan Reynolds"
+    ],
+    "actors": [
+    "Dan Aykroyd",
+    "Kim Basinger",
+    "Jon Lovitz",
+    "Alyson Hannigan"
+    ],
+    "plot": "An alien is sent on a secret mission to Earth, where she appears as a gorgeous, attractive, and single lady. Her mission is to make contact with a rather nerdy young scientist, who's quite ...",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTM5OTI0MzM5Nl5BMl5BanBnXkFtZTcwOTcwMjcyMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0095687",
+    "rating": 5.2,
+    "votes": 20510
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 4,
+    "text": "4 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcda4",
+    "title": "Alien Nation",
+    "year": 1988,
+    "imdb": "tt0094631",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13c24de1e0ce2dfceb4",
+    "title": "Alien Nation",
+    "year": 1988,
+    "rated": "R",
+    "released": "1988-10-07T04:00:00.000Z",
+    "runtime": 91,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Crime",
+    "Sci-Fi"
+    ],
+    "director": "Graham Baker",
+    "writers": [
+    "Rockne S. O'Bannon"
+    ],
+    "actors": [
+    "James Caan",
+    "Mandy Patinkin",
+    "Terence Stamp",
+    "Kevyn Major Howard"
+    ],
+    "plot": "A few years from now, Earth will have the first contact with an alien civilization. These aliens, known as Newcomers, slowly begin to be integrated into human society after years of quarantine.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTU5NjYxNjM5MV5BMl5BanBnXkFtZTcwNDk4MTU1MQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0094631",
+    "rating": 6.3,
+    "votes": 10829
+    },
+    "tomato": {
+    "meter": 54,
+    "image": "rotten",
+    "rating": 5.4,
+    "reviews": 26,
+    "fresh": 14,
+    "consensus": "Alien Nation takes the interesting premise of extraterrestrials living among us and doesn't do enough with it, emphasizing a police procedural plotline over the more intriguing sci-fi elements.",
+    "userMeter": 45,
+    "userRating": 3,
+    "userReviews": 15818
+    },
+    "metacritic": 45,
+    "awards": {
+    "wins": 1,
+    "nominations": 4,
+    "text": "1 win & 4 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcda5",
+    "title": "Alien Raiders",
+    "year": 2008,
+    "imdb": "tt0996979",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13c24de1e0ce2dfceb5",
+    "title": "Alien Raiders",
+    "year": 2008,
+    "rated": "R",
+    "released": "2008-09-21T04:00:00.000Z",
+    "runtime": 85,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Horror",
+    "Sci-Fi"
+    ],
+    "director": "Ben Rock",
+    "writers": [
+    "Julia Fair",
+    "David Simkins"
+    ],
+    "actors": [
+    "Carlos Bernard",
+    "Mathew St. Patrick",
+    "Rockmond Dunbar",
+    "Courtney Ford"
+    ],
+    "plot": "It's the end of yet another night at Hastings Supermarket, an idyllic family grocery store in Buck Lake, Arizona. But the normal monotony of rounding up shopping carts and settling out the ...",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMjc0MzcwMDEyOV5BMl5BanBnXkFtZTcwNTU4NTMyMg@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0996979",
+    "rating": 5.6,
+    "votes": 7665
+    },
+    "awards": {
+    "wins": 3,
+    "nominations": 0,
+    "text": "3 wins."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcda6",
+    "title": "Alien Autopsy",
+    "year": 2006,
+    "imdb": "tt0466664",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13c24de1e0ce2dfceb6",
+    "title": "Alien Autopsy",
+    "year": 2006,
+    "rated": "PG-13",
+    "released": "2006-04-07T04:00:00.000Z",
+    "runtime": 95,
+    "countries": [
+    "Germany",
+    "UK"
+    ],
+    "genres": [
+    "Comedy",
+    "Sci-Fi"
+    ],
+    "director": "Jonny Campbell",
+    "writers": [
+    "William Davies"
+    ],
+    "actors": [
+    "Declan Donnelly",
+    "Anthony McPartlin",
+    "Bill Pullman",
+    "Götz Otto"
+    ],
+    "plot": "Humouristic reconstruction of the 1995 scandal when two British lads were accused of having faked a documentary from the Roswell incident in 1947.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMzAxNTU5ODYwMl5BMl5BanBnXkFtZTcwNDM0MDMzMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0466664",
+    "rating": 5.8,
+    "votes": 6441
+    },
+    "awards": {
+    "wins": 0,
+    "nominations": 0,
+    "text": ""
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcda7",
+    "title": "Alien Abduction",
+    "year": 2014,
+    "imdb": "tt2510434",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13c24de1e0ce2dfceb7",
+    "title": "Alien Abduction",
+    "year": 2014,
+    "rated": "NOT RATED",
+    "released": "2014-05-01T04:00:00.000Z",
+    "runtime": 85,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+    ],
+    "director": "Matty Beckerman",
+    "writers": [
+    "Robert Lewis"
+    ],
+    "actors": [
+    "Katherine Sigismund",
+    "Corey Eid",
+    "Riley Polanski",
+    "Jillian Clare"
+    ],
+    "plot": "A vacationing family encounters an alien threat in this thriller based on the real-life Brown Mountain Lights phenomenon in North Carolina.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMjMxMjUwMTU1Nl5BMl5BanBnXkFtZTgwOTI4NjMzMTE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt2510434",
+    "rating": 4.8,
+    "votes": 5530
+    },
+    "tomato": {
+    "meter": 25,
+    "image": "rotten",
+    "rating": 4.4,
+    "reviews": 16,
+    "fresh": 4,
+    "consensus": null,
+    "userMeter": 22,
+    "userRating": 2.4,
+    "userReviews": 883
+    },
+    "metacritic": 47,
+    "awards": {
+    "wins": 0,
+    "nominations": 0,
+    "text": ""
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcda8",
+    "title": "Alien Outpost",
+    "year": 2014,
+    "imdb": "tt2474972",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13c24de1e0ce2dfceb8",
+    "title": "Alien Outpost",
+    "year": 2014,
+    "rated": "NOT RATED",
+    "released": "2015-01-30T05:00:00.000Z",
+    "runtime": 90,
+    "countries": [
+    "UK",
+    "South Africa"
+    ],
+    "genres": [
+    "Action",
+    "Sci-Fi",
+    "Thriller"
+    ],
+    "director": "Jabbar Raisani",
+    "writers": [
+    "Blake Clifton",
+    "Jabbar Raisani",
+    "Jabbar Raisani"
+    ],
+    "actors": [
+    "Brandon Auret",
+    "Adrian Paul",
+    "Reiley McClendon",
+    "Rick Ravanello"
+    ],
+    "plot": "A documentary crew follows an elite unit of soldiers in the wake of an alien invasion.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTc4ODY2MzIzNl5BMl5BanBnXkFtZTgwNTg3ODY0MzE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt2474972",
+    "rating": 4.7,
+    "votes": 4631
+    },
+    "tomato": {
+    "meter": 15,
+    "image": "rotten",
+    "rating": 4.3,
+    "reviews": 13,
+    "fresh": 2,
+    "consensus": null,
+    "userMeter": 33,
+    "userRating": 2.7,
+    "userReviews": 548
+    },
+    "metacritic": 26,
+    "awards": {
+    "wins": 0,
+    "nominations": 0,
+    "text": ""
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcda9",
+    "title": "Butch Cassidy and the Sundance Kid",
+    "year": 1969,
+    "imdb": "tt0064115",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13d24de1e0ce2dfceb9",
+    "title": "Butch Cassidy and the Sundance Kid",
+    "year": 1969,
+    "rated": "M",
+    "released": "1969-10-24T04:00:00.000Z",
+    "runtime": 110,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Biography",
+    "Crime",
+    "Drama"
+    ],
+    "director": "George Roy Hill",
+    "writers": [
+    "William Goldman"
+    ],
+    "actors": [
+    "Paul Newman",
+    "Robert Redford",
+    "Katharine Ross",
+    "Strother Martin"
+    ],
+    "plot": "Two Western bank/train robbers flee to Bolivia when the law gets too close.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTkyMTM2NDk5Nl5BMl5BanBnXkFtZTgwNzY1NzEyMDE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0064115",
+    "rating": 8.1,
+    "votes": 142642
+    },
+    "tomato": {
+    "meter": 89,
+    "image": "certified",
+    "rating": 8.2,
+    "reviews": 46,
+    "fresh": 41,
+    "consensus": "With its iconic pairing of Paul Newman and Robert Redford, jaunty screenplay and Burt Bacharach score, Butch Cassidy and the Sundance Kid has gone down as among the defining moments in late-'60s American cinema.",
+    "userMeter": 93,
+    "userRating": 4,
+    "userReviews": 70088
+    },
+    "metacritic": 58,
+    "awards": {
+    "wins": 16,
+    "nominations": 14,
+    "text": "Won 4 Oscars. Another 16 wins & 14 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcdab",
+    "title": "The Karate Kid",
+    "year": 2010,
+    "imdb": "tt1155076",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13d24de1e0ce2dfcebb",
+    "title": "The Karate Kid",
+    "year": 2010,
+    "rated": "PG",
+    "released": "2010-06-11T04:00:00.000Z",
+    "runtime": 140,
+    "countries": [
+    "USA",
+    "China"
+    ],
+    "genres": [
+    "Action",
+    "Drama",
+    "Family"
+    ],
+    "director": "Harald Zwart",
+    "writers": [
+    "Christopher Murphey",
+    "Robert Mark Kamen"
+    ],
+    "actors": [
+    "Jaden Smith",
+    "Jackie Chan",
+    "Taraji P. Henson",
+    "Wenwen Han"
+    ],
+    "plot": "Work causes a single mother to move to China with her young son; in his new home, the boy embraces kung fu, taught to him by a master.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ0ODg3ODEyMF5BMl5BanBnXkFtZTcwNjI1MTgxMw@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt1155076",
+    "rating": 6.2,
+    "votes": 113299
+    },
+    "tomato": {
+    "meter": 66,
+    "image": "fresh",
+    "rating": 6.2,
+    "reviews": 203,
+    "fresh": 133,
+    "consensus": "It may not be as powerful as the 1984 edition, but the 2010 Karate Kid delivers a surprisingly satisfying update on the original.",
+    "userMeter": 67,
+    "userRating": 3.5,
+    "userReviews": 281741
+    },
+    "metacritic": 61,
+    "awards": {
+    "wins": 5,
+    "nominations": 13,
+    "text": "5 wins & 13 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcdac",
+    "title": "The Heartbreak Kid",
+    "year": 2007,
+    "imdb": "tt0408839",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13d24de1e0ce2dfcebc",
+    "title": "The Heartbreak Kid",
+    "year": 2007,
+    "rated": "R",
+    "released": "2007-10-05T04:00:00.000Z",
+    "runtime": 116,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Romance"
+    ],
+    "director": "Bobby Farrelly, Peter Farrelly",
+    "writers": [
+    "Scot Armstrong",
+    "Leslie Dixon",
+    "Bobby Farrelly",
+    "Peter Farrelly",
+    "Kevin Barnett",
+    "Bruce Jay Friedman",
+    "Neil Simon"
+    ],
+    "actors": [
+    "Ben Stiller",
+    "Malin Akerman",
+    "Michelle Monaghan",
+    "Jerry Stiller"
+    ],
+    "plot": "A newly wed man who believes he's just gotten hitched to the perfect woman encounters another lady on his honeymoon.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMjExNTM2NTE2NF5BMl5BanBnXkFtZTcwOTI5MDUzMw@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0408839",
+    "rating": 5.8,
+    "votes": 68873
+    },
+    "tomato": {
+    "meter": 29,
+    "image": "rotten",
+    "rating": 4.6,
+    "reviews": 156,
+    "fresh": 45,
+    "consensus": "Despite some amiable performances, The Heartbreak Kid is neither as daring nor as funny as the Farrelly Brothers' earlier films.",
+    "userMeter": 37,
+    "userRating": 2.9,
+    "userReviews": 315008
+    },
+    "metacritic": 46,
+    "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcdad",
+    "title": "The Kid",
+    "year": 1921,
+    "imdb": "tt0012349",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13d24de1e0ce2dfcebd",
+    "title": "The Kid",
+    "year": 1921,
+    "rated": "NOT RATED",
+    "released": "1921-02-06T05:00:00.000Z",
+    "runtime": 68,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Drama",
+    "Family"
+    ],
+    "director": "Charles Chaplin",
+    "writers": [
+    "Charles Chaplin"
+    ],
+    "actors": [
+    "Carl Miller",
+    "Edna Purviance",
+    "Jackie Coogan",
+    "Charles Chaplin"
+    ],
+    "plot": "The Tramp cares for an abandoned child, but events put that relationship in jeopardy.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTkzNTgxMDU1OF5BMl5BanBnXkFtZTgwOTQ3MjI2MzE@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0012349",
+    "rating": 8.4,
+    "votes": 60916
+    },
+    "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcdae",
+    "title": "The Karate Kid, Part II",
+    "year": 1986,
+    "imdb": "tt0091326",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13d24de1e0ce2dfcebe",
+    "title": "The Karate Kid, Part II",
+    "year": 1986,
+    "rated": "PG",
+    "released": "1986-06-20T04:00:00.000Z",
+    "runtime": 113,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Action",
+    "Family",
+    "Romance"
+    ],
+    "director": "John G. Avildsen",
+    "writers": [
+    "Robert Mark Kamen",
+    "Robert Mark Kamen"
+    ],
+    "actors": [
+    "Pat Morita",
+    "Ralph Macchio",
+    "Pat E. Johnson",
+    "Bruce Malmuth"
+    ],
+    "plot": "Daniel accompanies his mentor to Okinawa who is off to see his dying father and confront his old rival, while Daniel inadvertently makes an enemy of his own.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTg3ODc2Nzc3M15BMl5BanBnXkFtZTYwMDMzNzc5._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0091326",
+    "rating": 5.9,
+    "votes": 48530
+    },
+    "awards": {
+    "wins": 4,
+    "nominations": 2,
+    "text": "Nominated for 1 Oscar. Another 4 wins & 2 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    },
+    {
+    "_id": "56929df024de1e0ce2dfcdaf",
+    "title": "The Kid",
+    "year": 2000,
+    "imdb": "tt0219854",
+    "type": "movie",
+    "details": [
+    {
+    "_id": "5692a13d24de1e0ce2dfcebf",
+    "title": "The Kid",
+    "year": 2000,
+    "rated": "PG",
+    "released": "2000-07-07T04:00:00.000Z",
+    "runtime": 104,
+    "countries": [
+    "USA"
+    ],
+    "genres": [
+    "Comedy",
+    "Family",
+    "Fantasy"
+    ],
+    "director": "Jon Turteltaub",
+    "writers": [
+    "Audrey Wells"
+    ],
+    "actors": [
+    "Bruce Willis",
+    "Spencer Breslin",
+    "Emily Mortimer",
+    "Lily Tomlin"
+    ],
+    "plot": "An unhappy and disliked image consultant gets a second shot at life when an eight year old version of himself mysteriously appears.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTIwMzk2NTE5NF5BMl5BanBnXkFtZTcwMTcyOTAwMQ@@._V1_SX300.jpg",
+    "imdb": {
+    "id": "tt0219854",
+    "rating": 6.1,
+    "votes": 33391
+    },
+    "tomato": {
+    "meter": 49,
+    "image": "rotten",
+    "rating": 5.2,
+    "reviews": 97,
+    "fresh": 48,
+    "consensus": "Critics find The Kid to be too sweet and the movie's message to be annoyingly simplistic.",
+    "userMeter": 49,
+    "userRating": 3,
+    "userReviews": 60463
+    },
+    "metacritic": 45,
+    "awards": {
+    "wins": 1,
+    "nominations": 2,
+    "text": "1 win & 2 nominations."
+    },
+    "type": "movie"
+    }
+    ]
+    }
+    ]

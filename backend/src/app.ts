@@ -30,7 +30,13 @@ MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
     server.addController(controller);
   });
 
-  server.start();
+  server.start().then((message) => {
+    _logger.debug(message);
+  }).catch((err: Error) => {
+    _logger.debug(`Server could not be started on port ${server.getPort()}`);
+    _logger.error(err);
+    process.exitCode = 1;
+  });
 }).catch((error) => {
   _logger.debug(error)
 });

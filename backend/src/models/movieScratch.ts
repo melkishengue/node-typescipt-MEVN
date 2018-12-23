@@ -16,6 +16,6 @@ const MovieScratchSchema: Schema = new Schema({
 });
 
 let connection = MongooseDatabaseProvider.getConnection();
-const MovieScratch: Model<IMovieScratchModel> = connection.model<IMovieScratchModel>("MovieScratch", MovieScratchSchema);
+const MovieScratch: Model<IMovieScratchModel> = connection.model<IMovieScratchModel>("moviescratch", MovieScratchSchema);
 
 export default MovieScratch;

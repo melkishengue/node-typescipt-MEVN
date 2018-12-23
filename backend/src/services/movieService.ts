@@ -19,6 +19,22 @@ export class MovieService extends MongooseBaseService {
   async query(query: QueryDataSetting): Promise<any> {
     return await this._execute(Movie, query);
   }
+
+  /* this method is overriding the MongooseBaseService.findAll 
+    because this method must do some extra work to add 
+    the poster and the plot for each retrieved movie
+  */
+  async findAllMovies(): Promise<any> {
+
+    let queryDataSetting: QueryDataSetting = {
+      queryObj: {},
+      populate: "details",
+      limit: 50
+    };
+
+    let fetched = await this.query(queryDataSetting);
+    return fetched;
+  }
 }
 
 export const movieService = new MovieService();

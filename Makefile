@@ -46,9 +46,10 @@ kompose-install:
 	chmod +x kompose
 	sudo mv ./kompose /usr/local/bin/kompose
 
-start-kubernetes:
+start-kubernetes-dashboard:
 	kubectl get pods --namespace=kube-system
 	kubectl port-forward kubernetes-dashboard-7b9c7bc8c9-q8nw8 8443:8443 --namespace=kube-system
+	# now visit https://localhost:8443/#!/service?namespace=kube-system
 
 status:
 	docker-compose ps
@@ -82,6 +83,9 @@ ssh-$(CONTAINER_NAME_1):
 
 ssh-$(CONTAINER_NAME_2):
 	docker exec -it $(CONTAINER_NAME_2) bash
+
+ssh-frontend:
+	docker exec -it frontend-app bash
 
 git:
 	# e.g: make git m="Added frontend"

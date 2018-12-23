@@ -8,3 +8,5 @@ docker
 _nodemon.json
 .docker-sync
 test-kubernetes/
+openshift.local.clusterup/
+kube-cheatsheet.md
