@@ -55,6 +55,10 @@ or creating a new movie `mutation {
 
 You can also directly visit [localhost:8080/movies](localhost:8080/movies) or [localhost:8080/reviews](localhost:8080/reviews)  to have all movies/actions.
 
+The page looks like this:
+
+![screenshot](./screenshot.png)
+
 To stop the app:
  Press ctrl-c and then remove all created containers by running `make clean`.
 
