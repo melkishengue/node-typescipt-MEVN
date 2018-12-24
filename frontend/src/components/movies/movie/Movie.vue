@@ -1,23 +1,22 @@
 <template>
-    <div class="col-3 card-container">
-        <div class="card">
+    <div class="card-container" v-on:click="clicked">
+        <div v-bind:class="{ 'not-found': notFound }" class="card" v-bind:style="{ backgroundImage: 'url(' + imageUrl + ')' }">
+
             <div class="movie-loading-container" v-show="!imgLoaded">
                 <div class="lds-ripple"><div></div><div></div></div>
             </div>
-                <figure v-bind:class="{ 'not-found': notFound }" class="movie-poster-container">
-                    <transition name="slide-fade">
-                        <img class="movie-poster"  v-show="imgLoaded" v-on:error="imageLoadError" v-on:load="loaded" :src="imageUrl" alt="">
-                    </transition>
-                </figure>
-            
-            <header>
-                <h4 class="movie-title">{{ movie.title }}</h4>
-            </header>
-            <p></p>
-            <footer class="is-right">
-                <a  href="#" class="button primary">Submit</a>
-                <a  href="#" class="button">Cancel</a>
-            </footer>
+
+            <div class="footer-overlay">
+                <a href="#" class="movie-title">{{ movie.title }}</a>
+                
+                <div class="movie-hint-text">
+                    {{ movie.details[0].awards.text }}
+                </div>
+
+                <div class="movie-hint-text">
+                    From {{ movie.year }}
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -32,7 +31,9 @@ export default {
     return {
       imageUrl: '',
       imgLoaded: false,
-      notFound: false
+      notFound: false,
+    //   defaultImgUrl: "https://via.placeholder.com/550x800/FFFFFF/808080?Text=Movie"
+      defaultImgUrl: "https://image.freepik.com/free-photo/man-searching-with-magnifying-glass_1048-2931.jpg"
     }
   },
   props: {
@@ -43,7 +44,29 @@ export default {
   },
   created() {
       if (this.movie.details.length) {
-        this.imageUrl = this.movie.details[0].poster;
+        let imageUrl = this.movie.details[0].poster;
+
+        let img = document.createElement("img");
+        let self = this;
+        img.onload = function() {
+
+            let random = Math.floor(Math.random() * 1) + 1;
+            setTimeout(function() {
+                self.imgLoaded = true;
+                self.imageUrl = imageUrl;
+            }, random*1000)
+        }
+        img.onerror = function(data) {
+            if (!self.imgLoaded) {
+                self.notFound = true;
+                self.imageUrl = self.defaultImgUrl;
+                self.imgLoaded = true;
+            }
+        }
+        img.src = imageUrl; 
+      } else {
+          this.imgLoaded = true;
+          this.imageUrl = this.defaultImgUrl;
       }
   },
   // with mapState you map store state properties with local properties
@@ -51,16 +74,9 @@ export default {
     
   }),
   methods: {
-    loaded() {
-        let self = this;
-        let random = Math.floor(Math.random() * 1) + 2;
-        setTimeout(function() {
-            self.imgLoaded = true;
-        }, random*1000)
-    },
-    imageLoadError() {
-        this.notFound = true;
-        this.imageUrl = "https://via.placeholder.com/550x800/FFFFFF/808080?Text=Movie cound not be found";
+    clicked() {
+        console.log(this.movie)
+        this.$router.push(`/movies/${this.movie._id}`)
     }
   }
 }

@@ -15,3 +15,7 @@ export function loadEnvFile(): void {
 export function check(login: string, password: string): boolean {
     return (login === process.env.BASIC_AUTH_USER && password === process.env.BASIC_AUTH_PASSWORD);
 }
+
+export function random (min: number, max: number): number {
+    return Math.floor((Math.random() * max) + min);
+}

@@ -2,6 +2,7 @@ const stream = require('stream');
 import { wait } from '../utils';
 import { movieService } from '../services/movieService';
 import _logger from '../logger';
+import { random } from '../utils';
 
 export class MongooseDatabaseStreamer extends stream.Readable {
     constructor () {
@@ -17,7 +18,7 @@ export class MongooseDatabaseStreamer extends stream.Readable {
             let movie = await movieService.findRandom();
             this.push(movie);
             
-            let timeout = Math.floor((Math.random() * 5) + 1);
+            let timeout = random(1, 4);
             this.fetchNextChunk(timeout*1000);
         })
     }

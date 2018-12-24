@@ -1,12 +1,19 @@
 @import "~chota/dist/chota.css";
-@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Kalam|Luckiest+Guy|Rock+Salt|Tajawal');
 
 body {
   padding-left: 200px;
   padding-right: 200px;
   font-size: 1.4em;
   background-color: gainsboro;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Tajawal', sans-serif;
+
+  .brand {
+    font-family: 'Rock Salt', sans-serif;
+    font-weight: bold;
+    color: var(--color-primary) !important;
+    padding-left: 0px !important;
+  }
 
   .main {
     margin-top: 30px;
@@ -18,57 +25,83 @@ body {
       padding: 20px !important;
     }
 
-    .card-container {
-      .card {
-        border-radius: 0px;
-        color: black;
-        min-height: 200px;
-        background-color: white;
-        padding-bottom: 20px;
+    .flex {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      flex: 1 1 auto;
+      flex-grow: 1;
+      flex-basis: 0;
 
-        .movie-poster-container {
-          &:hover:not(.not-found) {
-            
-            .movie-poster {
-              -webkit-transform: scale(1.3);
-	            transform: scale(1.3);
+      .card-container {
+  
+        .card {
+          border-radius: 0px;
+          color: black;
+          height: 300px;
+          padding: 0px !important;
+          width: 200px;
+          zoom: 0.9;
+          position: relative;
+          cursor: pointer;
+  
+          background-size:     cover;
+          background-repeat:   no-repeat;
+          background-position: center center;  
+          z-index: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1);
+          -webkit-transition: .3s ease-in-out;
+          transition: .3s ease-in-out;
+
+          &:hover {
+            .footer-overlay {
+              visibility: visible;
+              opacity: 1;
             }
           }
 
-          .movie-poster {
-            height: 200px;
-            width: 100%;
-            cursor: pointer;
-
-            -webkit-transform: scale(1);
-            transform: scale(1);
-            -webkit-transition: .3s ease-in-out;
-            transition: .3s ease-in-out;
+          &:hover:not(.not-found) {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            z-index: 5;
           }
-        }
 
-        .movie-loading-container {
-          max-height: 200px;
-          width: 100%;
-          text-align: center;
-          padding-top: 30%;
-        }
+          .footer-overlay {
+            background-color: rgba(0,0,0,0.8);
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            color: white;
+            padding: 10px;
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s, opacity 0.1s linear;
+
+            .movie-title {
+              // overflow: hidden;
+              // white-space: nowrap;
+              text-align: center;
+              font-size: 1em;
+              color: white;
+              text-decoration: underline;
+            }
+
+            .movie-hint-text {
+              font-size: 0.8em;
+            }
+          }
   
-        .movie-title {
-          overflow: hidden;
-          white-space: nowrap;
-          text-align: center;
-        }
-    
-        .button {
-          border-radius: 0px;
-          font-size: 1.1em;
-          width: 50%;
+          .movie-loading-container {
+            max-height: 200px;
+            width: 100%;
+            text-align: center;
+            padding-top: 30%;
+          }
         }
       }
     }
-
-    
   }
 }
 
@@ -86,7 +119,7 @@ body {
 }
 .lds-ripple div {
   position: absolute;
-  border: 4px solid #4DA061;
+  border: 4px solid gray;
   opacity: 1;
   border-radius: 50%;
   animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;

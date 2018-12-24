@@ -1,6 +1,7 @@
 import Movie from '../models/movie';
 import MongooseBaseService from './mongooseBaseService';
 import { QueryDataSetting } from './mongooseService.interface';
+import { random } from '../utils';
 
 export class MovieService extends MongooseBaseService {
 
@@ -26,10 +27,14 @@ export class MovieService extends MongooseBaseService {
   */
   async findAllMovies(): Promise<any> {
 
+    let skip = random(1, 1000);
+    console.log('skip', skip);
+
     let queryDataSetting: QueryDataSetting = {
       queryObj: {},
       populate: "details",
-      limit: 50
+      limit: 50,
+      skip: 211
     };
 
     let fetched = await this.query(queryDataSetting);

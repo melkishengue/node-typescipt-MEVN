@@ -3,7 +3,12 @@
     <Navbar></Navbar>
     <div class="main">
       <Search></Search>
-      <Movies></Movies>
+      <transition
+      name="ballmove"
+      enter-active-class="bouncein"
+      leave-active-class="rollout">
+        <router-view></router-view>
+      </transition>
     </div>
     <Foooter></Foooter>
   </div>

@@ -1,7 +1,9 @@
 <template>
   <div>
       <div class="row">
-        <MovieComponent v-for="movie in movies" :movie='movie' :key="movie._id" v-if="movies.length" />
+        <div class="col-12 flex">
+          <MovieComponent v-for="movie in movies" :movie='movie' :key="movie._id" v-if="movies.length" />
+        </div>
       </div>
   </div>
 </template>

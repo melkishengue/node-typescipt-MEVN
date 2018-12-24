@@ -12,9 +12,14 @@ export default {
           query: gql`
             {
               movies {
+              # id
               title
+              year
               details {
                 poster
+                awards {
+                  text
+                }
               }
             }
             }

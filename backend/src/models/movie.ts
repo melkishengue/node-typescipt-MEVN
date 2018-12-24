@@ -28,6 +28,10 @@ MovieSchema.virtual('details', {
   foreignField: 'imdb.id'
 });
 
+// MovieSchema.virtual('id').get(function (): string {
+//   return this._id.toString();
+// }); 
+
 let connection = MongooseDatabaseProvider.getConnection();
 const Movie: Model<IMovieModel> = connection.model<IMovieModel>("Movie", MovieSchema);
 
