@@ -51,7 +51,7 @@ type Movie {
     _id: ID!
     # graphql cannot parse mongoose ObjectId. 
     # I add this field that is mapped to _id. See mongoose models 
-    # id: String
+    id: String
     title: String
     year: String
     imdb: String

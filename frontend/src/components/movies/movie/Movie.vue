@@ -75,8 +75,8 @@ export default {
   }),
   methods: {
     clicked() {
-        console.log(this.movie)
-        this.$router.push(`/movies/${this.movie._id}`)
+        console.log(this.movie);
+        this.$router.push(`/movies/${this.movie.id}`)
     }
   }
 }

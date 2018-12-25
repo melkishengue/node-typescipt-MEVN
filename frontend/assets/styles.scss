@@ -5,7 +5,7 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   font-size: 1.4em;
-  background-color: gainsboro;
+  background-color: #f9f9f9;
   font-family: 'Tajawal', sans-serif;
 
   .brand {
@@ -14,15 +14,28 @@ body {
     color: var(--color-primary) !important;
     padding-left: 0px !important;
   }
+  .header-text {
+    text-align: center;
+
+    .hightlight {
+      color: var(--color-primary) !important;
+      font-weight: bold;
+      display: inline-block;
+    }
+  }
 
   .main {
     margin-top: 30px;
 
     .full-width-search-box {
       margin-bottom: 50px;
-      border-radius: 0px !important;
-      font-size: 1.5em !important;
-      padding: 20px !important;
+      border-radius: 25px !important;
+      font-size: 1.3em !important;
+      line-height: 1.3em !important;
+      padding: 10px !important;
+      padding-left: 30px !important;
+      padding-top: 20px !important;
+
     }
 
     .flex {
@@ -62,8 +75,8 @@ body {
           }
 
           &:hover:not(.not-found) {
-            -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
             z-index: 5;
           }
 
@@ -83,7 +96,7 @@ body {
               // overflow: hidden;
               // white-space: nowrap;
               text-align: center;
-              font-size: 1em;
+              font-size: 1.2em;
               color: white;
               text-decoration: underline;
             }

@@ -75,15 +75,10 @@ const MovieDetailsSchema: Schema = new Schema({
     awards: {
       "wins": Number,
       "nominations": Number,
-      "text": String,
-      "type": String
+      "text": String
   
     }
 });
-
-// MovieDetailsSchema.virtual('id').get(function (): string {
-//     return this._id.toString();
-// });
 
 let connection = MongooseDatabaseProvider.getConnection();
 const MovieDetails: Model<IMovieDetailsModel> = connection.model<IMovieDetailsModel>("moviedetail", MovieDetailsSchema);

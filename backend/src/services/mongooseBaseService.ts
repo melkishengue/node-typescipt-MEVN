@@ -38,9 +38,6 @@ export default abstract class MongooseBaseService implements IMongooseService {
       if (query.skip) _query.skip(query.skip);
       if (query.populate) _query = _query.populate(query.populate);
 
-      // needed to return js objects instead of mongoose objects
-      _query.lean();
-
       _query.then((records: any) => {
         // console.log('records', records);
         resolve(records);

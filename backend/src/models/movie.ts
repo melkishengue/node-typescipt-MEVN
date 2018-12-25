@@ -5,7 +5,7 @@ export interface IMovie {
   "year": number,
   "title": string,
   "imdb": string,
-  "type": string,
+  "type": string, 
   "details"?: any
 };
 
@@ -18,7 +18,8 @@ const MovieSchema: Schema = new Schema({
   "type": String
 },
 {
-  toObject: {virtuals:true}
+  toObject: {virtuals:true},
+  toJSON: {virtuals:true}
 });
 
 // see https://stackoverflow.com/questions/19287142/populate-a-mongoose-model-with-a-field-that-isnt-an-id
@@ -28,9 +29,9 @@ MovieSchema.virtual('details', {
   foreignField: 'imdb.id'
 });
 
-// MovieSchema.virtual('id').get(function (): string {
-//   return this._id.toString();
-// }); 
+MovieSchema.virtual('id').get(function () {
+  return this._id.toString();
+});
 
 let connection = MongooseDatabaseProvider.getConnection();
 const Movie: Model<IMovieModel> = connection.model<IMovieModel>("Movie", MovieSchema);

@@ -12,7 +12,7 @@ export default {
           query: gql`
             {
               movies {
-              # id
+              id
               title
               year
               details {
