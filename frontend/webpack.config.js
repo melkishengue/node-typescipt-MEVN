@@ -11,7 +11,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: 'assets/index.html'
+      template: 'assets/index.html',
+      favicon: 'assets/images/icons8-coollector-48.png'
     }),
     new VueLoaderPlugin()
   ],

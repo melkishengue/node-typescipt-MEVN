@@ -1,6 +1,6 @@
 type imdbType {
     id: String
-    rating: Int
+    rating: Float
     votes: Int
 }
 
@@ -68,6 +68,7 @@ type Review {
 
 type Query {
     movies: [Movie]
+    findMovies(text: String): [Movie]
     reviews: [Review]
 }
 

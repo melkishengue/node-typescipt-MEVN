@@ -7,7 +7,7 @@
       name="ballmove"
       enter-active-class="bouncein"
       leave-active-class="rollout">
-        <router-view></router-view>
+        <router-view  :key="$route.fullPath"></router-view>
       </transition>
     </div>
     <Foooter></Foooter>
@@ -27,6 +27,14 @@ export default {
     Navbar,
     Search,
     Foooter
-  }
+  },
+  watch:{
+    $route (to, from) {
+      if (to.path.indexOf('search') != -1) {
+        const params = JSON.stringify(JSON.parse(to.query.data));
+        this.$store.dispatch('fetchMoviesSummaryInfos', {params});
+      }
+    }
+} 
 }
 </script>

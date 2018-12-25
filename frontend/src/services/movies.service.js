@@ -5,28 +5,29 @@ const client = new ApolloClient({
 });
 
 export default {
-  getMoviesSummaryInfos: () => {
+  getMoviesSummaryInfos: ({text = ''} = {}) => {
     return new Promise((resolve, reject) => {
         client
         .query({
           query: gql`
             {
-              movies {
-              id
-              title
-              year
-              details {
-                poster
-                awards {
-                  text
+              findMovies(text: "${text}")  {
+                id
+                title
+                year
+                details {
+                  poster
+                  imdb {
+                    rating
+                    votes
+                  }
                 }
               }
-            }
             }
           `
         })
         .then(result => {
-          resolve(result.data.movies);
+          resolve(result.data.findMovies);
         }).catch(error => {
           reject(error);
         });

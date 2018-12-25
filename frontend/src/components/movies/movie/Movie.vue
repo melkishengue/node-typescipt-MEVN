@@ -9,8 +9,8 @@
             <div class="footer-overlay">
                 <a href="#" class="movie-title">{{ movie.title }}</a>
                 
-                <div class="movie-hint-text">
-                    {{ movie.details[0].awards.text }}
+                <div class="movie-hint-text" v-if="movie.details[0]">
+                    <span class="imdb-box">IMDB: {{ movie.details[0].imdb.rating }}</span> - {{ movie.details[0].imdb.votes }} votes
                 </div>
 
                 <div class="movie-hint-text">
@@ -50,7 +50,7 @@ export default {
         let self = this;
         img.onload = function() {
 
-            let random = Math.floor(Math.random() * 1) + 1;
+            let random = Math.floor(Math.random() * 1);
             setTimeout(function() {
                 self.imgLoaded = true;
                 self.imageUrl = imageUrl;
@@ -75,7 +75,6 @@ export default {
   }),
   methods: {
     clicked() {
-        console.log(this.movie);
         this.$router.push(`/movies/${this.movie.id}`)
     }
   }

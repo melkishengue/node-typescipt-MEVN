@@ -28,13 +28,25 @@ export class MovieService extends MongooseBaseService {
   async findAllMovies(): Promise<any> {
 
     let skip = random(1, 1000);
-    console.log('skip', skip);
 
     let queryDataSetting: QueryDataSetting = {
       queryObj: {},
       populate: "details",
       limit: 50,
       skip: 211
+    };
+
+    let fetched = await this.query(queryDataSetting);
+    return fetched;
+  }
+
+  async filter(text: String): Promise<any> {
+
+    let queryDataSetting: QueryDataSetting = {
+      queryObj: { 'title' : { '$regex' : text, '$options' : 'i' } },
+      populate: "details",
+      limit: 50,
+      skip: text === '' ? 211:0
     };
 
     let fetched = await this.query(queryDataSetting);
