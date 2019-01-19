@@ -22,6 +22,8 @@ services:
       SERVER_PORT: ${SERVER_PORT}
       BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
       BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
+      ELASTIC_HOST: ${ELASTIC_HOST}
+      ELASTIC_PORT: ${ELASTIC_PORT}
       NODE_ENV: ${NODE_ENV}
   # node-app-1:
   #   container_name: ${CONTAINER_NAME_2}
@@ -77,20 +79,28 @@ services:
       - ${DB_HOST}
     links:
       - ${DB_HOST}
+  elastic:
+    build: 
+      context: ./backend/elastic-search
+      dockerfile: Dockerfile
+    depends_on:
+      - ${DB_HOST}
+    links:
+      - ${DB_HOST}
+    ports:
+      - "${ELASTIC_PORT}:${ELASTIC_PORT}"
   loadbalancer:
     build: ./nginx
     tty: true
     links:
       - ${CONTAINER_NAME_1}
-      # - ${CONTAINER_NAME_2}
-      # - frontend
+      - frontend
     ports:
       - '8080:8080'
       - '8081:8081'
     depends_on:
       - ${CONTAINER_NAME_1}
-    # - ${CONTAINER_NAME_2}
-      # - frontend
+      - frontend
 volumes:
   node-ts-app-volume:
     external: true

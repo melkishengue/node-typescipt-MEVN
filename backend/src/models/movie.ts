@@ -15,22 +15,43 @@ const MovieSchema: Schema = new Schema({
   "year": Number,
   "title": String,
   "imdb": String,
-  "type": String
-},
-{
-  toObject: {virtuals:true},
-  toJSON: {virtuals:true}
-});
-
-// see https://stackoverflow.com/questions/19287142/populate-a-mongoose-model-with-a-field-that-isnt-an-id
-MovieSchema.virtual('details', {
-  ref: 'moviedetail',
-  localField: 'imdb',
-  foreignField: 'imdb.id'
-});
-
-MovieSchema.virtual('id').get(function () {
-  return this._id.toString();
+  "type": String,
+  "details": {
+        "year": Number,
+        "title": String,
+        "rated": String,
+        "released": Date,
+        "runtime": Number,
+        "countries": [String],
+        "genres": [String],
+        "director": String,
+        "writers": [String],
+        "actors": [String],
+        "plot": String,
+        "poster": String,
+        "imdb": {
+            "id": String,
+            "rating": Number,
+            "votes": Number
+        },
+        "tomato": {
+            "meter": Number,
+            "image": String,
+            "rating": Number,
+            "reviews": Number,
+            "fresh": Number,
+            "consensus": String,
+            "userMeter": Number,
+            "userRating": Number,
+            "userReviews": Number
+        },
+        metacritic: Number,
+        awards: {
+        "wins": Number,
+        "nominations": Number,
+        "text": String
+        }
+    }
 });
 
 let connection = MongooseDatabaseProvider.getConnection();

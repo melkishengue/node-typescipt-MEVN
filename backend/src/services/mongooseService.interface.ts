@@ -2,10 +2,7 @@ export interface QueryDataSetting {
   queryObj: any,
   limit?: number,
   skip?: number,
-  sort?: {
-    field?: string,
-    order?: number
-  }
+  sort?: string,
   populate?: string
 }
 

@@ -29,8 +29,6 @@ export default class MovieController implements IController {
       return movie.details.length === 1;
     });
 
-    console.log(movies.length)
-
     res.send(movies);
   }
 }

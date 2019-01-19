@@ -31,9 +31,8 @@ export class MovieService extends MongooseBaseService {
 
     let queryDataSetting: QueryDataSetting = {
       queryObj: {},
-      populate: "details",
-      limit: 50,
-      skip: 211
+      limit: 10000,
+      skip: 0
     };
 
     let fetched = await this.query(queryDataSetting);
@@ -44,8 +43,8 @@ export class MovieService extends MongooseBaseService {
 
     let queryDataSetting: QueryDataSetting = {
       queryObj: { 'title' : { '$regex' : text, '$options' : 'i' } },
-      populate: "details",
       limit: 50,
+      sort: '-details.imdb.rating',
       skip: text === '' ? 211:0
     };
 

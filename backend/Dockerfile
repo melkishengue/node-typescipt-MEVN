@@ -2,7 +2,7 @@ FROM node:latest
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY package.json /usr/src/app/
-RUN npm install && npm cache clean --force # no need to keep cached files from installed packages, image will be rebuild anyway
+RUN npm install
 COPY . /usr/src/app
 # VOLUME ["./src/"]
 EXPOSE 3000

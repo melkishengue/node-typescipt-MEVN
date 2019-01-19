@@ -29,7 +29,7 @@ export default class GraphqlMiddleware implements IMiddleware {
                 findMovies: async (args: any) => {
                     const { text } = args;
 
-                    return await movieService.filter(text);
+                    return await movieService.filter(text); 
                 },
                 reviews: () => {
                     return reviewService.findAll()

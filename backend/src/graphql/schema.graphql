@@ -55,7 +55,7 @@ type Movie {
     title: String
     year: String
     imdb: String
-    details: [movieDetails]
+    details: movieDetails
 }
 
 type Review {

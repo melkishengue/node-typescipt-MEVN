@@ -32,11 +32,13 @@ export default abstract class MongooseBaseService implements IMongooseService {
 
     return new Promise<any>((resolve: any, reject: any) => {
       let _query = model.find(query.queryObj);
+      console.log(query);
 
       if (query.limit) _query.limit(query.limit);
-      if (query.sort) _query.sort([[query.sort.field, query.sort.order]]);
+      if (query.sort) _query.sort(query.sort);
       if (query.skip) _query.skip(query.skip);
       if (query.populate) _query = _query.populate(query.populate);
+
 
       _query.then((records: any) => {
         // console.log('records', records);
