@@ -9,8 +9,8 @@
             <div class="footer-overlay">
                 <a href="#" class="movie-title">{{ movie.title }}</a>
                 
-                <div class="movie-hint-text" v-if="movie.details[0]">
-                    <span class="imdb-box">IMDB: {{ movie.details[0].imdb.rating }}</span> - {{ movie.details[0].imdb.votes }} votes
+                <div class="movie-hint-text" v-if="movie.details">
+                    <span class="imdb-box">IMDB: {{ movie.details.imdb.rating }}</span> - {{ movie.details.imdb.votes }} votes
                 </div>
 
                 <div class="movie-hint-text">
@@ -43,8 +43,8 @@ export default {
       }
   },
   created() {
-      if (this.movie.details.length) {
-        let imageUrl = this.movie.details[0].poster;
+      if (this.movie.details) {
+        let imageUrl = this.movie.details.poster;
 
         let img = document.createElement("img");
         let self = this;
