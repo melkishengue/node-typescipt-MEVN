@@ -21,6 +21,6 @@ step-deploy-prod:
     script: 
         - sudo apt-get install -y python-pip
         - pip install docker-compose
-        - make up-production
+        - make start-production
     environment: production
     when: manual
