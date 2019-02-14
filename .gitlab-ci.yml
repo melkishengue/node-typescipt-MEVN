@@ -12,7 +12,8 @@ test:
     only: 
         - master
     script:
-        - echo run tests in production
+        - cd ./backend
+        - npm run test
 
 step-deploy-prod:
     stage: deploy
