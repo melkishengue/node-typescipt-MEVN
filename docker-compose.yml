@@ -66,7 +66,7 @@ services:
   mongo-seed:
     build: 
       context: ./backend/db-seed
-      dockerfile: Dockerfile 
+      dockerfile: Dockerfile
     environment:
       WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
       WAIT_HOSTS_TIMEOUT: 150
