@@ -1,7 +1,7 @@
 import gql from "graphql-tag";
 import ApolloClient from "apollo-boost";
 const client = new ApolloClient({
-    uri: "/api/graphql"
+    uri: "http://188.166.98.27:8080/api/graphql"
 });
 
 export default {
