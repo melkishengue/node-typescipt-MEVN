@@ -1,13 +1,13 @@
 @import "~chota/dist/chota.css";
-@import url('https://fonts.googleapis.com/css?family=Francois+One|Kalam|Luckiest+Guy|Rock+Salt|Tajawal');
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Kalam|Luckiest+Guy|Rock+Salt|Tajawal|Contrail+One');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css');
 
 body {
   padding-left: 200px;
   padding-right: 200px;
-  font-size: 1.4em;
+  font-size: 1em;
   background-color: #f9f9f9;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Contrail One', sans-serif;
 
   .loading-box {
     text-align: center;
@@ -70,9 +70,9 @@ body {
         .card {
           border-radius: 0px;
           color: black;
-          height: 300px;
+          height: 250px;
           padding: 0px !important;
-          width: 200px;
+          width: 150px;
           zoom: 0.9;
           position: relative;
           cursor: pointer;
@@ -84,7 +84,6 @@ body {
           -webkit-transform: scale(1);
           transform: scale(1);
           -webkit-transition: .3s ease-in-out;
-          transition: .3s ease-in-out;
 
           &:hover {
             .footer-overlay {
@@ -94,8 +93,8 @@ body {
           }
 
           &:hover:not(.not-found) {
-            -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+            -webkit-transform: scale(1);
+            transform: scale(1);
             z-index: 5;
           }
 
@@ -109,13 +108,12 @@ body {
             padding: 10px;
             visibility: hidden;
             opacity: 0;
-            transition: visibility 0s, opacity 0.1s linear;
 
             .movie-title {
               // overflow: hidden;
               // white-space: nowrap;
               text-align: center;
-              font-size: 1.2em;
+              font-size: 1em;
               color: white;
               text-decoration: underline;
             }

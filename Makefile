@@ -3,6 +3,8 @@ export COMPOSE_PROJECT_NAME=$(PROJECT_NAME)
 
 start: clean create-volumes prepare up
 
+start-production: clean create-volumes prepare up-production
+
 sync-start:
 	docker-sync start
 
@@ -36,6 +38,11 @@ up:
 	docker-compose -f docker-compose.yml -f docker-compose-dev.yml up --force-recreate
 	@echo the app has been started 🎊 🎉 🎀
 
+# this starts the app for production ie without the docker-compose dev file
+up-production:
+	docker-compose -f docker-compose.yml up --force-recreate
+	@echo the app has been started 🎊 🎉 🎀
+
 deploy-prepare: kompose-install
 
 deploy:
@@ -48,6 +55,7 @@ kompose-install:
 
 start-kubernetes-dashboard:
 	kubectl get pods --namespace=kube-system
+	echo "visit https://localhost:8443/#!/service?namespace=kube-system"
 	kubectl port-forward kubernetes-dashboard-7b9c7bc8c9-q8nw8 8443:8443 --namespace=kube-system
 	# now visit https://localhost:8443/#!/service?namespace=kube-system
 

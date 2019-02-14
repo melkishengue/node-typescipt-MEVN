@@ -79,28 +79,28 @@ services:
       - ${DB_HOST}
     links:
       - ${DB_HOST}
-  elastic:
-    build: 
-      context: ./backend/elastic-search
-      dockerfile: Dockerfile
-    depends_on:
-      - ${DB_HOST}
-    links:
-      - ${DB_HOST}
-    ports:
-      - "${ELASTIC_PORT}:${ELASTIC_PORT}"
+  # elastic:
+  #   build: 
+  #     context: ./backend/elastic-search
+  #     dockerfile: Dockerfile
+  #   depends_on:
+  #     - ${DB_HOST}
+  #   links:
+  #     - ${DB_HOST}
+  #   ports:
+  #     - "${ELASTIC_PORT}:${ELASTIC_PORT}"
   loadbalancer:
     build: ./nginx
     tty: true
     links:
       - ${CONTAINER_NAME_1}
-      - frontend
+      # - frontend
     ports:
       - '8080:8080'
       - '8081:8081'
     depends_on:
       - ${CONTAINER_NAME_1}
-      - frontend
+      # - frontend
 volumes:
   node-ts-app-volume:
     external: true

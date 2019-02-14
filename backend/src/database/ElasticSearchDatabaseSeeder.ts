@@ -44,6 +44,14 @@ export class ElasticSearchDatabaseSeeder {
             body
         });
     }
+
+    static search (title: string): Promise<any> {
+        return ElasticSearchDatabaseSeeder.connection.search({
+            index: 'movies',
+            type: 'movie',
+            q: `title:${title}`
+        });
+    }
 }
 
 export default ElasticSearchDatabaseSeeder;
