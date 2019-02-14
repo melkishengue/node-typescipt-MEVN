@@ -1,0 +1,26 @@
+image: docker
+
+services:
+    - docker:bind
+
+stages:
+    - test
+    - deploy
+
+test:
+    stage: test
+    only: 
+        - master
+    script:
+        - echo run tests in production
+
+step-deploy-prod:
+    stage: deploy
+    only:
+        - master
+    script: 
+        - sudo apt-get install -y python-pip
+        - pip install docker-compose
+        - make up-production
+    environment: production
+    when: manual
