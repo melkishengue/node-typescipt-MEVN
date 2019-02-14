@@ -4,7 +4,7 @@ services:
     volumes:
       - ./backend:/usr/src/app # will be mounted on /usr/src/app
       - /usr/src/app/node_modules
-  # frontend:
-  #   volumes:
-  #     - ./frontend:/app
-  #     - /app/node_modules/ # ignore node_modules https://stackoverflow.com/questions/29181032/add-a-volume-to-docker-but-exclude-a-sub-folder
+  frontend:
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules/ # ignore node_modules https://stackoverflow.com/questions/29181032/add-a-volume-to-docker-but-exclude-a-sub-folder
