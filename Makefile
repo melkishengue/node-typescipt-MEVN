@@ -40,7 +40,7 @@ up:
 
 # this starts the app for production ie without the docker-compose dev file
 up-production:
-	docker-compose -f docker-compose.yml up --force-recreate
+	docker-compose -f docker-compose.yml up --force-recreate -d
 	@echo the app has been started 🎊 🎉 🎀
 
 deploy-prepare: kompose-install
