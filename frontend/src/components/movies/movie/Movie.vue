@@ -10,12 +10,12 @@
                 <a href="#" class="movie-title">{{ movie.title }}</a>
                 
                 <div class="movie-hint-text" v-if="movie.details">
-                    <span class="imdb-box">IMDB: {{ movie.details.imdb.rating }}</span> - {{ movie.details.imdb.votes }} votes
+                    <span class="imdb-box">IMDB: {{ movie.details.imdb.rating }}</span>
                 </div>
 
-                <div class="movie-hint-text">
+                <!-- <div class="movie-hint-text">
                     From {{ movie.year }}
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

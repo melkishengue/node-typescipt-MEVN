@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12">
             <h1 class="header-text">
-                Find your movie on <span class="hightlight"> subaru store</span>
+                <!-- Find your movie on <span class="hightlight"> subaru store</span> -->
             </h1>
             <input type="text" v-model="text" v-on:keyup.enter="submit" placeholder="Search" class="full-width-search-box">
         </div>

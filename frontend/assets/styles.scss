@@ -1,13 +1,15 @@
 @import "~chota/dist/chota.css";
-@import url('https://fonts.googleapis.com/css?family=Francois+One|Kalam|Luckiest+Guy|Rock+Salt|Tajawal|Contrail+One');
+@import url('https://fonts.googleapis.com/css?family=Anton|Nova+Flat|Poiret+One|Righteous|Signika+Negative');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css');
 
 body {
   padding-left: 200px;
   padding-right: 200px;
   font-size: 1em;
-  background-color: #f9f9f9;
-  font-family: 'Tajawal', sans-serif;
+  background-color: #fff;
+  font-family: 'Signika Negative', sans-serif;
+  color: #ccc;
+  // background: url('./images/body-bg.gif');
 
   .loading-box {
     text-align: center;
@@ -28,10 +30,12 @@ body {
   }
 
   .brand {
-    font-family: 'Rock Salt', sans-serif;
+    font-family: 'Righteous', sans-serif;
     font-weight: bold;
-    color: var(--color-primary) !important;
+    color: black !important;
     padding-left: 0px !important;
+    font-size: 29px !important;
+
   }
   .header-text {
     text-align: center;
@@ -47,14 +51,12 @@ body {
     margin-top: 30px;
 
     .full-width-search-box {
-      margin-bottom: 50px;
-      border-radius: 25px !important;
-      font-size: 1.3em !important;
-      line-height: 1.3em !important;
-      padding: 10px !important;
-      padding-left: 30px !important;
-      padding-top: 20px !important;
-
+      font-size: 16px !important;
+      line-height: 16px !important;
+      padding: 3px !important;
+      padding-left: 10px !important;
+      width: 20% !important;
+      border-radius: 3px;
     }
 
     .flex {
@@ -72,7 +74,7 @@ body {
           color: black;
           height: 250px;
           padding: 0px !important;
-          width: 150px;
+          width: 180px;
           zoom: 0.9;
           position: relative;
           cursor: pointer;
