@@ -1,16 +1,30 @@
 <template>
     <div class="card-container" v-on:click="clicked">
-        <div v-bind:class="{ 'not-found': notFound }" class="card" v-bind:style="{ backgroundImage: 'url(' + imageUrl + ')' }">
+        <div :class="{ 'not-found': notFound }" class="card" :style="{ backgroundImage: 'url(' + imageUrl + ')' }">
+                <img :src="imdb" v-if="notFound" class="img-overlay" alt="">
 
             <div class="movie-loading-container" v-show="!imgLoaded">
-                <div class="lds-ripple"><div></div><div></div></div>
+                <div class="lds-ripple"></div>
             </div>
 
             <div class="footer-overlay">
                 <a href="#" class="movie-title">{{ movie.title }}</a>
                 
                 <div class="movie-hint-text" v-if="movie.details">
-                    <span class="imdb-box">IMDB: {{ movie.details.imdb.rating }}</span>
+                    <span class="imdb-box">{{ movie.year }}</span>
+                    <star-rating
+                        :increment="0.1"
+                        :max-rating="10"
+                        inactive-color="#d8d8d8"
+                        active-color="#FD0"
+                        :star-size="12"
+                        :read-only="true"
+                        :show-rating="false"
+                        :rating="movie.details.imdb.rating"
+                        glow-color="#FD0"
+                        border-color="#FD0"
+                        >
+                    </star-rating>
                 </div>
 
                 <!-- <div class="movie-hint-text">
@@ -23,6 +37,8 @@
 
 <script>
 import { mapState } from 'vuex';
+import imdb from "../../../../assets/images/imdb.png";
+import StarRating from 'vue-star-rating'
 export default {
   name: 'Movie',
   components: {
@@ -32,8 +48,8 @@ export default {
       imageUrl: '',
       imgLoaded: false,
       notFound: false,
-    //   defaultImgUrl: "https://via.placeholder.com/550x800/FFFFFF/808080?Text=Movie"
-      defaultImgUrl: "https://image.freepik.com/free-photo/man-searching-with-magnifying-glass_1048-2931.jpg"
+      defaultImgUrl: "../../../../assets/images/imdb.png",
+      imdb
     }
   },
   props: {
@@ -70,9 +86,9 @@ export default {
       }
   },
   // with mapState you map store state properties with local properties
-  computed: mapState({
-    
-  }),
+  components: {
+      StarRating
+  },
   methods: {
     clicked() {
         this.$router.push(`/movies/${this.movie.id}`)

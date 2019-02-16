@@ -71,7 +71,7 @@ body {
   
         .card {
           border-radius: 0px;
-          color: black;
+          color: white;
           height: 250px;
           padding: 0px !important;
           width: 180px;
@@ -82,10 +82,25 @@ body {
           background-size:     cover;
           background-repeat:   no-repeat;
           background-position: center center;  
+          background-color: black;
           z-index: 1;
           -webkit-transform: scale(1);
           transform: scale(1);
           -webkit-transition: .3s ease-in-out;
+          border: 0.01em solid #101010;
+
+          .img-overlay {
+            width: 60px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 35%;
+          }
+
+          .full-movie-title {
+            font-size: 15px;
+          }
 
           &:hover {
             .footer-overlay {
@@ -101,7 +116,7 @@ body {
           }
 
           .footer-overlay {
-            background-color: rgba(0,0,0,0.8);
+            background-color: rgba(0,0,0,0.9);
             position: absolute;
             bottom: 0px;
             left: 0px;
@@ -111,14 +126,25 @@ body {
             visibility: hidden;
             opacity: 0;
             font-size: 14px;
+            height: 100%;
+            text-align: center;
+            transition: 0.3s all ease;
+            padding-top: 30%;
+
+            .vue-star-rating {
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 10px;
+            }
 
             .movie-title {
               // overflow: hidden;
               // white-space: nowrap;
               text-align: center;
-              font-size: 1em;
+              font-size: 15px;
               color: white;
               text-decoration: underline;
+              color: var(--color-primary) !important;
             }
 
             .movie-hint-text {
@@ -128,7 +154,6 @@ body {
                 background-color: var(--color-primary) !important;
                 color: white;
                 padding: 5px 5px 0px 5px;
-                border-radius: 4px;
                 margin-top: 5px;
                 margin-bottom: 5px;
                 display: inline-block;
