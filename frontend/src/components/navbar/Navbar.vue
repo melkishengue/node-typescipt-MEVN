@@ -3,7 +3,7 @@
     <nav class="nav">
       <div class="nav-left">
         <a href="#" v-on:click="home" class="brand hightlight animated nfinite flipInY delay-2s slow">
-          <!-- <img src="../../../assets/images/icons8-coollector-48.png" alt=""/> -->  Subaru Store
+          <img src="../../../assets/images/popcorn.png" alt="" />  Subaru Movies
         </a>
       </div>
     </nav>

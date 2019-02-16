@@ -4,7 +4,7 @@
             <h1 class="header-text">
                 <!-- Find your movie on <span class="hightlight"> subaru store</span> -->
             </h1>
-            <input type="text" v-model="text" v-on:keyup.enter="submit" placeholder="Search" class="full-width-search-box">
+            <input type="text" v-model="text" v-on:keyup="submit" placeholder="Search" class="full-width-search-box">
         </div>
     </div>
 </template>
@@ -17,7 +17,8 @@ export default {
   },
   data() {
     return {
-      text: ''
+      text: '',
+      timeout: null
     }
   },
   props: {
@@ -33,9 +34,16 @@ export default {
   }),
   methods: {
     submit() {
-      let options = {text: this.text};
-      let data = JSON.stringify(options);
-      this.$router.push(`/search?data=${data}`);
+      if (this.text) {
+        clearTimeout(this.timeout);
+        // delay search by 900 to allow for batching
+        this.timeout = setTimeout( () => {
+          let options = {text: this.text};
+          let data = JSON.stringify(options);
+          console.log('data', data);
+          this.$router.push(`/search?data=${data}`);
+        }, 900);
+      }
     }
   }
 }

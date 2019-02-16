@@ -19,6 +19,7 @@ export default {
                 year
                 details {
                   poster
+                  director
                   imdb {
                     rating
                     votes

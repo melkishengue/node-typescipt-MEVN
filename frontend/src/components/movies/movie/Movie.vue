@@ -12,6 +12,8 @@
                 
                 <div class="movie-hint-text" v-if="movie.details">
                     <span class="imdb-box">{{ movie.year }}</span>
+                    <div class="">Director: {{ movie.details.director }}</div>
+
                     <star-rating
                         :increment="0.1"
                         :max-rating="10"
