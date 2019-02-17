@@ -8,7 +8,7 @@
             </div>
 
             <div class="footer-overlay">
-                <a href="#" class="movie-title">{{ movie.title }}</a>
+                <a v-on:click="clicked" class="movie-title">{{ movie.title }}</a>
                 
                 <div class="movie-hint-text" v-if="movie.details">
                     <span class="imdb-box">{{ movie.year }}</span>
@@ -28,10 +28,6 @@
                         >
                     </star-rating>
                 </div>
-
-                <!-- <div class="movie-hint-text">
-                    From {{ movie.year }}
-                </div> -->
             </div>
         </div>
     </div>
@@ -50,6 +46,7 @@ export default {
       imageUrl: '',
       imgLoaded: false,
       notFound: false,
+      detailsUrl: `/movies/${this.movie._id}`,
       defaultImgUrl: "../../../../assets/images/imdb.png",
       imdb
     }
@@ -93,7 +90,7 @@ export default {
   },
   methods: {
     clicked() {
-        this.$router.push(`/movies/${this.movie.id}`)
+        this.$router.push(this.detailsUrl);
     }
   }
 }
