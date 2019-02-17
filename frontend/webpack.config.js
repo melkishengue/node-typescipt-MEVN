@@ -12,7 +12,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'assets/index.html',
-      favicon: 'assets/images/icons8-coollector-48.png'
+      favicon: 'assets/images/popcorn.png'
     }),
     new VueLoaderPlugin()
   ],
