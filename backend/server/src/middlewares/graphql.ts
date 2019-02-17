@@ -43,14 +43,6 @@ export default class GraphqlMiddleware implements IMiddleware {
                     });
 
                     return res.data;
-                      
-                    //   .then((response) => {
-                    //       console.log('graphql', response.data[0])
-                    //       return Promise.resolve(response.data);
-                    //   }).catch((error) => {
-                    //       console.log(error);
-                    //     return Promise.reject(error);
-                    //   });
                 },
                 reviews: () => {
                     return reviewService.findAll()
