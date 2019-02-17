@@ -3,7 +3,7 @@ import ApolloClient from "apollo-boost";
 import { backendUri } from "../config";
 
 const client = new ApolloClient({
-    uri: `${backendUri}/api/graphql`
+    uri: `${backendUri}/server/api/graphql`
 });
 
 export default {
@@ -14,11 +14,12 @@ export default {
           query: gql`
             {
               findMovies(text: "${text}")  {
-                id
+                _id
                 title
                 year
                 details {
                   poster
+                  actors
                   director
                   imdb {
                     rating

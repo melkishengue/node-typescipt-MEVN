@@ -7,7 +7,7 @@
       </div>
       <div class="row">
         <div class="col-12 flex">
-          <MovieComponent  v-show="!loading" v-for="movie in movies" :movie='movie' :key="movie.id" v-if="movies.length" />
+          <MovieComponent  v-show="!loading" v-for="movie in movies" :movie='movie' :key="movie._id" v-if="movies.length" />
           <div v-show="!loading && movies.length === 0  && text" class="no-results-box">
             No results found for {{ text }}
           </div>

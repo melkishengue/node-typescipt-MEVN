@@ -13,7 +13,7 @@ export const store = new Vuex.Store({
   state: {
     movies: [],
     loading: false,
-    params: {},
+    params: {text: "john seema"},
     hasSearched: false
   },
   mutations: {

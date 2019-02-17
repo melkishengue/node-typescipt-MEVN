@@ -23,6 +23,7 @@ create-volumes:
 	docker volume inspect $(PROJECT_NAME)-volume
 
 prepare:
+	# remove all containers afterwards 
 	docker-compose rm -f
 	# pull images from docker hub
 	docker-compose pull

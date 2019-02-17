@@ -4,14 +4,14 @@ services:
   node-app-0:
     container_name: ${CONTAINER_NAME_1}
     restart: always
-    build: ./backend
+    build: ./backend/server
     links:
       - ${DB_HOST}
     depends_on:
       - ${DB_HOST}
     environment:
       WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
-      WAIT_HOSTS_TIMEOUT: 150
+      WAIT_HOSTS_TIMEOUT: 1000
       ROLE: MASTER
       HOST: ${CONTAINER_NAME_1}
       DB_HOST: ${DB_HOST}
@@ -22,30 +22,28 @@ services:
       SERVER_PORT: ${SERVER_PORT}
       BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
       BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
-      ELASTIC_HOST: ${ELASTIC_HOST}
-      ELASTIC_PORT: ${ELASTIC_PORT}
       NODE_ENV: ${NODE_ENV}
-  # node-app-1:
-  #   container_name: ${CONTAINER_NAME_2}
-  #   restart: always
-  #   build: ./backend
-  #   links:
-  #     - ${DB_HOST}
-  #   depends_on:
-  #     - ${DB_HOST}
-  #   environment:
-  #     WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
-  #     WAIT_HOSTS_TIMEOUT: 150
-  #     HOST: ${CONTAINER_NAME_2}
-  #     DB_HOST: ${DB_HOST}
-  #     DB_PORT: ${DB_PORT}
-  #     DB_NAME: ${DB_NAME}
-  #     DB_USER: ${DB_USER}
-  #     DB_PASS: ${DB_PASS}
-  #     SERVER_PORT: ${SERVER_PORT}
-  #     BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
-  #     BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
-  #     NODE_ENV: ${NODE_ENV}
+      SEARCH_HOST_URL: ${CONTAINER_NAME_SEARCH}
+      SEARCH_HOST_PORT: ${SERVER_PORT_SEARCH}
+  search-microservice:
+    container_name: ${CONTAINER_NAME_SEARCH}
+    restart: always
+    build: ./backend/search-service
+    links:
+      - ${DB_HOST}
+    depends_on:
+      - ${DB_HOST}
+    environment:
+      WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
+      WAIT_HOSTS_TIMEOUT: 1000
+      HOST: ${CONTAINER_NAME_SEARCH}
+      DB_HOST_SEARCH: ${DB_HOST_SEARCH}
+      DB_PORT_SEARCH: ${DB_PORT_SEARCH}
+      DB_NAME_SEARCH: ${DB_NAME_SEARCH}
+      DB_USER_SEARCH: ${DB_USER_SEARCH}
+      DB_PASS_SEARCH: ${DB_PASS_SEARCH}
+      SERVER_PORT_SEARCH: ${SERVER_PORT_SEARCH}
+      NODE_ENV: ${NODE_ENV}
   frontend:
     container_name: ${CONTAINER_NAME_FRONTEND}
     build: ./frontend
@@ -62,14 +60,14 @@ services:
       - node-ts-app-volume:/data/db
     ports:
       - "${DB_PORT}:${DB_PORT}"
-    command: mongod --smallfiles
+    command: mongod --smallfiles #  --replSet rs0
   mongo-seed:
     build: 
-      context: ./backend/db-seed
+      context: ./backend/docker/db-seed
       dockerfile: Dockerfile
     environment:
       WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
-      WAIT_HOSTS_TIMEOUT: 150
+      WAIT_HOSTS_TIMEOUT: 1000
       DB_HOST: ${DB_HOST}
       DB_PORT: ${DB_PORT}
       DB_NAME: ${DB_NAME}
@@ -79,28 +77,18 @@ services:
       - ${DB_HOST}
     links:
       - ${DB_HOST}
-  # elastic:
-  #   build: 
-  #     context: ./backend/elastic-search
-  #     dockerfile: Dockerfile
-  #   depends_on:
-  #     - ${DB_HOST}
-  #   links:
-  #     - ${DB_HOST}
-  #   ports:
-  #     - "${ELASTIC_PORT}:${ELASTIC_PORT}"
   loadbalancer:
-    build: ./nginx
+    build: ./backend/docker/nginx
     tty: true
     links:
-      - ${CONTAINER_NAME_1}
-      # - frontend
+      - ${CONTAINER_NAME_SEARCH}
+      - frontend
     ports:
       - '8080:8080'
       - '8081:8081'
     depends_on:
-      - ${CONTAINER_NAME_1}
-      # - frontend
+      - ${CONTAINER_NAME_SEARCH}
+      - frontend
 volumes:
   node-ts-app-volume:
     external: true

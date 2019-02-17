@@ -28,6 +28,9 @@ export default {
     Search,
     Foooter
   },
+  created() {
+    this.$store.dispatch('fetchMoviesSummaryInfos', {params: JSON.stringify({text: 'arnold schwarzineger'})});
+  },
   watch:{
     $route (to, from) {
       if (to.path.indexOf('search') != -1) {

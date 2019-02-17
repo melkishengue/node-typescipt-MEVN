@@ -9,7 +9,6 @@ body {
   background-color: #fff;
   font-family: 'Signika Negative', sans-serif;
   color: #ccc;
-  // background: url('./images/body-bg.gif');
 
   .loading-box {
     text-align: center;
@@ -37,7 +36,7 @@ body {
     background-color: rgba(0,0,0,0.8);
     position: fixed;
     z-index: 10;
-
+    width: 327px;
     font-size: 120px;
     text-transform: uppercase;
   }
@@ -59,10 +58,11 @@ body {
       line-height: 16px !important;
       padding: 3px !important;
       padding-left: 10px !important;
-      width: 30% !important;
+      width: 328px !important;
       height: 40px;
       border-radius: 3px;
       border-radius: 0px !important;
+      font-weight: bold;
 
       background-image: url('images/magnifying-glass.png');
       background-repeat: no-repeat;
@@ -150,8 +150,6 @@ body {
             }
 
             .movie-title {
-              // overflow: hidden;
-              // white-space: nowrap;
               text-align: center;
               font-size: 15px;
               color: white;
