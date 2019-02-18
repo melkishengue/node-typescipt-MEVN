@@ -29,7 +29,7 @@ export default {
     Foooter
   },
   created() {
-    this.$store.dispatch('fetchMoviesSummaryInfos', {params: JSON.stringify({text: 'arnold schwarzineger'})});
+    this.$store.dispatch('fetchMoviesSummaryInfos', {params: JSON.stringify({text: 'arnold schwarzeeeeneger'})});
   },
   watch:{
     $route (to, from) {
