@@ -21,13 +21,15 @@ create-volumes:
 	docker volume create $(PROJECT_NAME)-sync-volume
 	# verify volume creation
 	docker volume inspect $(PROJECT_NAME)-volume
+	docker network create web
 
 prepare:
 	# remove all containers afterwards 
 	docker-compose rm -f
 	# pull images from docker hub
 	docker-compose pull
-	docker-compose build --no-cache
+	# docker-compose build --no-cache
+	docker-compose build
 
 prepare-test:
 	docker-compose rm -f
@@ -36,7 +38,8 @@ prepare-test:
 	docker-compose -f docker-compose-test.yml build --no-cache
 
 up:
-	docker-compose -f docker-compose.yml -f docker-compose-dev.yml up --force-recreate
+	# docker-compose -f docker-compose.yml -f docker-compose-dev.yml up --force-recreate
+	docker-compose -f docker-compose.yml -f docker-compose-dev.yml up
 	@echo the app has been started 🎊 🎉 🎀
 
 # this starts the app for production ie without the docker-compose dev file

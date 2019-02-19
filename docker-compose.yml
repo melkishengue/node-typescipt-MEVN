@@ -2,7 +2,6 @@
 version: "2.2"
 services:
   node-app-0:
-    container_name: ${CONTAINER_NAME_1}
     restart: always
     build: ./backend/server
     links:
@@ -20,19 +19,32 @@ services:
       DB_USER: ${DB_USER}
       DB_PASS: ${DB_PASS}
       SERVER_PORT: ${SERVER_PORT}
-      BASIC_AUTH_USER=: ${BASIC_AUTH_USER}
-      BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
       NODE_ENV: ${NODE_ENV}
-      SEARCH_HOST_URL: ${CONTAINER_NAME_SEARCH}
-      SEARCH_HOST_PORT: ${SERVER_PORT_SEARCH}
+      SERVER_HOST_SEARCH: ${SERVER_HOST_SEARCH}
+      SERVER_PORT_SEARCH: ${SERVER_PORT_SEARCH}
+    labels:
+      - "traefik.frontend.rule=Host:${HOST_WEB_SERVER}"
+      - "traefik.backend=webserver.backend"
+      - "traefik.passHostHeader=true"
+      - "traefik.enable=true"
+      - "traefik.port=3000"
+  reverse-proxy:
+    image: traefik # The official Traefik docker image
+    command: --api --docker # Enables the web UI and tells Traefik to listen to docker
+    ports:
+      - "80:80"     # The HTTP port
+      - "8080:8080" # The Web UI (enabled by --api)
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
   search-microservice:
-    container_name: ${CONTAINER_NAME_SEARCH}
     restart: always
     build: ./backend/search-service
     links:
       - ${DB_HOST}
     depends_on:
       - ${DB_HOST}
+    ports:
+      - "8002:3000"
     environment:
       WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
       WAIT_HOSTS_TIMEOUT: 1000
@@ -44,6 +56,12 @@ services:
       DB_PASS_SEARCH: ${DB_PASS_SEARCH}
       SERVER_PORT_SEARCH: ${SERVER_PORT_SEARCH}
       NODE_ENV: ${NODE_ENV}
+    labels:
+      - "traefik.frontend.rule=${HOST_SEARCH_MICROSERVICE}"
+      - "traefik.backend=search-ms.backend"
+      - "traefik.passHostHeader=true"
+      - "traefik.enable=true"
+      - "traefik.port=3000"
   frontend:
     container_name: ${CONTAINER_NAME_FRONTEND}
     build: ./frontend
@@ -52,6 +70,12 @@ services:
       # webpack dev server hot reloading tries to connect directly to the port
       # inside the container (not possible if not the same port)
       - '9000:9000'
+    labels:
+      - "traefik.frontend.rule=${HOST_WEB_FRONTEND}"
+      - "traefik.backend=frontend.backend"
+      - "traefik.passHostHeader=true"
+      - "traefik.enable=true"
+      - "traefik.port=9000"
   mongo:
     container_name: ${DB_HOST}
     image: mongo
@@ -61,6 +85,14 @@ services:
     ports:
       - "${DB_PORT}:${DB_PORT}"
     command: mongod --smallfiles #  --replSet rs0
+    ports:
+      - "27017:27017"
+    labels:
+      - "traefik.backend=mongo.backend"
+      - "traefik.passHostHeader=true"
+      - "traefik.enable=true"
+      - "traefik.port=27017"
+      - "traefik.frontend.rule=Host:mongo.localhost"
   mongo-seed:
     build: 
       context: ./backend/docker/db-seed
@@ -77,18 +109,18 @@ services:
       - ${DB_HOST}
     links:
       - ${DB_HOST}
-  loadbalancer:
-    build: ./backend/docker/nginx
-    tty: true
-    links:
-      - ${CONTAINER_NAME_SEARCH}
-      - frontend
-    ports:
-      - '8080:8080'
-      - '8081:8081'
-    depends_on:
-      - ${CONTAINER_NAME_SEARCH}
-      - frontend
+  # loadbalancer:
+  #   build: ./backend/docker/nginx
+  #   tty: true
+  #   links:
+  #     - ${CONTAINER_NAME_SEARCH}
+  #     - frontend
+  #   ports:
+  #     - '8080:8080'
+  #     - '8081:8081'
+  #   depends_on:
+  #     - ${CONTAINER_NAME_SEARCH}
+  #     - frontend
 volumes:
   node-ts-app-volume:
     external: true

@@ -14,12 +14,13 @@ import axios from 'axios';
 export default class GraphqlMiddleware implements IMiddleware {
     private _baseUrl = '/graphql';
     private _schema: GraphQLSchema;
-    private _search_host: string = process.env.SEARCH_HOST_URL;
-    private _search_port: string = process.env.SEARCH_HOST_PORT;
+    private _host_microservice: string = `${process.env.SERVER_HOST_SEARCH}:${process.env.SERVER_PORT_SEARCH}`;
 
     constructor () {
         const typeDefs = readFileSync(join(__dirname, '../graphql/schema.graphql'), 'utf8');
         this._schema = makeExecutableSchema({ typeDefs });
+
+        if (!this._host_microservice) throw new Error('WEB SERVER HOST: ENV variable HOST_MICROSERVICE not defined');
     }
 
     init(server: Server): void {
@@ -32,8 +33,9 @@ export default class GraphqlMiddleware implements IMiddleware {
                 findMovies: async (args: any) => {
                     const { text } = args;
                     
-                    // TODO: service discovery issue...
-                    let url: string = `http://loadbalancer:8080/search-microservice/search/${text}`;
+                    // let url: string = `http://search-ms.localhost/search/${text}`;
+                    // traefik in action...
+                    let url: string = `http://${this._host_microservice}/search/${encodeURIComponent(text)}`;
                     console.log('Searching movies at ', url);
 
                     let res = await axios.get(url, {

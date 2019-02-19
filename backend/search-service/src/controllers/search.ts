@@ -60,7 +60,6 @@ export default class SearchController implements IController {
   async search(req: Request, res: Response) {
     let text = req.params.text;
     let movies = this.fuseRef.search(text);
-    // console.log('movies', movies[0])
     res.send(movies.slice(0, 50));
   }
 }

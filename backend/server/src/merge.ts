@@ -37,7 +37,6 @@ MongooseDatabaseProvider.configure(databaseConfiguration).then(async (res) => {
             movieFull.title = title;
             movieFull.type = type;
 
-
             let details = await MovieDetails.findOne({'imdb.id': movie.imdb});
             if (details) {
                 let year2 = details.year;

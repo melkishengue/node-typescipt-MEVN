@@ -3,7 +3,8 @@ import ApolloClient from "apollo-boost";
 import { backendUri } from "../config";
 
 const client = new ApolloClient({
-    uri: `${backendUri}/server/api/graphql`
+    uri: 'http://web-sv.localhost/api/graphql'
+    // uri: `${backendUri}/api/graphql`
 });
 
 export default {

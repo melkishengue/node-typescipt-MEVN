@@ -15,7 +15,7 @@ export interface IServer {
 export default class Server implements IServer {
   protected app: express.Application;
   private port: number;
-  private baseUrl: String = "/search-microservice";
+  private baseUrl: String = "";
 
   constructor(port: number) {
     this.app = express();

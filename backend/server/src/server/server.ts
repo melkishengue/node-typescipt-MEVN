@@ -15,7 +15,7 @@ export interface IServer {
 export default class Server implements IServer {
   protected app: express.Application;
   private port: number;
-  private baseUrl: String = "/server/api";
+  private baseUrl: String = "/api";
 
   constructor(port: number) {
     this.app = express();
@@ -60,7 +60,11 @@ export default class Server implements IServer {
   }
 
   private addRoute(method: string, url: string, handler: express.RequestHandler, name: String) {
-    (this.app as any)[method](url, handler);
+    if (method === 'use') {
+      (this.app as any)[method](handler);
+    }
+    else (this.app as any)[method](url, handler);
+    
     let type = method === 'use' ? `middleware ${name}` : 'route';
     _logger.debug(`New ${type} added at ${method} ${url}`);
   }
