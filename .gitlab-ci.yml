@@ -23,4 +23,4 @@ step-deploy-prod:
         - pip install docker-compose
         - make start-production
     environment: production
-    when: manual
+    # when: manual
