@@ -1,7 +1,7 @@
 include .env
 export COMPOSE_PROJECT_NAME=$(PROJECT_NAME)
 
-start: clean create-volumes prepare up
+start: create-volumes prepare up
 
 start-production: clean create-volumes prepare up-production
 
@@ -25,11 +25,11 @@ create-volumes:
 
 prepare:
 	# remove all containers afterwards 
-	docker-compose rm -f
-	# pull images from docker hub
-	docker-compose pull
-	# docker-compose build --no-cache
-	docker-compose build
+	# docker-compose rm -f
+	# # pull images from docker hub
+	# docker-compose pull
+	# # docker-compose build --no-cache
+	# docker-compose build
 
 prepare-test:
 	docker-compose rm -f
@@ -39,7 +39,7 @@ prepare-test:
 
 up:
 	# docker-compose -f docker-compose.yml -f docker-compose-dev.yml up --force-recreate
-	docker-compose -f docker-compose.yml -f docker-compose-dev.yml up
+	docker-compose -f docker-compose.yml -f docker-compose-dev.yml up -d
 	@echo the app has been started 🎊 🎉 🎀
 
 # this starts the app for production ie without the docker-compose dev file

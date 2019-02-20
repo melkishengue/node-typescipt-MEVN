@@ -8,6 +8,8 @@ services:
       - ${DB_HOST}
     depends_on:
       - ${DB_HOST}
+    ports:
+      - "8080:3000"
     environment:
       WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
       WAIT_HOSTS_TIMEOUT: 1000
