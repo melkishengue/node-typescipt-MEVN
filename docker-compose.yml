@@ -9,7 +9,7 @@ services:
     depends_on:
       - ${DB_HOST}
     ports:
-      - "8088:3000"
+      - "8001:${SERVER_PORT}"
     environment:
       WAIT_HOSTS: ${DB_HOST}:${DB_PORT}
       WAIT_HOSTS_TIMEOUT: 1000
@@ -29,7 +29,7 @@ services:
       - "traefik.backend=webserver.backend"
       - "traefik.passHostHeader=true"
       - "traefik.enable=true"
-      - "traefik.port=3000"
+      - "traefik.port=${SERVER_PORT}"
   reverse-proxy:
     image: traefik # The official Traefik docker image
     command: --api --docker # Enables the web UI and tells Traefik to listen to docker
