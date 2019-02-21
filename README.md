@@ -30,9 +30,11 @@ Run tests:
   `make test`
 
 Run the app:
- `make start` That's it 😎
+ `make start` for development or `make start-production` for production. That's it 😎
 
-When the installation is completed, visit the graphiql endoint at [localhost:8080/graphql](localhost:8080/graphql) and the movies page at [localhost:9000](localhost:9000).
+ When the installation completes, run the app at: [http://subaru-movies.localhost:9000](http://subaru-movies.localhost:9000) at localhost.
+
+You can also visit the graphiql endoint at [http://subaru-movies.localhost:8001/api/graphql](subaru-movies.localhost:8001/api/graphql).
 2 schemas have been defined: movies and reviews. You can query against them using [graphql queries](https://graphql.org/learn/queries/) :
 
 E.g.:
@@ -52,8 +54,6 @@ or creating a new movie `mutation {
     imdb
   }
 }`
-
-You can also directly visit [localhost:8080/movies](localhost:8080/movies) or [localhost:8080/reviews](localhost:8080/reviews)  to have all movies/actions.
 
 The page looks like this:
 

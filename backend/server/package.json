@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run seed-elastic && NODE_ENV=PROD ROLE=MASTER ts-node src/app.ts",
+    "start": "NODE_ENV=PROD ROLE=MASTER ts-node src/app.ts",
     "seed-elastic": "NODE_ENV=PROD ts-node src/elastic-seed.ts",
     "build": "./node_modules/typescript/bin/tsc",
     "dev-old": " NODE_ENV=DEV ROLE=MASTER ts-node src/app.ts",

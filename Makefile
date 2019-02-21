@@ -21,7 +21,7 @@ create-volumes:
 	docker volume create $(PROJECT_NAME)-sync-volume
 	# verify volume creation
 	docker volume inspect $(PROJECT_NAME)-volume
-	docker network create web
+	# docker network create web
 
 prepare:
 	# remove all containers afterwards 
