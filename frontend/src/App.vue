@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navbar></Navbar>
+    <!-- <Navbar></Navbar> -->
     <div class="main">
       <Search></Search>
       <transition
@@ -10,7 +10,7 @@
         <router-view  :key="$route.fullPath"></router-view>
       </transition>
     </div>
-    <Foooter></Foooter>
+    <!-- <Foooter></Foooter> -->
   </div>
 </template>
 
@@ -29,7 +29,7 @@ export default {
     Foooter
   },
   created() {
-    this.$store.dispatch('fetchMoviesSummaryInfos', {params: JSON.stringify({text: 'arnold schwarzeeeeneger'})});
+    this.$store.dispatch('fetchMoviesSummaryInfos', {params: JSON.stringify({text: 'willsmithe'})});
   },
   watch:{
     $route (to, from) {

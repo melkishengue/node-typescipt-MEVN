@@ -1,6 +1,5 @@
 <template>
-    <div class="card-container" v-on:click="clicked">
-        <div :class="{ 'not-found': notFound }" class="card" :style="{ backgroundImage: 'url(' + imageUrl + ')' }">
+        <div v-on:click="clicked" :class="{ 'not-found': notFound }" class="card" :style="{ backgroundImage: 'url(' + imageUrl + ')' }">
                 <img :src="imdb" v-if="notFound" class="img-overlay" alt="">
 
             <div class="movie-loading-container" v-show="!imgLoaded">
@@ -30,7 +29,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </template>
 
 <script>

@@ -1,10 +1,7 @@
 <template>
-  <div>
     <div v-show="!loading && text" class="recap-results-box">
         {{ countMovies }} results found for {{ text }}.
     </div>
-    
-  </div>
 </template>
 
 <script>
