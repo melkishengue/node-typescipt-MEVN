@@ -38,12 +38,7 @@ export default class GraphqlMiddleware implements IMiddleware {
                     let url: string = `http://${this._host_microservice}/search/${encodeURIComponent(text)}`;
                     console.log('Searching movies at ', url);
 
-                    let res = await axios.get(url, {
-                        params: {
-                            foo: 'bar'
-                        }
-                    });
-
+                    let res = await axios.get(url, {});
                     return res.data;
                 },
                 reviews: () => {

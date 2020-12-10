@@ -39,7 +39,7 @@ prepare-test:
 
 up:
 	# docker-compose -f docker-compose.yml -f docker-compose-dev.yml up --force-recreate
-	docker-compose -f docker-compose.yml -f docker-compose-dev.yml up -d
+	docker-compose -f docker-compose.yml -f docker-compose-dev.yml up
 	@echo the app has been started 🎊 🎉 🎀
 
 # this starts the app for production ie without the docker-compose dev file

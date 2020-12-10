@@ -67,8 +67,8 @@ export default class Server implements IServer {
 
   start(): Promise<string> {
     return new Promise((resolve, reject) => {
-      this.app.listen(this.port, (err: Error) => {
-        if (err) reject(err);
+      this.app.listen(this.port, () => {
+        // if (err) reject(err);
         resolve(`Server started on port ${this.port}`);
       })
     })
@@ -86,7 +86,7 @@ export default class Server implements IServer {
     this.app.set(key, value);
   }
 
-  setEngine(name: string, init: Function) {
-    this.app.engine(name, init);
-  }
+  // setEngine(name: string, init: Function) {
+  //   this.app.engine(name, init);
+  // }
 }

@@ -2,7 +2,7 @@ import Server from '../server/server';
 import { Request, Response } from "express";
 import { movieService } from '../services/movieService';
 import IController from './controller.interface';
-import Movie from '../models/movie';
+import Movie, { IMovie } from '../models/movie';
 import Fuse from 'fuse.js';
 
 export default class SearchController implements IController {
@@ -13,18 +13,17 @@ export default class SearchController implements IController {
   private filterDetails: object;
 
   constructor() {
-    let nbElements = 6;
     this.fuseOptions = {
       threshold: 0.9,
       shouldSort: true,
       keys: [
         {
           name: 'details.title',
-          weight: 0.4
+          weight: 0.5
         }, 
         {
           name: 'details.actors',
-          weight: 0.2
+          weight: 0.5
         }, 
         // {
         //   name: 'details.director',
@@ -38,10 +37,10 @@ export default class SearchController implements IController {
         //   name: 'details.plot',
         //   weight: 0.1
         // }, 
-        {
-          name: 'details.year',
-          weight: 0.4
-        }
+        // {
+        //   name: 'details.year',
+        //   weight: 0.4
+        // }
       ]
     };
 
@@ -60,6 +59,11 @@ export default class SearchController implements IController {
   async search(req: Request, res: Response) {
     let text = req.params.text;
     let movies = this.fuseRef.search(text);
-    res.send(movies.slice(0, 50));
+
+    let mapped: IMovie[] = movies.map((movie: any) => {
+      return movie.item;
+    });
+    
+    res.send(mapped.slice(0, 50));
   }
 }

@@ -10,6 +10,6 @@ RUN chmod +x /wait
 # to export: mongoexport --db express-db --collection movies --jsonArray --out movies.json
 
 # connects to the mongo db host and seeds datas
-CMD /wait && mongoimport --drop --host ${DB_HOST} --port ${DB_PORT} --db ${DB_NAME} --collection movies --type json --file /seed/movies.json --jsonArray \
-    && mongoimport --drop --host ${DB_HOST} --port ${DB_PORT} --db ${DB_NAME} --collection moviescratchs --type json --file /seed/moviesScratch.json --jsonArray \
-    && mongoimport --drop --host ${DB_HOST} --port ${DB_PORT} --db ${DB_NAME} --collection reviews --type json --file /seed/reviews.json --jsonArray
+CMD /wait && mongoimport --drop --host ${DB_HOST} --username ${DB_USER} --password ${DB_PASS} --port ${DB_PORT} --db ${DB_NAME} --collection movies --type json --file /seed/movies.json --jsonArray \
+    && mongoimport --drop --host ${DB_HOST} --username ${DB_USER} --password ${DB_PASS} --port ${DB_PORT} --db ${DB_NAME} --collection moviescratchs --type json --file /seed/moviesScratch.json --jsonArray \
+    && mongoimport --drop --host ${DB_HOST} --username ${DB_USER} --password ${DB_PASS} --port ${DB_PORT} --db ${DB_NAME} --collection reviews --type json --file /seed/reviews.json --jsonArray
