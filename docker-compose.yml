@@ -26,18 +26,25 @@ services:
       SERVER_PORT_SEARCH: ${SERVER_PORT_SEARCH}
     labels:
       - "traefik.frontend.rule=Host:${HOST_WEB_SERVER}"
-      - "traefik.backend=webserver.backend"
+      - "traefik.backend=node-app-0"
       - "traefik.passHostHeader=true"
       - "traefik.enable=true"
       - "traefik.port=${SERVER_PORT}"
-  reverse-proxy:
-    image: traefik # The official Traefik docker image
-    command: --api --docker # Enables the web UI and tells Traefik to listen to docker
+
+  traefik:
+    image: "traefik:v2.3"
+    container_name: "traefik"
+    command:
+      - "--log.level=DEBUG"
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
     ports:
-      - "80:80"     # The HTTP port
-      - "8080:8080" # The Web UI (enabled by --api)
+      - "80:80"
+      - "8080:8080"
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
   search-microservice:
     restart: always
     build: ./backend/search-service
@@ -58,12 +65,6 @@ services:
       DB_PASS_SEARCH: ${DB_PASS_SEARCH}
       SERVER_PORT_SEARCH: ${SERVER_PORT_SEARCH}
       NODE_ENV: ${NODE_ENV}
-    labels:
-      - "traefik.frontend.rule=${HOST_SEARCH_MICROSERVICE}"
-      - "traefik.backend=search-ms.backend"
-      - "traefik.passHostHeader=true"
-      - "traefik.enable=true"
-      - "traefik.port=3000"
   frontend:
     container_name: ${CONTAINER_NAME_FRONTEND}
     build: ./frontend
@@ -73,8 +74,8 @@ services:
       # inside the container (not possible if not the same port)
       - '9000:9000'
     labels:
-      - "traefik.frontend.rule=${HOST_WEB_FRONTEND}"
-      - "traefik.backend=frontend.backend"
+      - "traefik.frontend.rule=Host:${HOST_WEB_FRONTEND}"
+      - "traefik.backend=frontend"
       - "traefik.passHostHeader=true"
       - "traefik.enable=true"
       - "traefik.port=9000"
@@ -96,12 +97,6 @@ services:
     command: mongod #  --replSet rs0
     ports:
       - "27017:27017"
-    labels:
-      - "traefik.backend=mongo.backend"
-      - "traefik.passHostHeader=true"
-      - "traefik.enable=true"
-      - "traefik.port=27017"
-      - "traefik.frontend.rule=Host:mongo.localhost"
   mongo-seed:
     build: 
       context: ./backend/docker/db-seed

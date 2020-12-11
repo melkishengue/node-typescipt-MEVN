@@ -33,8 +33,6 @@ export default class GraphqlMiddleware implements IMiddleware {
                 findMovies: async (args: any) => {
                     const { text } = args;
                     
-                    // let url: string = `http://search-ms.localhost/search/${text}`;
-                    // traefik in action...
                     let url: string = `http://${this._host_microservice}/search/${encodeURIComponent(text)}`;
                     console.log('Searching movies at ', url);
 
