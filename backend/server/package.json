@@ -35,7 +35,7 @@
     "@types/cors": "^2.8.4",
     "@types/elasticsearch": "^5.0.30",
     "@types/http-errors": "^1.6.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "basic-auth": "^2.0.1",
     "bluebird": "^3.5.2",
     "cors": "^2.8.5",
